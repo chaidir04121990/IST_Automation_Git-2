@@ -1,0 +1,595 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Correction Check and Correction Remark",
+        "description": "",
+        "id": "tris-correction;correction-check-and-correction-remark",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6282818400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1847044100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 401321700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 266461300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Check User Login for Update",
+            "match": {
+              "location": "Contract_Dispatcher.CheckUserLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 463458500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Arrow Menu \"Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice System",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855930800,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Menu \"Tracker Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tracker Invoice System",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 454033900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Type on Textbox label \"contract number of email address\" with value \"9999999999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract number of email address",
+                  "offset": 23
+                },
+                {
+                  "val": "9999999999",
+                  "offset": 69
+                }
+              ],
+              "location": "Contract_Dispatcher.FillCityCodeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3469438900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 540648200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Table Filled",
+            "match": {
+              "location": "Contract_Dispatcher.VerifyTblFilled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591627300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Right Click Invoice Want to Update based on sub contract number \"9999999999-7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9999999999-7",
+                  "offset": 65
+                }
+              ],
+              "location": "Contract_Dispatcher.selectUpdateInvoice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1836637000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Check Invoice Format is \"Cetak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cetak",
+                  "offset": 25
+                }
+              ],
+              "location": "Contract_Dispatcher.checkFormat(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3426011400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Do Correction Check and Correction Remark",
+            "match": {
+              "location": "Contract_Dispatcher.correctionCheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3706966000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Check Corrected Result",
+            "match": {
+              "location": "Contract_Dispatcher.TestingTestingCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3443590700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click button \"Save Invoice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save Invoice",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 938819100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Verify Update Checking Result in Invoice Summary",
+            "match": {
+              "location": "Contract_Dispatcher.verifyCheckingResult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3574698100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270450500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 46,
+        "name": "Repeated Mistake Check",
+        "description": "",
+        "id": "tris-correction;repeated-mistake-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4385704300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1806966700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 385910600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 232648300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Check User Login for Update",
+            "match": {
+              "location": "Contract_Dispatcher.CheckUserLogin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452342000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Select Arrow Menu \"Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice System",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664765800,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Select Menu \"Tracker Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tracker Invoice System",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 656173800,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Type on Textbox label \"contract number of email address\" with value \"9999999999\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract number of email address",
+                  "offset": 23
+                },
+                {
+                  "val": "9999999999",
+                  "offset": 69
+                }
+              ],
+              "location": "Contract_Dispatcher.FillCityCodeValue(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3449011800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1131280700,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Verify Table Filled",
+            "match": {
+              "location": "Contract_Dispatcher.VerifyTblFilled()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591010800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Right Click Invoice Want to Update based on sub contract number \"9999999999-7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9999999999-7",
+                  "offset": 65
+                }
+              ],
+              "location": "Contract_Dispatcher.selectUpdateInvoice(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1907271200,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Check Invoice Format is \"Cetak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cetak",
+                  "offset": 25
+                }
+              ],
+              "location": "Contract_Dispatcher.checkFormat(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6664068300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Do Repeated Mistake Check",
+            "match": {
+              "location": "Contract_Dispatcher.repetMistakeCheck()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4353832700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Check Corrected Result",
+            "match": {
+              "location": "Contract_Dispatcher.TestingTestingCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3437119000,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Click button \"Save Invoice\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save Invoice",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044783000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Verify Update Checking Result in Invoice Summary",
+            "match": {
+              "location": "Contract_Dispatcher.verifyCheckingResult()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3630859300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 943826100,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "TRIS Correction",
+    "description": "  I want to use this template for my feature file",
+    "id": "tris-correction",
+    "keyword": "Feature",
+    "uri": "C:/Users/ramsey.loloyanto/Documents/ist-Katalon/Include/features/IST_Real/TRIS/DEV/Track_Invoice_System_Correction.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

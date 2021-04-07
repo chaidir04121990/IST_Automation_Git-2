@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="33.18376">
+<testcase classname="Pick Mistake Without Write Textarea Note_before" name="Assign User to Contract Two Wheelers" time="17.258656">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "Two Wheelers"................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pick Mistake Without Write Textarea Note_before" name="Select Menu Contract Dispatcher and Select Contract based on type contract Two Wheelers" time="15.925104">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "TWO_WHEELERS"............passed
+And Click button "Claim"....................................................passed
+And Verify Tab Matrix for "TWO_WHEELERS"....................................undefined
+And Checkbox General Mistake "KTP Foto Komponen Tidak Ada"..................skipped
+And Choose Dropdown mistake type "Upload Dokumen" from mistake name "KTP Foto Komponen Tidak Ada".skipped
+And Click button "Save".....................................................skipped
+And Get text from pop up "IT Supporting Tools" with text "Note-before cannot be empty".skipped
+And Click button "OK".......................................................skipped
+And Click button "Logout"...................................................skipped
+And Comment "Register Mistake failed because Note-before empty".............skipped
+And Close browser...........................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

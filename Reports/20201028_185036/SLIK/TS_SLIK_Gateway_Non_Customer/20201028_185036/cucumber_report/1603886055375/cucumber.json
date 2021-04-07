@@ -1,0 +1,403 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "SLIK Gateway Non Customer Checking",
+        "description": "",
+        "id": "slik-checking-non-customer;slik-gateway-non-customer-checking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1692902185,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1778037738,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 410727745,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 699354817,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Menu SLIK Gateway NonCustomer",
+            "match": {
+              "location": "Slik_Script.Menu_SLIK_Gateway_NonCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925786363,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input Data KTP Number",
+            "match": {
+              "location": "Slik_Script.Input_KTP_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1777715850,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Input Data \"Name *\" with value \"OPEX TestingAuto\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name *",
+                  "offset": 12
+                },
+                {
+                  "val": "OPEX TestingAuto",
+                  "offset": 32
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3829141174,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Input Date of Birth \"20-02-1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20-02-1990",
+                  "offset": 21
+                }
+              ],
+              "location": "Slik_Script.Slik_DOB(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 270038579,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Select Gender \"Laki-laki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laki-laki",
+                  "offset": 15
+                }
+              ],
+              "location": "Slik_Script.Slik_Gender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1411435122,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select Purpose is \"Penilaian Calon Kemitraan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Penilaian Calon Kemitraan",
+                  "offset": 19
+                }
+              ],
+              "location": "Slik_Script.Slik_Purpose(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2245033324,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Input Data \"Place of Birth\" with value \"Jakarta\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Place of Birth",
+                  "offset": 12
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 40
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153956513,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Input Data \"Mother Maternity Name\" with value \"Tester Auto\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mother Maternity Name",
+                  "offset": 12
+                },
+                {
+                  "val": "Tester Auto",
+                  "offset": 47
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 737294106,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Input KTP Address \"TESTING AUTO JAKARTA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TESTING AUTO JAKARTA",
+                  "offset": 19
+                }
+              ],
+              "location": "Slik_Script.Slik_Ktp(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3270562136,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click button \"Upload\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Upload",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15380081375,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Upload file \"new_captcha1500.png\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new_captcha1500.png",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.UploadFile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3472597241,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click button \"Check SLIK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check SLIK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1416935915,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Get text from pop up \"Confirmation Submit Request\" with text \"Are you sure to submit this data ?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirmation Submit Request",
+                  "offset": 22
+                },
+                {
+                  "val": "Are you sure to submit this data ?",
+                  "offset": 62
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3263403902,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click button \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20234199757,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Verify KTP Number Request Success",
+            "match": {
+              "location": "Slik_Script.Verify_KTP_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3463422921,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3591716983,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106050187,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "SLIK Checking Non Customer",
+    "description": "  I want to use this template for my feature file",
+    "id": "slik-checking-non-customer",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

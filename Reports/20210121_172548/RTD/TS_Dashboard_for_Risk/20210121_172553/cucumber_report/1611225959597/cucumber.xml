@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.21965">
+<testcase classname="View Detail Dashboard for Risk" name="Search by STATUS Success to Disburse and then View Detail of it" time="39.21965">
+<failure message="java.lang.AssertionError: COUNT OF TABLE HEADER AND CONTENT ROW MUST BE EQUAL;. Expression: (content_row_count == array_header_table.size()). Values: content_row_count = 11&#10;&#9;at RTD.view_details_information(RTD.groovy:320)&#10;&#9;at ✽.Verify Information in View Detail(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature:36)&#10;"><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Dashboard for Risk"........................................passed
+And Select STATUS "Success to Disburse".....................................passed
+And Click button "Search"...................................................passed
+And Verify Search Result Presents...........................................passed
+And Click View Detail.......................................................passed
+And Verify Information in View Detail.......................................failed
+And Click button "Logout"...................................................skipped
+And Close browser...........................................................skipped
+
+StackTrace:
+java.lang.AssertionError: COUNT OF TABLE HEADER AND CONTENT ROW MUST BE EQUAL;. Expression: (content_row_count == array_header_table.size()). Values: content_row_count = 11
+	at RTD.view_details_information(RTD.groovy:320)
+	at ✽.Verify Information in View Detail(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature:36)
+]]></failure>
+</testcase>
+</testsuite>

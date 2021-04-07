@@ -1,0 +1,493 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Assign User to Contract Two Wheelers",
+        "description": "",
+        "id": "pick-mistake-without-write-textarea-note-before;assign-user-to-contract-two-wheelers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2462624523,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2818702534,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 620689333,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 389681076,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Contract Dispatcher Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1016388056,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Management Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Management Assignment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2452154436,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Username \"mobile.test\" of Management Assignment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile.test",
+                  "offset": 17
+                }
+              ],
+              "location": "Contract_Dispatcher.UsernameofManagementAssignment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3931069802,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Check for username if already assigned to \"Two Wheelers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Two Wheelers",
+                  "offset": 43
+                }
+              ],
+              "location": "Contract_Dispatcher.CheckUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8503113,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3788910805,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88056806,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Select Menu Contract Dispatcher and Select Contract based on type contract Two Wheelers",
+        "description": "",
+        "id": "pick-mistake-without-write-textarea-note-before;select-menu-contract-dispatcher-and-select-contract-based-on-type-contract-two-wheelers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2247798762,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2779056734,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 520425371,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 816691425,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select Menu \"Contract Dispatcher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3970838044,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select Contract Number based on Type Contract \"TWO_WHEELERS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TWO_WHEELERS",
+                  "offset": 47
+                }
+              ],
+              "location": "Contract_Dispatcher.Contract_Number_based_Type_Contract(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3384215267,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click button \"Claim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71866024038,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Varify the mistake detail already match with the matrix Base on Type Contract",
+            "match": {
+              "location": "Contract_Dispatcher.Tab_Matrix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 712926783,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click on Tab \"KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KTP",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.clickonTab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to click on object \u0027\u0027\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\n\tat ist_real.Contract_Dispatcher.checkboxGeneralMistake(Contract_Dispatcher.groovy:938)\n\tat ✽.Checkbox General Mistake \"KTP Foto Komponen Tidak Ada\"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_TWO_WHEELERS/DEV/Pick_Mistake_Without_Write_Textarea_Note_Before.feature:49)\nCaused by: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.buildLocator(WebUiCommonHelper.java:519)\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:985)\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:894)\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:791)\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:717)\n\tat com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1349)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)\n\tat com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)\n\tat ist_real.Contract_Dispatcher.checkboxGeneralMistake(Contract_Dispatcher.groovy:938)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\n\tat cucumber.api.cli.Main.run(Main.java:35)\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat Pick_Mistake_Without_Write_Textarea_Note_Before.run(Pick_Mistake_Without_Write_Textarea_Note_Before:16)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1595408865749.run(TempTestSuite1595408865749.groovy:39)\n",
+              "duration": 8335420416,
+              "status": "failed"
+            },
+            "line": 49,
+            "name": "Checkbox General Mistake \"KTP Foto Komponen Tidak Ada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KTP Foto Komponen Tidak Ada",
+                  "offset": 26
+                }
+              ],
+              "location": "Contract_Dispatcher.checkboxGeneralMistake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Choose Dropdown mistake type \"Upload Dokumen\" from mistake name \"KTP Foto Komponen Tidak Ada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Upload Dokumen",
+                  "offset": 30
+                },
+                {
+                  "val": "KTP Foto Komponen Tidak Ada",
+                  "offset": 65
+                }
+              ],
+              "location": "Contract_Dispatcher.Dropdown_mistaketypefrommistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Click button \"Save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Note-before cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Note-before cannot be empty",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "Comment \"Register Mistake failed because Note-before empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register Mistake failed because Note-before empty",
+                  "offset": 9
+                }
+              ],
+              "location": "Contract_Dispatcher.Comment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Pick Mistake Without Write Textarea Note_before",
+    "description": "  I want to use this template for my feature file",
+    "id": "pick-mistake-without-write-textarea-note-before",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_TWO_WHEELERS/DEV/Pick_Mistake_Without_Write_Textarea_Note_Before.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

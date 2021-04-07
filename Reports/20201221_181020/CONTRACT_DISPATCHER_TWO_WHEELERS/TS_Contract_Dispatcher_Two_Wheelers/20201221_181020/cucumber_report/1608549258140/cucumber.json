@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 25,
+        "name": "Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM",
+        "description": "",
+        "id": "update-table-contract-dispatcher-source-and-contract-dispatcher-claim-for-contract-two-wheelers;update-table-contract-dispatcher-source-and-contract-disptacher-claim",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 267873217,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Connect to Database",
+            "match": {
+              "location": "try_it_out_Conn_DB.Conn_DB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 155233255,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Update Tbl CONTRACT DISPATCHER SOURCE To Change PROCESSED From Y to N For TWO WHEELERS",
+            "match": {
+              "location": "try_it_out_Conn_DB.Update_tbl_CDS_Column_PROCESSED()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 242829328,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_value_PROCESS_from_column_STATUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155999236,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Delete Contract From TRK_REGISTRATION_MISTAKE",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_Contract_from_TRK_REGISTRATION_MISTAKE()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPATCHER_CLAIM for Contract Two Wheelers",
+    "description": "  I want to use this template for Update Column Processed in CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPATCHER_CLAIM to make Contract Two Wheelers exist in Menu\n  Contract Dipatcher IST.",
+    "id": "update-table-contract-dispatcher-source-and-contract-dispatcher-claim-for-contract-two-wheelers",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_TWO_WHEELERS/Update_Tbl_CDS_CDC_TRKRegMistake.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

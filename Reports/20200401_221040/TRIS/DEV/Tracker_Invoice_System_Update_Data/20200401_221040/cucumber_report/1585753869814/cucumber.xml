@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="153.080929">
+<testcase classname="TRIS update" name="Update Invoice Data Cetak" time="41.409203">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-7".passed
+And Check Invoice Format is "Cetak".........................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data General" time="35.580388">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-5".passed
+And Check Invoice Format is "General".......................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data HCI Format" time="36.509172">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-3".passed
+And Check Invoice Format is "HCI format"....................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data School Invoice" time="39.582166">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-1".passed
+And Check Invoice Format is "School Invoice"................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,2535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_CONTRACT_DISPATCHER_BPKB" time="455.36" tests="15" failures="1" errors="0">
+   <testsuite name="TS_CONTRACT_DISPATCHER_BPKB" tests="15" failures="1" errors="0" time="455.36" timestamp="2020-10-14 13:12:01" hostname="chaidir.pratama01 - localhost" id="Test Suites/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656054679.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656055187.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656368024.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 86.0.4240.80"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="27a3fcf1a1d445cb3e16caa2b2ea48c1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="3.22" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:12:01 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:12:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:12:02 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602655921954'...
+
+2020-10-14 13:12:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:12:02 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:12:03 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:12:03 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:12:04 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:12:04 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:12:04 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:12:04 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:12:04 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:12:04 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB" time="55.152" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:12:04 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB
+
+2020-10-14 13:12:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB.feature' was passed
+
+2020-10-14 13:12:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602655925058'...
+
+2020-10-14 13:12:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract BPKB: SCENARIO Assign User to Contract BPKB
+
+2020-10-14 13:12:05 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:12:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:12:05 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:12:05 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:12:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:12:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:12:09 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:12:09 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:12:09 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:12:10 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:12:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:12:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:12:11 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:12:11 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-10-14 13:12:11 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:12:12 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:12:12 - [MESSAGE][PASSED] - Login Success
+
+2020-10-14 13:12:12 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:12:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:12 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:12:12 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:12:13 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:13 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:12:13 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:12:16 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:12:16 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:12:16 - [TEST_STEP][PASSED] - Check for username if already assigned to "BPKB": Check for username if already assigned to "BPKB"
+
+2020-10-14 13:12:19 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-10-14 13:12:19 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:20 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-10-14 13:12:20 - [MESSAGE][INFO] - Element is already Checked
+
+2020-10-14 13:12:20 - [MESSAGE][PASSED] - Check for username if already assigned to "BPKB"
+
+2020-10-14 13:12:20 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:12:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:20 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:12:20 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:12:20 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:12:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:23 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:12:23 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:12:23 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:12:23 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:12:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Contract Dispatcher Menu based on type contract BPKB: SCENARIO Select Contract Dispatcher Menu based on type contract BPKB
+
+2020-10-14 13:12:23 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:12:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:12:23 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:12:23 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:12:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:12:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:12:27 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:12:27 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:12:27 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:12:28 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:12:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:12:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:12:29 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:12:29 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-10-14 13:12:29 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:12:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:12:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:12:30 - [MESSAGE][PASSED] - Login Success
+
+2020-10-14 13:12:30 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:12:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:31 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:12:31 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:12:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:32 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:12:32 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:12:32 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:12:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:36 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:12:36 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:12:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:38 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:40 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:42 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:42 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:44 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:45 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:12:45 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:12:45 - [TEST_STEP][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada": Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:12:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:45 - [MESSAGE][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:12:45 - [TEST_STEP][PASSED] - Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "01. BPKB bagian depan tidak ada": Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:12:46 - [MESSAGE][PASSED] - All options with index in [1] are selected on object ''
+
+2020-10-14 13:12:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:46 - [MESSAGE][PASSED] - Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:12:46 - [TEST_STEP][PASSED] - Type on textarea note before based on mistake name "01. BPKB bagian depan tidak ada" with value "TESTING": Type on textarea note before based on mistake name "01. BPKB bagian depan tidak ada" with value "TESTING"
+
+2020-10-14 13:12:47 - [MESSAGE][PASSED] - Text 'TESTING' is set on object ''
+
+2020-10-14 13:12:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:47 - [MESSAGE][PASSED] - Type on textarea note before based on mistake name "01. BPKB bagian depan tidak ada" with value "TESTING"
+
+2020-10-14 13:12:47 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-10-14 13:12:47 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-10-14 13:12:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:51 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-10-14 13:12:51 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved": Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"
+
+2020-10-14 13:12:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:12:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:12:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:12:52 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"
+
+2020-10-14 13:12:52 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-14 13:12:52 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-14 13:12:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:12:56 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-14 13:12:56 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:12:56 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="0.861" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:13:00 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:13:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602655980136'...
+
+2020-10-14 13:13:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:13:00 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:13:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes" time="74.696" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+"/>
+         <system-out><![CDATA[2020-10-14 13:13:00 - [TEST_CASE][FAILED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+
+
+2020-10-14 13:13:01 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+)
+
+2020-10-14 13:13:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602655981074'...
+
+2020-10-14 13:13:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract BPKB: SCENARIO Assign User to Contract BPKB
+
+2020-10-14 13:13:01 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:13:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:13:01 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:13:01 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:13:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:13:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:13:04 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:13:04 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:13:04 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:13:05 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:13:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:13:07 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:13:07 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:13:07 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:07 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:13:07 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:13:08 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:13:08 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:13:08 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:13:11 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:13:11 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:13:11 - [TEST_STEP][PASSED] - Check for username if already assigned to "BPKB": Check for username if already assigned to "BPKB"
+
+2020-10-14 13:13:14 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-10-14 13:13:14 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:15 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-10-14 13:13:15 - [MESSAGE][INFO] - Element is already Checked
+
+2020-10-14 13:13:15 - [MESSAGE][PASSED] - Check for username if already assigned to "BPKB"
+
+2020-10-14 13:13:15 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:13:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:13:15 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:13:15 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:13:15 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:13:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:18 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:13:18 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:13:18 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:13:18 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:13:18 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB: SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature:49)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+
+
+2020-10-14 13:13:18 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:13:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:13:18 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:13:18 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:13:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:13:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:13:21 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:13:21 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:13:21 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:13:22 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:13:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:13:23 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:13:23 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:13:23 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:13:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:13:24 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:13:24 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:13:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:13:25 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:13:25 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:13:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:26 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:26 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:13:26 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:13:26 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:13:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:30 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:13:30 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:13:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:34 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:35 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:35 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:36 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:36 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:36 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:37 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:37 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:13:38 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:13:38 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:13:38 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-10-14 13:13:38 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-10-14 13:13:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:13:42 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-10-14 13:13:42 - [TEST_STEP][FAILED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved": Get text from pop up "IT Supporting Tools" with text "Mistake has been saved" FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature:49)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+
+
+2020-10-14 13:13:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:14:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-14 13:14:15 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656054679.png]]
+
+2020-10-14 13:14:15 - [MESSAGE][FAILED] - Unable to verify object '' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656055187.png]]
+
+2020-10-14 13:14:15 - [MESSAGE][FAILED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved" FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature:49)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Mistake has been saved")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:455)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+
+
+2020-10-14 13:14:15 - [TEST_STEP][NOT_RUN] - Click button "OK": Click button "OK"
+
+2020-10-14 13:14:15 - [MESSAGE][NOT_RUN] - Click button "OK"
+
+2020-10-14 13:14:15 - [TEST_STEP][NOT_RUN] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:14:15 - [MESSAGE][NOT_RUN] - Click button "Logout"
+
+2020-10-14 13:14:15 - [TEST_STEP][NOT_RUN] - Close browser: Close browser
+
+2020-10-14 13:14:15 - [MESSAGE][NOT_RUN] - Close browser
+
+2020-10-14 13:14:15 - [MESSAGE][FAILED] - Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+
+2020-10-14 13:14:15 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-10-14 13:13:00 - [TEST_CASE][FAILED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="1.205" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:14:15 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:14:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:14:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656055696'...
+
+2020-10-14 13:14:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:14:15 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:14:16 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:14:16 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:14:16 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:14:16 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:14:16 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:14:16 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:14:16 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:14:16 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type" time="49.95" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:14:16 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type
+
+2020-10-14 13:14:16 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type.feature' was passed
+
+2020-10-14 13:14:16 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656056978'...
+
+2020-10-14 13:14:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract BPKB: SCENARIO Assign User to Contract BPKB
+
+2020-10-14 13:14:17 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:14:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-14 13:14:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:14:17 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:14:17 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:14:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:14:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:14:20 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:14:20 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:14:20 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:14:21 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:14:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:14:22 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:14:22 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:14:22 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:14:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:14:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:14:23 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:14:23 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:14:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:23 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:14:23 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:14:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:24 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:14:24 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:14:26 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:14:26 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:14:26 - [TEST_STEP][PASSED] - Check for username if already assigned to "BPKB": Check for username if already assigned to "BPKB"
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-10-14 13:14:30 - [MESSAGE][INFO] - Element is already Checked
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Check for username if already assigned to "BPKB"
+
+2020-10-14 13:14:30 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:30 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:14:30 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:14:30 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:14:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:34 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:14:34 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:14:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:14:34 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:14:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB: SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB
+
+2020-10-14 13:14:34 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:14:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:14:34 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:14:34 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:14:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:14:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:14:37 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:14:37 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:14:37 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:14:38 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:14:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:14:39 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:14:39 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:14:39 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:14:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:14:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:14:40 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:14:40 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:14:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:41 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:14:41 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:14:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:42 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:14:42 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:14:42 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:14:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:45 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:14:45 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:14:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:48 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:48 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:49 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:49 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:49 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:51 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:51 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:52 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:53 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:53 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:53 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:14:54 - [TEST_STEP][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada": Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:54 - [MESSAGE][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:14:54 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-10-14 13:14:54 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-10-14 13:14:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:14:58 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-10-14 13:14:58 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake Type cannot be empty": Get text from pop up "IT Supporting Tools" with text "Mistake Type cannot be empty"
+
+2020-10-14 13:14:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:14:59 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:14:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:14:59 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake Type cannot be empty"
+
+2020-10-14 13:14:59 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-14 13:14:59 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-14 13:15:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:03 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-14 13:15:03 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:15:03 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:15:06 - [TEST_STEP][PASSED] - Comment "Register Mistake failed because Dropdown Mistake type didn't choose": Comment "Register Mistake failed because Dropdown Mistake type didn't choose"
+
+2020-10-14 13:15:06 - [MESSAGE][INFO] - Register Mistake failed because Dropdown Mistake type didn't choose
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Comment "Register Mistake failed because Dropdown Mistake type didn't choose"
+
+2020-10-14 13:15:06 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:15:06 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Choose_Dropdown_Mistake_Type.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="0.787" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:15:06 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:15:06 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:15:06 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656106855'...
+
+2020-10-14 13:15:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:15:07 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:15:07 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:15:07 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:15:07 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:15:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before" time="51.721" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:15:07 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before.feature' was passed
+
+2020-10-14 13:15:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656107715'...
+
+2020-10-14 13:15:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract BPKB: SCENARIO Assign User to Contract BPKB
+
+2020-10-14 13:15:07 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:15:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:15:07 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:15:07 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:15:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:15:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:15:11 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:15:11 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:15:11 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:15:12 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:15:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:15:13 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:15:13 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:15:13 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:15:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:15:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:15:14 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:15:14 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:15:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:14 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:15:14 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:15:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:15 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:15:15 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:15:17 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:15:17 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:15:17 - [TEST_STEP][PASSED] - Check for username if already assigned to "BPKB": Check for username if already assigned to "BPKB"
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-10-14 13:15:21 - [MESSAGE][INFO] - Element is already Checked
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Check for username if already assigned to "BPKB"
+
+2020-10-14 13:15:21 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:21 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:15:21 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:15:21 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:15:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:25 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:15:25 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:15:25 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:15:25 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:15:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB: SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB
+
+2020-10-14 13:15:25 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:15:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:15:25 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:15:25 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:15:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:15:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:15:28 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:15:28 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:15:28 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:15:29 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:15:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:15:30 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:15:30 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:15:30 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:15:30 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:15:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:15:31 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:15:31 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:15:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:32 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:15:32 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:15:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:33 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:15:33 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:15:33 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:15:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:36 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:15:36 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:15:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:40 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:41 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:42 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:44 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:45 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:45 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:45 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:15:45 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:15:45 - [TEST_STEP][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada": Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:15:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:46 - [MESSAGE][PASSED] - Checkbox General Mistake "01. BPKB bagian depan tidak ada"
+
+2020-10-14 13:15:46 - [TEST_STEP][PASSED] - Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "BPKB bagian depan tidak ada": Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "BPKB bagian depan tidak ada"
+
+2020-10-14 13:15:47 - [MESSAGE][PASSED] - All options with index in [1] are selected on object ''
+
+2020-10-14 13:15:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:47 - [MESSAGE][PASSED] - Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "BPKB bagian depan tidak ada"
+
+2020-10-14 13:15:47 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-10-14 13:15:47 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-10-14 13:15:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:50 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-10-14 13:15:50 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Note-before cannot be empty": Get text from pop up "IT Supporting Tools" with text "Note-before cannot be empty"
+
+2020-10-14 13:15:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:15:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:15:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:15:52 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Note-before cannot be empty"
+
+2020-10-14 13:15:52 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-14 13:15:52 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-14 13:15:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:55 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-14 13:15:55 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:15:55 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - Comment "Register Mistake failed because Note-before empty": Comment "Register Mistake failed because Note-before empty"
+
+2020-10-14 13:15:59 - [MESSAGE][INFO] - Register Mistake failed because Note-before empty
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Comment "Register Mistake failed because Note-before empty"
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/PIck_Mistake_Without_Write_Textarea_Note_Before.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="0.785" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:15:59 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:15:59 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656159368'...
+
+2020-10-14 13:15:59 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:15:59 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:15:59 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:16:00 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:16:00 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:16:00 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:16:00 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After" time="49.317" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:16:00 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After
+
+2020-10-14 13:16:00 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After.feature' was passed
+
+2020-10-14 13:16:00 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656160225'...
+
+2020-10-14 13:16:00 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract BPKB: SCENARIO Assign User to Contract BPKB
+
+2020-10-14 13:16:00 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:16:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:16:00 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:16:00 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:16:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:16:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:16:02 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:16:02 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:16:02 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:16:03 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:16:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:16:04 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:16:04 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:16:04 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:16:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:16:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:16:05 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:16:05 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:16:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:05 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:16:05 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:16:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:06 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:16:06 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:16:08 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:16:08 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:16:08 - [TEST_STEP][PASSED] - Check for username if already assigned to "BPKB": Check for username if already assigned to "BPKB"
+
+2020-10-14 13:16:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-10-14 13:16:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:12 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-10-14 13:16:12 - [MESSAGE][INFO] - Element is already Checked
+
+2020-10-14 13:16:12 - [MESSAGE][PASSED] - Check for username if already assigned to "BPKB"
+
+2020-10-14 13:16:12 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:16:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:12 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:16:12 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:16:12 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:16:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:16 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:16:16 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:16:16 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:16:16 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:16:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB: SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract BPKB
+
+2020-10-14 13:16:16 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:16:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:16:16 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:16:16 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:16:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:16:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:16:18 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:16:18 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:16:18 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:16:19 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:16:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:16:20 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:16:20 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:16:20 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:16:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:16:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:16:20 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:16:20 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:16:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:21 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:16:21 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:16:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:22 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:16:22 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:16:22 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:16:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:26 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:16:26 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:16:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:29 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:30 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:31 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-10-14 13:16:34 - [TEST_STEP][PASSED] - Checkbox General Mistake "05. Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan": Checkbox General Mistake "05. Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan"
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:34 - [MESSAGE][PASSED] - Checkbox General Mistake "05. Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan"
+
+2020-10-14 13:16:34 - [TEST_STEP][PASSED] - Choose Dropdown mistake type "No rangka berbeda (BPKB vs Surat gesek no rangka)" from mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan": Choose Dropdown mistake type "No rangka berbeda (BPKB vs Surat gesek no rangka)" from mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan"
+
+2020-10-14 13:16:36 - [MESSAGE][PASSED] - All options with index in [1] are selected on object ''
+
+2020-10-14 13:16:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:36 - [MESSAGE][PASSED] - Choose Dropdown mistake type "No rangka berbeda (BPKB vs Surat gesek no rangka)" from mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan"
+
+2020-10-14 13:16:36 - [TEST_STEP][PASSED] - Type on textarea note before based on mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan" with value "TESTING": Type on textarea note before based on mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan" with value "TESTING"
+
+2020-10-14 13:16:37 - [MESSAGE][PASSED] - Text 'TESTING' is set on object ''
+
+2020-10-14 13:16:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:37 - [MESSAGE][PASSED] - Type on textarea note before based on mistake name "Data nomor rangka dan nomor mesin di BPKB berbeda dengan Surat Nomor Rangka dan Mesin Gesek Kendaraan" with value "TESTING"
+
+2020-10-14 13:16:37 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-10-14 13:16:37 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-10-14 13:16:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:40 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-10-14 13:16:40 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Note-after cannot be empty": Get text from pop up "IT Supporting Tools" with text "Note-after cannot be empty"
+
+2020-10-14 13:16:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:16:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:42 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Note-after cannot be empty"
+
+2020-10-14 13:16:42 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-14 13:16:42 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-14 13:16:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:45 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-14 13:16:45 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:16:45 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:16:49 - [TEST_STEP][PASSED] - Comment "Register Mistake failed because Note-after empty": Comment "Register Mistake failed because Note-after empty"
+
+2020-10-14 13:16:49 - [MESSAGE][INFO] - Register Mistake failed because Note-after empty
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Comment "Register Mistake failed because Note-after empty"
+
+2020-10-14 13:16:49 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Pick_Mistake_Without_Write_Textarea_Note_After.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="0.99" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:16:49 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:16:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:16:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656209474'...
+
+2020-10-14 13:16:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:16:49 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:16:49 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:16:49 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:16:50 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:16:50 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:16:50 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:16:50 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:16:50 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:16:50 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB" time="72.369" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:16:50 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB
+
+2020-10-14 13:16:50 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature' was passed
+
+2020-10-14 13:16:50 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656210550'...
+
+2020-10-14 13:16:50 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Claim Contract BPKB in Contract Dispatcher Menu then idle for 10 minutes, STATUS in Table CONTRACT_DISPATCHER_CLAIM turn RELEASE and PROCESSED in CONTRACT_DISPATCHER_SRC_BPKB turns N: SCENARIO Claim Contract BPKB in Contract Dispatcher Menu then idle for 10 minutes, STATUS in Table CONTRACT_DISPATCHER_CLAIM turn RELEASE and PROCESSED in CONTRACT_DISPATCHER_SRC_BPKB turns N
+
+2020-10-14 13:16:50 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:16:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:16:50 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:16:50 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:16:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:16:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:16:53 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:16:53 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:16:53 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:16:54 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:16:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:16:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:16:55 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:16:55 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:16:55 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:16:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:16:56 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:16:56 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:16:56 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:16:57 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:57 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:16:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:16:58 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:16:58 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-10-14 13:16:58 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-10-14 13:17:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:17:01 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-10-14 13:17:01 - [TEST_STEP][PASSED] - Sleep ten minutes: Sleep ten minutes
+
+2020-10-14 13:18:01 - [MESSAGE][PASSED] - Sleep ten minutes
+
+2020-10-14 13:18:01 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:18:01 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:18:01 - [TEST_STEP][PASSED] - Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'": Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'"
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'"
+
+2020-10-14 13:18:02 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:18:02 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users" time="46.202" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:18:02 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users: Test Cases/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users
+
+2020-10-14 13:18:02 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users.feature' was passed
+
+2020-10-14 13:18:02 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656282913'...
+
+2020-10-14 13:18:03 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Reset All Users: SCENARIO Reset All Users
+
+2020-10-14 13:18:03 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:18:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-14 13:18:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:18:03 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:18:03 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:18:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:18:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:18:08 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:18:08 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:18:08 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:18:09 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:18:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:18:11 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:18:11 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:18:11 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:18:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:18:11 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:18:11 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-10-14 13:18:12 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:12 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-10-14 13:18:12 - [TEST_STEP][PASSED] - Click button "Reset All User": Click button "Reset All User"
+
+2020-10-14 13:18:12 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Reset All User')]
+
+2020-10-14 13:18:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:16 - [MESSAGE][PASSED] - Click button "Reset All User"
+
+2020-10-14 13:18:16 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Reset All" with text "Are you sure ?": Get text from pop up "Confirmation Reset All" with text "Are you sure ?"
+
+2020-10-14 13:18:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-14 13:18:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:17 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Reset All" with text "Are you sure ?"
+
+2020-10-14 13:18:17 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-14 13:18:17 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-14 13:18:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:21 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-14 13:18:21 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-10-14 13:18:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:21 - [MESSAGE][PASSED] - Wait page for load
+
+2020-10-14 13:18:21 - [TEST_STEP][PASSED] - Notification "Reset All Success": Notification "Reset All Success"
+
+2020-10-14 13:18:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:27 - [MESSAGE][PASSED] - Notification "Reset All Success"
+
+2020-10-14 13:18:27 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:18:29 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-10-14 13:18:29 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-10-14 13:18:29 - [TEST_STEP][PASSED] - Check unchecked contract type POS: Check unchecked contract type POS
+
+2020-10-14 13:18:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:30 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:30 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:31 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:31 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:34 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:35 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:35 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:35 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:35 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:36 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:36 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:37 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:37 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:38 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:38 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:40 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:40 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:41 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:42 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:44 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:44 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-10-14 13:18:44 - [MESSAGE][PASSED] - Check unchecked contract type POS
+
+2020-10-14 13:18:44 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:18:44 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:18:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:48 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:18:48 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:18:49 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:18:49 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:18:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu" time="43.419" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:18:49 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu
+
+2020-10-14 13:18:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu.feature' was passed
+
+2020-10-14 13:18:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656329114'...
+
+2020-10-14 13:18:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Go to Menu Contract Dispatcher to select type contract BPKB but it doesn't exist: SCENARIO Go to Menu Contract Dispatcher to select type contract BPKB but it doesn't exist
+
+2020-10-14 13:18:49 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-10-14 13:18:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-14 13:18:49 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-14 13:18:49 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-14 13:18:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-14 13:18:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-14 13:18:52 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-10-14 13:18:52 - [MESSAGE][PASSED] - Go to IST
+
+2020-10-14 13:18:52 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-14 13:18:53 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-14 13:18:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-14 13:18:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-14 13:18:54 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-14 13:18:54 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-14 13:18:54 - [MESSAGE][INFO] - Login Success
+
+2020-10-14 13:18:54 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-14 13:18:55 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-14 13:18:55 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-10-14 13:18:55 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "BPKB": Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:18:56 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-14 13:19:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[contains(text(),'333')]/../../following-sibling::td[1]/div/span[contains(text(),'BPKB')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-14 13:19:28 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[contains(text(),'333')]/../../following-sibling::td[1]/div/span[contains(text(),'BPKB')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[contains(text(),'333')]/../../following-sibling::td[1]/div/span[contains(text(),'BPKB')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.Contract_Number_based_Type_Contract(Contract_Dispatcher.groovy:314)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu.run(BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/1602656368024.png]]
+
+2020-10-14 13:19:28 - [MESSAGE][INFO] - Contract number doesn't exist
+
+2020-10-14 13:19:28 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "BPKB"
+
+2020-10-14 13:19:28 - [TEST_STEP][PASSED] - Comment "Type Contract BPKB Does Not Exist": Comment "Type Contract BPKB Does Not Exist"
+
+2020-10-14 13:19:28 - [MESSAGE][INFO] - Type Contract BPKB Does Not Exist
+
+2020-10-14 13:19:28 - [MESSAGE][PASSED] - Comment "Type Contract BPKB Does Not Exist"
+
+2020-10-14 13:19:28 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-14 13:19:28 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-14 13:19:32 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Close browser
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/BPKB_Does_Not_Exist_in_Contract_Dispatcher_Menu.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" time="1.008" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-10-14 13:19:32 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake
+
+2020-10-14 13:19:32 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-10-14 13:19:32 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201014_131154/CONTRACT_DISPATCHER_BPKB/TS_CONTRACT_DISPATCHER_BPKB/20201014_131154/cucumber_report/1602656372462'...
+
+2020-10-14 13:19:32 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-10-14 13:19:32 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-10-14 13:19:32 - [MESSAGE][PASSED] - Connect to Database
+
+2020-10-14 13:19:32 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB: Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:19:33 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SRC BPKB To Change PROCESSED From Y to N For BPKB
+
+2020-10-14 13:19:33 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:19:33 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-10-14 13:19:33 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:19:33 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-10-14 13:19:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-14 13:12:01 - [TEST_SUITE][FAILED] - TS_CONTRACT_DISPATCHER_BPKB: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-10-14 13:12:01 - [TEST_SUITE][FAILED] - TS_CONTRACT_DISPATCHER_BPKB: Test Cases/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes.run(Claim_Contract_BPKB_then_Save_it_Without_Register_Any_Mistakes:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1602655914932.run(TempTestSuite1602655914932.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

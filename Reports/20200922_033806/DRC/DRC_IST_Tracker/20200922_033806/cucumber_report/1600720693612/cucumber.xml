@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="61.059384">
+<testcase classname="Connection to Database IST Tracker" name="Select Menu Management Assignment to give assign contract PAPERLESS POS" time="48.560507">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Click button "Reset All User"...........................................passed
+And Get text from pop up "Confirmation Reset All" with text "Are you sure ?".passed
+And Click button "OK".......................................................passed
+And Wait page for load......................................................passed
+And Notification "Reset All Success"........................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check unchecked contract type POS.......................................passed
+And Check for username if already assigned to "Regular".....................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Connection to Database IST Tracker" name="Connection to Database IST Tracker with Search data from menu(Contract Dispatcher)" time="12.498877">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "REGULAR POS".............passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

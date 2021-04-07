@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RTD" time="13.206" tests="13" failures="0" errors="0">
+   <testsuite name="TS_RTD" tests="13" failures="0" errors="0" time="13.206" timestamp="2021-01-21 15:18:18" hostname="chaidir.pratama01 - localhost" id="Test Suites/RTD/TS_RTD">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="e7ad5bfff991af1ca6e49155b1dcc501"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Not_Supported_Bank" time="3.734" classname="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Not_Supported_Bank" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:18 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Not_Supported_Bank: Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Not_Supported_Bank
+
+2021-01-21 15:18:19 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Not_Supported_Bank.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Not_Supported_Bank.feature' was passed
+
+2021-01-21 15:18:19 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Not_Supported_Bank.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217099265'...
+
+2021-01-21 15:18:19 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to Not Supported Bank: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to Not Supported Bank
+
+2021-01-21 15:18:19 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:19 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 15:18:19 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 15:18:19 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 15:18:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 15:18:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 15:18:20 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 15:18:22 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:22 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=9": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=9"
+
+2021-01-21 15:18:22 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=9"
+
+2021-01-21 15:18:22 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Not_Supported_Bank.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Eligible_to_Disburse" time="0.511" classname="Test Cases/RTD/TC_Check_MPF_Eligible_to_Disburse" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:22 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Eligible_to_Disburse: Test Cases/RTD/TC_Check_MPF_Eligible_to_Disburse
+
+2021-01-21 15:18:22 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Eligible_to_Disburse.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Eligible_to_Disburse.feature' was passed
+
+2021-01-21 15:18:22 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Eligible_to_Disburse.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217102859'...
+
+2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract MPF Eligible to Disburse: SCENARIO Check Contract MPF Eligible to Disburse
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Select Contract MPF that Eligible to Disburse: Select Contract MPF that Eligible to Disburse
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Select Contract MPF that Eligible to Disburse
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Eligible_to_Disburse.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Ready_to_Disburse" time="0.305" classname="Test Cases/RTD/TC_Check_MPF_Ready_to_Disburse" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Ready_to_Disburse: Test Cases/RTD/TC_Check_MPF_Ready_to_Disburse
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Ready_to_Disburse.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Ready_to_Disburse.feature' was passed
+
+2021-01-21 15:18:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Ready_to_Disburse.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217103299'...
+
+2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is READY TO DISBURSE: SCENARIO Check Contract from RTD_CONTRACT where STATUS is READY TO DISBURSE
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=5": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=5"
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=5"
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Ready_to_Disburse.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Waiting_for_Approval_from_InPayment" time="0.328" classname="Test Cases/RTD/TC_Check_MPF_Waiting_for_Approval_from_InPayment" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Waiting_for_Approval_from_InPayment: Test Cases/RTD/TC_Check_MPF_Waiting_for_Approval_from_InPayment
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Waiting_for_Approval_from_InPayment.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_for_Approval_from_InPayment.feature' was passed
+
+2021-01-21 15:18:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_for_Approval_from_InPayment.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217103611'...
+
+2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT_TEMP where Status is Waiting for approval from In Payment: SCENARIO Check Contract from RTD_CONTRACT_TEMP where Status is Waiting for approval from In Payment
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=3": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=3"
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=3"
+
+2021-01-21 15:18:23 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_for_Approval_from_InPayment.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_DONE" time="0.403" classname="Test Cases/RTD/TC_Check_MPF_DONE" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:23 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_DONE: Test Cases/RTD/TC_Check_MPF_DONE
+
+2021-01-21 15:18:23 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_DONE.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_DONE.feature' was passed
+
+2021-01-21 15:18:23 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_DONE.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217103943'...
+
+2021-01-21 15:18:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is DONE: SCENARIO Check Contract from RTD_CONTRACT where STATUS is DONE
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT RTD_CONTRACT_TEMP.KTP,RTD_CONTRACT_TEMP.CONTRACT_ID,RTD_CONTRACT_TEMP.RECIPIENT_BANK_ACCOUNT_NUMBER,RTD_CONTRACT_TEMP.STATUS FROM RTD_CONTRACT_TEMP LEFT JOIN RTD_CONTRACT ON RTD_CONTRACT_TEMP.CONTRACT_ID=RTD_CONTRACT.CONTRACT_ID WHERE RTD_CONTRACT_TEMP.TYPE_CONTRACT='MPF' AND RTD_CONTRACT.STATUS=11 AND RTD_CONTRACT_TEMP.IS_RTD='Y' AND RTD_CONTRACT.PGW_RESPONSE_CODE='00'": Select Contract from Table in DB with Query "SELECT RTD_CONTRACT_TEMP.KTP,RTD_CONTRACT_TEMP.CONTRACT_ID,RTD_CONTRACT_TEMP.RECIPIENT_BANK_ACCOUNT_NUMBER,RTD_CONTRACT_TEMP.STATUS FROM RTD_CONTRACT_TEMP LEFT JOIN RTD_CONTRACT ON RTD_CONTRACT_TEMP.CONTRACT_ID=RTD_CONTRACT.CONTRACT_ID WHERE RTD_CONTRACT_TEMP.TYPE_CONTRACT='MPF' AND RTD_CONTRACT.STATUS=11 AND RTD_CONTRACT_TEMP.IS_RTD='Y' AND RTD_CONTRACT.PGW_RESPONSE_CODE='00'"
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT RTD_CONTRACT_TEMP.KTP,RTD_CONTRACT_TEMP.CONTRACT_ID,RTD_CONTRACT_TEMP.RECIPIENT_BANK_ACCOUNT_NUMBER,RTD_CONTRACT_TEMP.STATUS FROM RTD_CONTRACT_TEMP LEFT JOIN RTD_CONTRACT ON RTD_CONTRACT_TEMP.CONTRACT_ID=RTD_CONTRACT.CONTRACT_ID WHERE RTD_CONTRACT_TEMP.TYPE_CONTRACT='MPF' AND RTD_CONTRACT.STATUS=11 AND RTD_CONTRACT_TEMP.IS_RTD='Y' AND RTD_CONTRACT.PGW_RESPONSE_CODE='00'"
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_DONE.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Waiting_Approval_From_Risk" time="0.346" classname="Test Cases/RTD/TC_Check_MPF_Waiting_Approval_From_Risk" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:24 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Waiting_Approval_From_Risk: Test Cases/RTD/TC_Check_MPF_Waiting_Approval_From_Risk
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Waiting_Approval_From_Risk.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Approval_From_Risk.feature' was passed
+
+2021-01-21 15:18:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Approval_From_Risk.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217104353'...
+
+2021-01-21 15:18:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where Status is Waiting for Approval Risk: SCENARIO Check Contract from RTD_CONTRACT where Status is Waiting for Approval Risk
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=2": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=2"
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=2"
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Approval_From_Risk.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Manual_DIsbursment" time="0.487" classname="Test Cases/RTD/TC_Check_MPF_Manual_DIsbursment" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:24 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Manual_DIsbursment: Test Cases/RTD/TC_Check_MPF_Manual_DIsbursment
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Manual_DIsbursment.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Manual_DIsbursment.feature' was passed
+
+2021-01-21 15:18:24 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Manual_DIsbursment.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217104715'...
+
+2021-01-21 15:18:24 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is MANUAL DISBURSMENT: SCENARIO Check Contract from RTD_CONTRACT where STATUS is MANUAL DISBURSMENT
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:24 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:24 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=10": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=10"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=10"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Manual_DIsbursment.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_is_Not_Eligible_to_Disburse" time="0.376" classname="Test Cases/RTD/TC_Check_MPF_is_Not_Eligible_to_Disburse" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:25 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_is_Not_Eligible_to_Disburse: Test Cases/RTD/TC_Check_MPF_is_Not_Eligible_to_Disburse
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_is_Not_Eligible_to_Disburse.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_is_Not_Eligible_to_Disburse.feature' was passed
+
+2021-01-21 15:18:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_is_Not_Eligible_to_Disburse.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217105182'...
+
+2021-01-21 15:18:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Not Eligible to Disburse: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Not Eligible to Disburse
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=4": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=4"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=4"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_is_Not_Eligible_to_Disburse.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Insufficient_Fund" time="0.344" classname="Test Cases/RTD/TC_Check_MPF_Insufficient_Fund" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:25 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Insufficient_Fund: Test Cases/RTD/TC_Check_MPF_Insufficient_Fund
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Insufficient_Fund.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Insufficient_Fund.feature' was passed
+
+2021-01-21 15:18:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Insufficient_Fund.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217105589'...
+
+2021-01-21 15:18:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Insufficient Fund: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Insufficient Fund
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=8": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=8"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=8"
+
+2021-01-21 15:18:25 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Insufficient_Fund.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_System_Error" time="0.336" classname="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_System_Error" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:25 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Failed_Due_to_System_Error: Test Cases/RTD/TC_Check_MPF_Failed_Due_to_System_Error
+
+2021-01-21 15:18:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_System_Error.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_System_Error.feature' was passed
+
+2021-01-21 15:18:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_System_Error.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217105921'...
+
+2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to System Error: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to System Error
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=7": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=7"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=7"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_System_Error.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Success_to_Disburse" time="0.324" classname="Test Cases/RTD/TC_Check_MPF_Success_to_Disburse" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Success_to_Disburse: Test Cases/RTD/TC_Check_MPF_Success_to_Disburse
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Success_to_Disburse.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Success_to_Disburse.feature' was passed
+
+2021-01-21 15:18:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Success_to_Disburse.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217106251'...
+
+2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract RTD_CONTRACT where STATUS is Success to Disburse: SCENARIO Check Contract RTD_CONTRACT where STATUS is Success to Disburse
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=13": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=13"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=13"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Success_to_Disburse.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Invalid_Bank_Account" time="0.305" classname="Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Invalid_Bank_Account" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Invalid_Bank_Account: Test Cases/RTD/TC_Check_MPF_Failed_Due_to_Invalid_Bank_Account
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Invalid_Bank_Account.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Invalid_Bank_Account.feature' was passed
+
+2021-01-21 15:18:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Invalid_Bank_Account.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217106569'...
+
+2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to Invalid Bank Account: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Failed Due to Invalid Bank Account
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=6": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=6"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=6"
+
+2021-01-21 15:18:26 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Failed_Due_to_Invalid_Bank_Account.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/TC_Check_MPF_Waiting_Partner_Confirmation" time="0.312" classname="Test Cases/RTD/TC_Check_MPF_Waiting_Partner_Confirmation" status="PASSED">
+         <system-out><![CDATA[2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Test Cases/RTD/TC_Check_MPF_Waiting_Partner_Confirmation: Test Cases/RTD/TC_Check_MPF_Waiting_Partner_Confirmation
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Check_MPF_Waiting_Partner_Confirmation.feature"): Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Partner_Confirmation.feature' was passed
+
+2021-01-21 15:18:26 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Partner_Confirmation.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_151811/RTD/TS_RTD/20210121_151811/cucumber_report/1611217106879'...
+
+2021-01-21 15:18:26 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check Contract from RTD_CONTRACT where STATUS is Waiting Partner Confirmation: SCENARIO Check Contract from RTD_CONTRACT where STATUS is Waiting Partner Confirmation
+
+2021-01-21 15:18:26 - [TEST_STEP][PASSED] - Connect to Database RTD: Connect to Database RTD
+
+2021-01-21 15:18:27 - [MESSAGE][PASSED] - Connect to Database RTD
+
+2021-01-21 15:18:27 - [TEST_STEP][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=12": Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=12"
+
+2021-01-21 15:18:27 - [MESSAGE][PASSED] - Select Contract from Table in DB with Query "SELECT * FROM RTD_CONTRACT WHERE STATUS=12"
+
+2021-01-21 15:18:27 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Check_MPF_Waiting_Partner_Confirmation.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 15:18:18 - [TEST_SUITE][PASSED] - TS_RTD: Test Cases/RTD/TC_Check_MPF_Waiting_Partner_Confirmation]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

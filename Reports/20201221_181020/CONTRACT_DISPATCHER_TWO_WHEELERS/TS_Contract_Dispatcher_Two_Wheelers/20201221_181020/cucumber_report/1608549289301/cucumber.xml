@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="609.981016">
+<testcase classname="Column PROCESSED in CONTRACT_DISPATCHER_SOURCE change to be 'N' when STATUS in CONTRACT_DISPATCHER_CLAIM is RELEASE" name="Claim Contract TWO WHEELERS in Contract Dispatcher Menu then idle for 10 minutes, STATUS in Table CONTRACT_DISPATCHER_CLAIM turn RELEASE and PROCESSED in CONTRACT_DISPATCHER_SOURCE turns N" time="609.981016">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "TWO_WHEELERS"............passed
+And Click button "Claim"....................................................passed
+And Sleep ten minutes.......................................................passed
+Given Connect to Database...................................................passed
+And Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TEXT_CONTRACT_NUMBER='332'".passed
+And Select Menu "Contract Dispatcher".......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

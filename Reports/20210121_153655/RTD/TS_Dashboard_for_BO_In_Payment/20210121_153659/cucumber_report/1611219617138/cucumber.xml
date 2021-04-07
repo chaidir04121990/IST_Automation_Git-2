@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="38.84868">
+<testcase classname="Generate data outpayment" name="Genrate Outpayment without select checkbox" time="17.552255">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Dashboard for BO In Payment"...............................passed
+And Select STATUS "Manual Disbursement".....................................passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Click button "Generate Outpayment"......................................passed
+And Get text from pop up "Warning Message" with text "Warning : No data selected !".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Generate data outpayment" name="Genrate Outpayment and select checkbox first" time="21.296425">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Dashboard for BO In Payment"...............................passed
+And Select STATUS "Manual Disbursement".....................................passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Click Checkbox..........................................................passed
+And Click button "Generate Outpayment"......................................passed
+And Get text from pop up "Success Message" with text "Generate Outpayment File Success".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

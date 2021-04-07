@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="46.315317">
+<testcase classname="Contract Dispatcher for DONA BLIBLI" name="Assign User to Contract Dona BliBli" time="13.535217">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "Dona B2B"....................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contract Dispatcher for DONA BLIBLI" name="Check Mistake Matrix Dona BliBli" time="32.7801">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "DONA_BLIBLI".............passed
+And Click button "Claim"....................................................passed
+And Verify Tab Mistake Matrix Base on Type Contract.........................passed
+And Varify the mistake detail already match with the matrix Base on Type Contract.passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+Given Connect to Database...................................................passed
+And Check Contract Number in Contract_Dispatcher_Claim "SELECT * FROM CONTRACT_DISPATCHER_CLAIM WHERE CONTRACT_NUMBER='336' and CLAIM_DATE_END IS NULL".passed
+And Check Contract Number Process in Contract_Dispatcher_Source "SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TEXT_CONTRACT_NUMBER='336'".passed
+]]></system-out>
+</testcase>
+</testsuite>

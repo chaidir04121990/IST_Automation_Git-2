@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Send_Email_Handling" time="40.84" tests="1" failures="0" errors="0">
+   <testsuite name="Send_Email_Handling" tests="1" failures="0" errors="0" time="40.84" timestamp="2020-09-01 00:46:08" hostname="chaidir.pratama01 - localhost" id="Test Suites/TRIS/Send_Email_Handling">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_004601/TRIS/Send_Email_Handling/20200901_004601"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_004601/TRIS/Send_Email_Handling/20200901_004601/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="ad14a7e8e1511f7301113b218e20e924"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/TRIS/Send_Email_Handling" time="37.357" classname="Test Cases/IST_Real/TRIS/Send_Email_Handling" status="PASSED">
+         <system-out><![CDATA[2020-09-01 00:46:08 - [TEST_CASE][PASSED] - Test Cases/IST_Real/TRIS/Send_Email_Handling: Test Cases/IST_Real/TRIS/Send_Email_Handling
+
+2020-09-01 00:46:08 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/TRIS/Send_Email_Handling.feature"): Feature file: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' was passed
+
+2020-09-01 00:46:09 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_004601/TRIS/Send_Email_Handling/20200901_004601/cucumber_report/1598895968952'...
+
+2020-09-01 00:46:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling: SCENARIO Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling
+
+2020-09-01 00:46:09 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-01 00:46:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-01 00:46:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-01 00:46:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-01 00:46:16 - [MESSAGE][PASSED] - Navigate to 'https://ist.homecredit.id/ist_tracker/login.zul' successfully
+
+2020-09-01 00:46:16 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-01 00:46:16 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-01 00:46:35 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-01 00:46:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-01 00:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-01 00:46:37 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-01 00:46:37 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-01 00:46:37 - [MESSAGE][INFO] - Login Success
+
+2020-09-01 00:46:37 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-01 00:46:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-01 00:46:38 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-01 00:46:38 - [TEST_STEP][PASSED] - Select Arrow Menu "Invoice System": Select Arrow Menu "Invoice System"
+
+2020-09-01 00:46:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:46:38 - [MESSAGE][PASSED] - Select Arrow Menu "Invoice System"
+
+2020-09-01 00:46:38 - [TEST_STEP][PASSED] - Select Menu "Email Handling": Select Menu "Email Handling"
+
+2020-09-01 00:46:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-01 00:46:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:46:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-01 00:46:39 - [MESSAGE][PASSED] - Select Menu "Email Handling"
+
+2020-09-01 00:46:39 - [TEST_STEP][PASSED] - Select Email handling "Email tidak terdaftar": Select Email handling "Email tidak terdaftar"
+
+2020-09-01 00:46:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-01 00:46:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:46:40 - [MESSAGE][PASSED] - Select Email handling "Email tidak terdaftar"
+
+2020-09-01 00:46:40 - [TEST_STEP][PASSED] - Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id": Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id"
+
+2020-09-01 00:46:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-01 00:46:41 - [MESSAGE][PASSED] - Text 'chaidir.pratama01@homecredit.co.id' is set on object ''
+
+2020-09-01 00:46:41 - [MESSAGE][PASSED] - Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id"
+
+2020-09-01 00:46:41 - [TEST_STEP][PASSED] - Click button "Generate Email": Click button "Generate Email"
+
+2020-09-01 00:46:41 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Generate Email')]
+
+2020-09-01 00:46:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:46:44 - [MESSAGE][PASSED] - Click button "Generate Email"
+
+2020-09-01 00:46:44 - [TEST_STEP][PASSED] - Verify Email Handling: Verify Email Handling
+
+2020-09-01 00:46:45 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //div[@class='z-messagebox-icon z-messagebox-error z-div']' is not present after '10' second(s)
+
+2020-09-01 00:46:45 - [MESSAGE][PASSED] - Verify Email Handling
+
+2020-09-01 00:46:45 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-01 00:46:46 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-01 00:46:46 - [MESSAGE][PASSED] - Close browser
+
+2020-09-01 00:46:46 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-01 00:46:08 - [TEST_SUITE][PASSED] - Send_Email_Handling: Test Cases/IST_Real/TRIS/Send_Email_Handling]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

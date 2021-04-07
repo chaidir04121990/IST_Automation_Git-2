@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.280284">
+<testcase classname="Send Email Handling" name="Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling" time="12.280284">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Email Handling"............................................passed
+And Select Email handling "Email tidak terdaftar"...........................passed
+And Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir04121990@yahoo.co.id".passed
+And Click button "Generate Email"...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

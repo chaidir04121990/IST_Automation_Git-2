@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="92.318397">
+<testcase classname="TRIS Correction" name="Correction Check and Correction Remark" time="47.413068">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-7".passed
+And Check Invoice Format is "Cetak".........................................passed
+And Do Correction Check and Correction Remark...............................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Checking Result in Invoice Summary........................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS Correction" name="Repeated Mistake Check" time="44.905329">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-7".passed
+And Check Invoice Format is "Cetak".........................................passed
+And Do Repeated Mistake Check...............................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Checking Result in Invoice Summary........................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

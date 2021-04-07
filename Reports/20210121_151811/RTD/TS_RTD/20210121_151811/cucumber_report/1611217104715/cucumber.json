@@ -1,0 +1,70 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Check Contract from RTD_CONTRACT where STATUS is MANUAL DISBURSMENT",
+        "description": "",
+        "id": "title-of-your-feature;check-contract-from-rtd-contract-where-status-is-manual-disbursment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 115319493,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to Database RTD",
+            "match": {
+              "location": "RTD.Connect_to_DB_RTD()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 151816429,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Select Contract from Table in DB with Query \"SELECT * FROM RTD_CONTRACT WHERE STATUS\u003d10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SELECT * FROM RTD_CONTRACT WHERE STATUS\u003d10",
+                  "offset": 45
+                }
+              ],
+              "location": "RTD.Query_to_Table(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Check_MPF_Manual_DIsbursment.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

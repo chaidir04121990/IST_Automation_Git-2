@@ -1,0 +1,64 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Check Contract MPF Eligible to Disburse",
+        "description": "",
+        "id": "title-of-your-feature;check-contract-mpf-eligible-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 195506516,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to Database RTD",
+            "match": {
+              "location": "RTD.Connect_to_DB_RTD()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71217532,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Select Contract MPF that Eligible to Disburse",
+            "match": {
+              "location": "RTD.Eligible_MPF_to_Disburse()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Check_MPF_Eligible_to_Disburse.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

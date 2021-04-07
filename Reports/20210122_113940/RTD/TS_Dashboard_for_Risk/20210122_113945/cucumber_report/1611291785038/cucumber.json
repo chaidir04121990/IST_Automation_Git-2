@@ -1,0 +1,168 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Search by Contract Number and it found on Dashboard",
+        "description": "",
+        "id": "search-contract-number-for-dashboard-for-risk;search-by-contract-number-and-it-found-on-dashboard",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1213053697,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 733882754,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149360708,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63854170,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556883922,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250601182,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input Contract RTD in Contract Number label",
+            "match": {
+              "location": "RTD.Input_Contract_ID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3078282496,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 702800834,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Search Contract Number for Dashboard for Risk",
+    "description": "  I want to use this template for my feature file",
+    "id": "search-contract-number-for-dashboard-for-risk",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_Contract_Number_Dashboard_for_Risk.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

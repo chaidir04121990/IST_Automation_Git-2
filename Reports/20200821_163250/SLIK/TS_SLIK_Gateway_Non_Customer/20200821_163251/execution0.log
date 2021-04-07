@@ -1,0 +1,2485 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443657</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/SLIK/TS_SLIK_Gateway_Non_Customer</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_SLIK_Gateway_Non_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/SLIK/TS_SLIK_Gateway_Non_Customer</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443671</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = chaidir.pratama01 - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">chaidir.pratama01 - localhost</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443672</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443674</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443675</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.0.${buildNumber}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.6.0.${buildNumber}</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:03</date>
+  <millis>1598002443835</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete_KTPNumber_From_DB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete_KTPNumber_From_DB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete_KTPNumber_From_DB</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Non_Customer\\Delete_KTPNumber_From_DB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:04</date>
+  <millis>1598002444042</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:04</date>
+  <millis>1598002444066</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200821_163250/SLIK/TS_SLIK_Gateway_Non_Customer/20200821_163251/cucumber_report/1598002444062&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:04</date>
+  <millis>1598002444499</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Delete_KTPNumber_From_DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:04</date>
+  <millis>1598002444500</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:05</date>
+  <millis>1598002445945</millis>
+  <sequence>11</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:05</date>
+  <millis>1598002445945</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:05</date>
+  <millis>1598002445946</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Delete Contract From SLIK_DATA_NonCUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446173</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delete Contract From SLIK_DATA_NonCUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446173</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Delete Contract From SLIK_DATA_NonCUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446175</millis>
+  <sequence>16</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Delete_KTPNumber_From_DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446176</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Delete_KTPNumber_From_DB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446214</millis>
+  <sequence>18</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446214</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446214</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete_KTPNumber_From_DB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446215</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete_KTPNumber_From_DB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446218</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Non_Customer\\SLIK Gateway Non Customer Checking.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446328</millis>
+  <sequence>24</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446329</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200821_163250/SLIK/TS_SLIK_Gateway_Non_Customer/20200821_163251/cucumber_report/1598002446329&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446437</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446438</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446701</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:06</date>
+  <millis>1598002446719</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447856</millis>
+  <sequence>33</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 5313ef6c1a0ebbafda3d6804fe535411</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">5313ef6c1a0ebbafda3d6804fe535411</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447874</millis>
+  <sequence>34</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 84.0.4147.135</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 84.0.4147.135</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447875</millis>
+  <sequence>35</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447877</millis>
+  <sequence>36</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447878</millis>
+  <sequence>37</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-08-21T16:34:07</date>
+  <millis>1598002447886</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:08</date>
+  <millis>1598002448792</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://dev-istools.homecredit.id/foundation/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:08</date>
+  <millis>1598002448793</millis>
+  <sequence>42</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:08</date>
+  <millis>1598002448793</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:08</date>
+  <millis>1598002448794</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:09</date>
+  <millis>1598002449610</millis>
+  <sequence>60</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;mobile.test&amp;apos; is set on object &amp;apos;Object Repository/Page_/input_Username_j_username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:09</date>
+  <millis>1598002449966</millis>
+  <sequence>71</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_/input_Password_j_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:10</date>
+  <millis>1598002450865</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_/button_Login&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:10</date>
+  <millis>1598002450865</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:10</date>
+  <millis>1598002450866</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:10</date>
+  <millis>1598002450866</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:10</date>
+  <millis>1598002450878</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451046</millis>
+  <sequence>86</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451413</millis>
+  <sequence>94</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_/h1_Welcome to IT Supporting Tools&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451414</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451414</millis>
+  <sequence>96</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451415</millis>
+  <sequence>97</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Menu SLIK Gateway NonCustomer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:11</date>
+  <millis>1598002451762</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:12</date>
+  <millis>1598002452130</millis>
+  <sequence>112</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:12</date>
+  <millis>1598002452186</millis>
+  <sequence>114</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:12</date>
+  <millis>1598002452187</millis>
+  <sequence>115</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Menu SLIK Gateway NonCustomer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:12</date>
+  <millis>1598002452187</millis>
+  <sequence>116</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Menu SLIK Gateway NonCustomer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:12</date>
+  <millis>1598002452187</millis>
+  <sequence>117</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:13</date>
+  <millis>1598002453512</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;8888888888888888&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:13</date>
+  <millis>1598002453513</millis>
+  <sequence>133</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:13</date>
+  <millis>1598002453513</millis>
+  <sequence>134</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:13</date>
+  <millis>1598002453514</millis>
+  <sequence>135</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454155</millis>
+  <sequence>150</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;OPEX TestingAuto&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454156</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454156</millis>
+  <sequence>152</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454156</millis>
+  <sequence>153</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454691</millis>
+  <sequence>168</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;20-02-1990&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454691</millis>
+  <sequence>169</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454691</millis>
+  <sequence>170</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:14</date>
+  <millis>1598002454692</millis>
+  <sequence>171</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:15</date>
+  <millis>1598002455072</millis>
+  <sequence>179</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:15</date>
+  <millis>1598002455073</millis>
+  <sequence>180</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:15</date>
+  <millis>1598002455073</millis>
+  <sequence>181</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:15</date>
+  <millis>1598002455074</millis>
+  <sequence>182</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456315</millis>
+  <sequence>194</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;Penilaian Calon Kemitraan&amp;apos; are selected in object &amp;apos;&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456315</millis>
+  <sequence>195</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456316</millis>
+  <sequence>196</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456317</millis>
+  <sequence>197</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456950</millis>
+  <sequence>212</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Jakarta&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456950</millis>
+  <sequence>213</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456950</millis>
+  <sequence>214</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:16</date>
+  <millis>1598002456951</millis>
+  <sequence>215</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:17</date>
+  <millis>1598002457584</millis>
+  <sequence>230</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tester Auto&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:17</date>
+  <millis>1598002457585</millis>
+  <sequence>231</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:17</date>
+  <millis>1598002457585</millis>
+  <sequence>232</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:17</date>
+  <millis>1598002457585</millis>
+  <sequence>233</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:18</date>
+  <millis>1598002458234</millis>
+  <sequence>248</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;TESTING AUTO JAKARTA&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:18</date>
+  <millis>1598002458234</millis>
+  <sequence>249</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:18</date>
+  <millis>1598002458234</millis>
+  <sequence>250</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:18</date>
+  <millis>1598002458235</millis>
+  <sequence>251</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Upload\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:18</date>
+  <millis>1598002458246</millis>
+  <sequence>252</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Upload&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:21</date>
+  <millis>1598002461625</millis>
+  <sequence>260</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:21</date>
+  <millis>1598002461626</millis>
+  <sequence>261</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Upload\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:21</date>
+  <millis>1598002461626</millis>
+  <sequence>262</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Upload\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:21</date>
+  <millis>1598002461627</millis>
+  <sequence>263</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Upload file \&amp;quot;new_captcha1500.png\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:23</date>
+  <millis>1598002463042</millis>
+  <sequence>266</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Switched to window with index: &amp;apos;0&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:34</date>
+  <millis>1598002474097</millis>
+  <sequence>267</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Upload file \&amp;quot;new_captcha1500.png\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:34</date>
+  <millis>1598002474097</millis>
+  <sequence>268</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Upload file \&amp;quot;new_captcha1500.png\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:34</date>
+  <millis>1598002474098</millis>
+  <sequence>269</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:34</date>
+  <millis>1598002474099</millis>
+  <sequence>270</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Check SLIK&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:37</date>
+  <millis>1598002477479</millis>
+  <sequence>278</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:37</date>
+  <millis>1598002477480</millis>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:37</date>
+  <millis>1598002477480</millis>
+  <sequence>280</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:37</date>
+  <millis>1598002477481</millis>
+  <sequence>281</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478123</millis>
+  <sequence>288</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478134</millis>
+  <sequence>290</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478145</millis>
+  <sequence>292</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478145</millis>
+  <sequence>293</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478145</millis>
+  <sequence>294</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478146</millis>
+  <sequence>295</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:38</date>
+  <millis>1598002478147</millis>
+  <sequence>296</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Yes&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:41</date>
+  <millis>1598002481520</millis>
+  <sequence>304</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:41</date>
+  <millis>1598002481521</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:41</date>
+  <millis>1598002481521</millis>
+  <sequence>306</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:34:41</date>
+  <millis>1598002481521</millis>
+  <sequence>307</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:13</date>
+  <millis>1598002513326</millis>
+  <sequence>314</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:13</date>
+  <millis>1598002513327</millis>
+  <sequence>315</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:13</date>
+  <millis>1598002513327</millis>
+  <sequence>316</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:13</date>
+  <millis>1598002513327</millis>
+  <sequence>317</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:13</date>
+  <millis>1598002513329</millis>
+  <sequence>318</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;OK&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:16</date>
+  <millis>1598002516701</millis>
+  <sequence>326</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:16</date>
+  <millis>1598002516702</millis>
+  <sequence>327</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:16</date>
+  <millis>1598002516702</millis>
+  <sequence>328</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:16</date>
+  <millis>1598002516702</millis>
+  <sequence>329</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:16</date>
+  <millis>1598002516704</millis>
+  <sequence>330</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Logout&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520120</millis>
+  <sequence>338</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520120</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520120</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520121</millis>
+  <sequence>341</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520218</millis>
+  <sequence>343</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520219</millis>
+  <sequence>344</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520219</millis>
+  <sequence>345</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520219</millis>
+  <sequence>346</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520220</millis>
+  <sequence>347</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520227</millis>
+  <sequence>348</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520227</millis>
+  <sequence>349</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520228</millis>
+  <sequence>350</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520228</millis>
+  <sequence>351</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520231</millis>
+  <sequence>352</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Non_Customer\\SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520336</millis>
+  <sequence>354</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520336</millis>
+  <sequence>355</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200821_163250/SLIK/TS_SLIK_Gateway_Non_Customer/20200821_163251/cucumber_report/1598002520336&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520430</millis>
+  <sequence>356</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520430</millis>
+  <sequence>357</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520634</millis>
+  <sequence>358</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520635</millis>
+  <sequence>359</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520635</millis>
+  <sequence>360</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Check KTP Number Non Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520861</millis>
+  <sequence>361</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check KTP Number Non Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520861</millis>
+  <sequence>362</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Check KTP Number Non Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520861</millis>
+  <sequence>363</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520861</millis>
+  <sequence>364</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520868</millis>
+  <sequence>365</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520868</millis>
+  <sequence>366</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520868</millis>
+  <sequence>367</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520869</millis>
+  <sequence>368</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520872</millis>
+  <sequence>369</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Non_Customer\\SLIK Gateway Non Customer Search.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520957</millis>
+  <sequence>371</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:20</date>
+  <millis>1598002520958</millis>
+  <sequence>372</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200821_163250/SLIK/TS_SLIK_Gateway_Non_Customer/20200821_163251/cucumber_report/1598002520958&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521037</millis>
+  <sequence>373</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SLIK Gateway Non Customer Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521038</millis>
+  <sequence>374</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521041</millis>
+  <sequence>376</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521043</millis>
+  <sequence>378</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521953</millis>
+  <sequence>380</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = 91c997ea72bdcb74b220acf383ea1046</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">91c997ea72bdcb74b220acf383ea1046</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521965</millis>
+  <sequence>381</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 84.0.4147.135</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 84.0.4147.135</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521965</millis>
+  <sequence>382</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521965</millis>
+  <sequence>383</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521966</millis>
+  <sequence>384</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-08-21T16:35:21</date>
+  <millis>1598002521973</millis>
+  <sequence>385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:22</date>
+  <millis>1598002522711</millis>
+  <sequence>388</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://dev-istools.homecredit.id/foundation/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:22</date>
+  <millis>1598002522711</millis>
+  <sequence>389</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:22</date>
+  <millis>1598002522712</millis>
+  <sequence>390</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:22</date>
+  <millis>1598002522712</millis>
+  <sequence>391</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:23</date>
+  <millis>1598002523519</millis>
+  <sequence>407</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;mobile.test&amp;apos; is set on object &amp;apos;Object Repository/Page_/input_Username_j_username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:23</date>
+  <millis>1598002523948</millis>
+  <sequence>418</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_/input_Password_j_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524618</millis>
+  <sequence>427</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_/button_Login&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524619</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524619</millis>
+  <sequence>429</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524619</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524620</millis>
+  <sequence>431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:24</date>
+  <millis>1598002524784</millis>
+  <sequence>433</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525044</millis>
+  <sequence>441</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_/h1_Welcome to IT Supporting Tools&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525045</millis>
+  <sequence>442</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525045</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525045</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525380</millis>
+  <sequence>451</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525644</millis>
+  <sequence>459</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525655</millis>
+  <sequence>461</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525655</millis>
+  <sequence>462</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525655</millis>
+  <sequence>463</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:25</date>
+  <millis>1598002525655</millis>
+  <sequence>464</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:26</date>
+  <millis>1598002526252</millis>
+  <sequence>473</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:27</date>
+  <millis>1598002527003</millis>
+  <sequence>488</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;9999999999999999&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:27</date>
+  <millis>1598002527004</millis>
+  <sequence>489</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:27</date>
+  <millis>1598002527004</millis>
+  <sequence>490</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:27</date>
+  <millis>1598002527004</millis>
+  <sequence>491</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:27</date>
+  <millis>1598002527005</millis>
+  <sequence>492</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Search&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:30</date>
+  <millis>1598002530484</millis>
+  <sequence>500</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:30</date>
+  <millis>1598002530484</millis>
+  <sequence>501</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:30</date>
+  <millis>1598002530484</millis>
+  <sequence>502</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:30</date>
+  <millis>1598002530485</millis>
+  <sequence>503</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531130</millis>
+  <sequence>510</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531130</millis>
+  <sequence>511</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531130</millis>
+  <sequence>512</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531130</millis>
+  <sequence>513</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531472</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531704</millis>
+  <sequence>529</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531705</millis>
+  <sequence>530</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531705</millis>
+  <sequence>531</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531706</millis>
+  <sequence>532</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:31</date>
+  <millis>1598002531707</millis>
+  <sequence>533</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Logout&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535209</millis>
+  <sequence>541</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535210</millis>
+  <sequence>542</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535210</millis>
+  <sequence>543</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535210</millis>
+  <sequence>544</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535305</millis>
+  <sequence>546</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535305</millis>
+  <sequence>547</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535305</millis>
+  <sequence>548</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535306</millis>
+  <sequence>549</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SLIK Gateway Non Customer Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535306</millis>
+  <sequence>550</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SLIK Gateway Non Customer Search Result</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535311</millis>
+  <sequence>551</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535311</millis>
+  <sequence>552</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535311</millis>
+  <sequence>553</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535311</millis>
+  <sequence>554</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-21T16:35:35</date>
+  <millis>1598002535338</millis>
+  <sequence>555</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/SLIK/TS_SLIK_Gateway_Non_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

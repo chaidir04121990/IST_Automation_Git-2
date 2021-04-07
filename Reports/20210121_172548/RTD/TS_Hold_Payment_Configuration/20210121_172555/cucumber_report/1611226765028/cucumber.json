@@ -1,0 +1,491 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Start Date is Null",
+        "description": "",
+        "id": "hold-payment-configuration-date-is-null;start-date-is-null",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1037258500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589774108,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155480638,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70046091,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 567411149,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Hold Payment Configuration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hold Payment Configuration",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3058007674,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Input \"Start Date Hold Payment\" with value \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Start Date Hold Payment",
+                  "offset": 7
+                },
+                {
+                  "val": "",
+                  "offset": 44
+                }
+              ],
+              "location": "RTD.Input_(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3071834850,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Input \"Release Date\" with value \"30-01-2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Release Date",
+                  "offset": 7
+                },
+                {
+                  "val": "30-01-2021",
+                  "offset": 33
+                }
+              ],
+              "location": "RTD.Input_(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3091383651,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click button \"Add\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624587483,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Start date \u0026 end date cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Start date \u0026 end date cannot be empty",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3088219040,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3220633903,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78637264,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "End Date is Null",
+        "description": "",
+        "id": "hold-payment-configuration-date-is-null;end-date-is-null",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1057603177,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 598696115,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182273602,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98317894,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579306958,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Select Menu \"Hold Payment Configuration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hold Payment Configuration",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067481534,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Input \"Start Date Hold Payment\" with value \"25-01-2021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Start Date Hold Payment",
+                  "offset": 7
+                },
+                {
+                  "val": "25-01-2021",
+                  "offset": 44
+                }
+              ],
+              "location": "RTD.Input_(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3059168713,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Input \"Release Date\" with value \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Release Date",
+                  "offset": 7
+                },
+                {
+                  "val": "",
+                  "offset": 33
+                }
+              ],
+              "location": "RTD.Input_(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086587506,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click button \"Add\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566977802,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Start date \u0026 end date cannot be empty\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Start date \u0026 end date cannot be empty",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3079469847,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3183331695,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76488470,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Hold Payment Configuration Date is Null",
+    "description": "  I want to use this template for my feature file",
+    "id": "hold-payment-configuration-date-is-null",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Hold Payment Configuration/Date_is_NULL.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Track_Invoice_System_Correction" time="75.127" tests="1" failures="0" errors="0">
+   <testsuite name="Track_Invoice_System_Correction" tests="1" failures="0" errors="0" time="75.127" timestamp="2020-04-01 22:15:37" hostname="Ramsey.LoloYanto - ID-L3891.hcg.homecredit.net" id="Test Suites/TRIS/DEV/Track_Invoice_System_Correction">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532"/>
+         <property name="logFiles" value="C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754156161.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754156746.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754157308.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754157877.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754158445.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754159011.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754195806.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754196370.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754196934.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754197520.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754198077.png, C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754198637.png"/>
+         <property name="hostName" value="Ramsey.LoloYanto - ID-L3891.hcg.homecredit.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Firefox 74.0"/>
+         <property name="hostAddress" value="192.168.43.212"/>
+         <property name="sessionId" value="7f4370cd-cbcd-4d3b-af6a-f5dd003ade10"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/TRIS/DEV/Track_Invoice_System_Correction" time="70.012" classname="Test Cases/IST_Real/TRIS/DEV/Track_Invoice_System_Correction" status="PASSED">
+         <system-out><![CDATA[2020-04-01 22:15:37 - [TEST_CASE][PASSED] - Test Cases/IST_Real/TRIS/DEV/Track_Invoice_System_Correction: Test Cases/IST_Real/TRIS/DEV/Track_Invoice_System_Correction
+
+2020-04-01 22:15:38 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/TRIS/DEV/Track_Invoice_System_Correction.feature"): Feature file: 'Include/features/IST_Real/TRIS/DEV/Track_Invoice_System_Correction.feature' was passed
+
+2020-04-01 22:15:38 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/TRIS/DEV/Track_Invoice_System_Correction.feature' and extract report to folder: 'C:\Users\ramsey.loloyanto\Documents\ist-Katalon\Reports\20200401_221532\TRIS\DEV\Track_Invoice_System_Correction\20200401_221532/cucumber_report/1585754138047'...
+
+2020-04-01 22:15:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Correction Check and Correction Remark: SCENARIO Correction Check and Correction Remark
+
+2020-04-01 22:15:38 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-04-01 22:15:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-01 22:15:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-01 22:15:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-01 22:15:44 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01.id.nonprod/foundation/' successfully
+
+2020-04-01 22:15:44 - [MESSAGE][PASSED] - Go to IST
+
+2020-04-01 22:15:44 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-04-01 22:15:45 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-04-01 22:15:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-04-01 22:15:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-04-01 22:15:46 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-04-01 22:15:46 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-04-01 22:15:46 - [MESSAGE][INFO] - Login Success
+
+2020-04-01 22:15:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-04-01 22:15:47 - [TEST_STEP][PASSED] - Check User Login for Update: Check User Login for Update
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Text of object '' is: 'Sign in as mobile.test'
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Check User Login for Update
+
+2020-04-01 22:15:47 - [TEST_STEP][PASSED] - Select Arrow Menu "Invoice System": Select Arrow Menu "Invoice System"
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:15:47 - [MESSAGE][PASSED] - Select Arrow Menu "Invoice System"
+
+2020-04-01 22:15:47 - [TEST_STEP][PASSED] - Select Menu "Tracker Invoice System": Select Menu "Tracker Invoice System"
+
+2020-04-01 22:15:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:15:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:15:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-01 22:15:48 - [MESSAGE][PASSED] - Select Menu "Tracker Invoice System"
+
+2020-04-01 22:15:48 - [TEST_STEP][PASSED] - Type on Textbox label "contract number of email address" with value "9999999999": Type on Textbox label "contract number of email address" with value "9999999999"
+
+2020-04-01 22:15:49 - [MESSAGE][PASSED] - Text '9999999999' is set on object ''
+
+2020-04-01 22:15:49 - [MESSAGE][PASSED] - Type on Textbox label "contract number of email address" with value "9999999999"
+
+2020-04-01 22:15:49 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-04-01 22:15:49 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-04-01 22:15:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:15:52 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-04-01 22:15:52 - [TEST_STEP][PASSED] - Verify Table Filled: Verify Table Filled
+
+2020-04-01 22:15:53 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:15:53 - [MESSAGE][PASSED] - Verify Table Filled
+
+2020-04-01 22:15:53 - [TEST_STEP][PASSED] - Right Click Invoice Want to Update based on sub contract number "9999999999-7": Right Click Invoice Want to Update based on sub contract number "9999999999-7"
+
+2020-04-01 22:15:53 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-04-01 22:15:53 - [MESSAGE][PASSED] - Object: '' is right clicked on
+
+2020-04-01 22:15:53 - [MESSAGE][PASSED] - Right Click Invoice Want to Update based on sub contract number "9999999999-7"
+
+2020-04-01 22:15:53 - [TEST_STEP][PASSED] - Check Invoice Format is "Cetak": Check Invoice Format is "Cetak"
+
+2020-04-01 22:15:55 - [MESSAGE][PASSED] - All options with value 'Cetak' are selected in object ''  using regular expression
+
+2020-04-01 22:15:55 - [MESSAGE][PASSED] - Check Invoice Format is "Cetak"
+
+2020-04-01 22:15:55 - [TEST_STEP][PASSED] - Do Correction Check and Correction Remark: Do Correction Check and Correction Remark
+
+2020-04-01 22:15:55 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:56 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754156161.png]]
+
+2020-04-01 22:15:56 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:56 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754156746.png]]
+
+2020-04-01 22:15:57 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:57 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754157308.png]]
+
+2020-04-01 22:15:57 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:57 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754157877.png]]
+
+2020-04-01 22:15:58 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:58 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754158445.png]]
+
+2020-04-01 22:15:58 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:15:59 - [MESSAGE][WARNING] - Object '' is checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.doCall(VerifyElementNotCheckedKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword$_verifyElementNotChecked_closure1.call(VerifyElementNotCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.verifyElementNotChecked(VerifyElementNotCheckedKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotCheckedKeyword.execute(VerifyElementNotCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotChecked(WebUiBuiltInKeywords.groovy:1411)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementNotChecked$13.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.correctionCheck(Contract_Dispatcher.groovy:1931)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754159011.png]]
+
+2020-04-01 22:15:59 - [MESSAGE][PASSED] - Do Correction Check and Correction Remark
+
+2020-04-01 22:15:59 - [TEST_STEP][PASSED] - Check Corrected Result: Check Corrected Result
+
+2020-04-01 22:16:00 - [MESSAGE][PASSED] - All options with value 'Cetak' are selected in object ''  using regular expression
+
+2020-04-01 22:16:00 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:00 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:00 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:01 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:01 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:01 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:01 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:01 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:02 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:02 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:02 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:02 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:02 - [MESSAGE][PASSED] - Check Corrected Result
+
+2020-04-01 22:16:02 - [TEST_STEP][PASSED] - Click button "Save Invoice": Click button "Save Invoice"
+
+2020-04-01 22:16:02 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save Invoice')]
+
+2020-04-01 22:16:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:06 - [MESSAGE][PASSED] - Click button "Save Invoice"
+
+2020-04-01 22:16:06 - [TEST_STEP][PASSED] - Verify Update Checking Result in Invoice Summary: Verify Update Checking Result in Invoice Summary
+
+2020-04-01 22:16:07 - [MESSAGE][PASSED] - Text of object '' is: 'All Ok'
+
+2020-04-01 22:16:07 - [MESSAGE][PASSED] - Verify Update Checking Result in Invoice Summary
+
+2020-04-01 22:16:07 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-04-01 22:16:07 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-04-01 22:16:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:10 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-04-01 22:16:10 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-04-01 22:16:12 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-01 22:16:12 - [MESSAGE][PASSED] - Close browser
+
+2020-04-01 22:16:12 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Repeated Mistake Check: SCENARIO Repeated Mistake Check
+
+2020-04-01 22:16:12 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-04-01 22:16:12 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-04-01 22:16:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-01 22:16:16 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01.id.nonprod/foundation/' successfully
+
+2020-04-01 22:16:16 - [MESSAGE][PASSED] - Go to IST
+
+2020-04-01 22:16:16 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-04-01 22:16:16 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-04-01 22:16:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-04-01 22:16:18 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-04-01 22:16:18 - [MESSAGE][INFO] - Login Success
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-04-01 22:16:18 - [TEST_STEP][PASSED] - Check User Login for Update: Check User Login for Update
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Text of object '' is: 'Sign in as mobile.test'
+
+2020-04-01 22:16:18 - [MESSAGE][PASSED] - Check User Login for Update
+
+2020-04-01 22:16:18 - [TEST_STEP][PASSED] - Select Arrow Menu "Invoice System": Select Arrow Menu "Invoice System"
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Select Arrow Menu "Invoice System"
+
+2020-04-01 22:16:19 - [TEST_STEP][PASSED] - Select Menu "Tracker Invoice System": Select Menu "Tracker Invoice System"
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-04-01 22:16:19 - [MESSAGE][PASSED] - Select Menu "Tracker Invoice System"
+
+2020-04-01 22:16:19 - [TEST_STEP][PASSED] - Type on Textbox label "contract number of email address" with value "9999999999": Type on Textbox label "contract number of email address" with value "9999999999"
+
+2020-04-01 22:16:20 - [MESSAGE][PASSED] - Text '9999999999' is set on object ''
+
+2020-04-01 22:16:20 - [MESSAGE][PASSED] - Type on Textbox label "contract number of email address" with value "9999999999"
+
+2020-04-01 22:16:20 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-04-01 22:16:20 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-04-01 22:16:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:24 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-04-01 22:16:24 - [TEST_STEP][PASSED] - Verify Table Filled: Verify Table Filled
+
+2020-04-01 22:16:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:25 - [MESSAGE][PASSED] - Verify Table Filled
+
+2020-04-01 22:16:25 - [TEST_STEP][PASSED] - Right Click Invoice Want to Update based on sub contract number "9999999999-7": Right Click Invoice Want to Update based on sub contract number "9999999999-7"
+
+2020-04-01 22:16:25 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-04-01 22:16:25 - [MESSAGE][PASSED] - Object: '' is right clicked on
+
+2020-04-01 22:16:25 - [MESSAGE][PASSED] - Right Click Invoice Want to Update based on sub contract number "9999999999-7"
+
+2020-04-01 22:16:25 - [TEST_STEP][PASSED] - Check Invoice Format is "Cetak": Check Invoice Format is "Cetak"
+
+2020-04-01 22:16:27 - [MESSAGE][PASSED] - All options with value 'Cetak' are selected in object ''  using regular expression
+
+2020-04-01 22:16:27 - [MESSAGE][PASSED] - Check Invoice Format is "Cetak"
+
+2020-04-01 22:16:27 - [TEST_STEP][PASSED] - Do Repeated Mistake Check: Do Repeated Mistake Check
+
+2020-04-01 22:16:27 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:29 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:29 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:30 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:30 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:31 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:31 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:32 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:33 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:33 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-04-01 22:16:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:34 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-04-01 22:16:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-04-01 22:16:34 - [MESSAGE][PASSED] - Do Repeated Mistake Check
+
+2020-04-01 22:16:34 - [TEST_STEP][PASSED] - Check Corrected Result: Check Corrected Result
+
+2020-04-01 22:16:35 - [MESSAGE][PASSED] - All options with value 'Cetak' are selected in object ''  using regular expression
+
+2020-04-01 22:16:35 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:35 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754195806.png]]
+
+2020-04-01 22:16:36 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:36 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754196370.png]]
+
+2020-04-01 22:16:36 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:37 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754196934.png]]
+
+2020-04-01 22:16:37 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:37 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754197520.png]]
+
+2020-04-01 22:16:37 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:38 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754198077.png]]
+
+2020-04-01 22:16:38 - [MESSAGE][PASSED] - Attribute 'disabled' of object '' is: 'null'
+
+2020-04-01 22:16:38 - [MESSAGE][WARNING] - Object '' is not checked (Root cause: com.kms.katalon.core.exception.StepFailedException: Object '' is not checked
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.doCall(VerifyElementCheckedKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword$_verifyElementChecked_closure1.call(VerifyElementCheckedKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.verifyElementChecked(VerifyElementCheckedKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementCheckedKeyword.execute(VerifyElementCheckedKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementChecked(WebUiBuiltInKeywords.groovy:1378)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementChecked$14.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.TestingTestingCode(Contract_Dispatcher.groovy:1711)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Track_Invoice_System_Correction.run(Track_Invoice_System_Correction:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585754132215.run(TempTestSuite1585754132215.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\ramsey.loloyanto\\Documents\\ist-Katalon\\Reports\\20200401_221532\\TRIS\\DEV\\Track_Invoice_System_Correction\\20200401_221532\\1585754198637.png]]
+
+2020-04-01 22:16:38 - [MESSAGE][PASSED] - Check Corrected Result
+
+2020-04-01 22:16:38 - [TEST_STEP][PASSED] - Click button "Save Invoice": Click button "Save Invoice"
+
+2020-04-01 22:16:38 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save Invoice')]
+
+2020-04-01 22:16:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:42 - [MESSAGE][PASSED] - Click button "Save Invoice"
+
+2020-04-01 22:16:42 - [TEST_STEP][PASSED] - Verify Update Checking Result in Invoice Summary: Verify Update Checking Result in Invoice Summary
+
+2020-04-01 22:16:43 - [MESSAGE][PASSED] - Text of object '' is: 'Mistake'
+
+2020-04-01 22:16:43 - [MESSAGE][PASSED] - Verify Update Checking Result in Invoice Summary
+
+2020-04-01 22:16:43 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-04-01 22:16:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-04-01 22:16:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-04-01 22:16:46 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-04-01 22:16:46 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-04-01 22:16:47 - [MESSAGE][PASSED] - Browser is closed
+
+2020-04-01 22:16:47 - [MESSAGE][PASSED] - Close browser
+
+2020-04-01 22:16:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/TRIS/DEV/Track_Invoice_System_Correction.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-01 22:15:37 - [TEST_SUITE][PASSED] - Track_Invoice_System_Correction: Test Cases/IST_Real/TRIS/DEV/Track_Invoice_System_Correction]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

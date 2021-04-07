@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DRC_ISTools" time="171.57" tests="5" failures="1" errors="0">
+   <testsuite name="DRC_ISTools" tests="5" failures="1" errors="0" time="171.57" timestamp="2020-12-18 01:21:22" hostname="chaidir.pratama01 - localhost" id="Test Suites/DRC/DRC_ISTools">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for BO In Payment.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Outgoing Payment Monitoring.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/1608229354380.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/1608229354940.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Batch New Employee.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Role Management.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Outgoing Payment Monitoring.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="a68fa1958f85f5072855bb6bbb98a58b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_Database" time="15.138" classname="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_Database" status="PASSED">
+         <system-out><![CDATA[2020-12-18 01:21:22 - [TEST_CASE][PASSED] - Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_Database: Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_Database
+
+2020-12-18 01:21:22 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/ISTools/Connection_to_Database.feature"): Feature file: 'Include/features/DRC/ISTools/Connection_to_Database.feature' was passed
+
+2020-12-18 01:21:22 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/ISTools/Connection_to_Database.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/cucumber_report/1608229282722'...
+
+2020-12-18 01:21:23 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by Contract Number and it found on Dashboard: SCENARIO Search by Contract Number and it found on Dashboard
+
+2020-12-18 01:21:23 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:21:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:21:23 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:21:23 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:21:23 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:21:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:21:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:21:27 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:21:27 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:21:27 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:21:28 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:21:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:21:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:21:29 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:21:29 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-12-18 01:21:29 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:21:29 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:21:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:21:30 - [MESSAGE][PASSED] - Login Success
+
+2020-12-18 01:21:30 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2020-12-18 01:21:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:21:30 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2020-12-18 01:21:30 - [TEST_STEP][PASSED] - Select Menu "Dashboard for BO In Payment": Select Menu "Dashboard for BO In Payment"
+
+2020-12-18 01:21:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for BO In Payment.png]]
+
+2020-12-18 01:21:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:21:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:21:32 - [MESSAGE][PASSED] - Select Menu "Dashboard for BO In Payment"
+
+2020-12-18 01:21:32 - [TEST_STEP][PASSED] - Input Contract RTD in Contract Number label: Input Contract RTD in Contract Number label
+
+2020-12-18 01:21:33 - [MESSAGE][PASSED] - Text '4003376577' is set on object ''
+
+2020-12-18 01:21:33 - [MESSAGE][PASSED] - Input Contract RTD in Contract Number label
+
+2020-12-18 01:21:33 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-12-18 01:21:33 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-12-18 01:21:36 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:21:36 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:21:36 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-12-18 01:21:36 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2020-12-18 01:21:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:37 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2020-12-18 01:21:37 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/ISTools/Connection_to_Database.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_LDAP" time="4.791" classname="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_LDAP" status="PASSED">
+         <system-out><![CDATA[2020-12-18 01:21:37 - [TEST_CASE][PASSED] - Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_LDAP: Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_LDAP
+
+2020-12-18 01:21:37 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/ISTools/Connection_to_LDAP.feature"): Feature file: 'Include/features/DRC/ISTools/Connection_to_LDAP.feature' was passed
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/ISTools/Connection_to_LDAP.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/cucumber_report/1608229297623'...
+
+2020-12-18 01:21:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login ISTools: SCENARIO Login ISTools
+
+2020-12-18 01:21:37 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:21:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:21:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:21:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:21:39 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:21:39 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:21:39 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:21:40 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:21:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:21:41 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:21:41 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2020-12-18 01:21:41 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:21:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:21:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:21:42 - [MESSAGE][PASSED] - Login Success
+
+2020-12-18 01:21:42 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/ISTools/Connection_to_LDAP.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/ISTools/DRC_ISTools_Send_Email" time="53.141" classname="Test Cases/DRC/ISTools/DRC_ISTools_Send_Email" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DRC/ISTools/DRC_ISTools_Send_Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+"/>
+         <system-out><![CDATA[2020-12-18 01:21:42 - [TEST_CASE][FAILED] - Test Cases/DRC/ISTools/DRC_ISTools_Send_Email: Test Cases/DRC/ISTools/DRC_ISTools_Send_Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+
+
+2020-12-18 01:21:42 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/DRC/ISTools/Send_Email.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+)
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/ISTools/Send_Email.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/cucumber_report/1608229302429'...
+
+2020-12-18 01:21:42 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Send Email by Hit Batch Outgoing Payment Monitoring Menu: SCENARIO Send Email by Hit Batch Outgoing Payment Monitoring Menu FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/ISTools/Send_Email.feature:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+
+
+2020-12-18 01:21:42 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:21:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:21:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:21:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:21:44 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:21:44 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:21:44 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:21:45 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:21:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:21:46 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:21:46 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-12-18 01:21:46 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:21:46 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:21:47 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-12-18 01:21:47 - [TEST_STEP][PASSED] - Select Menu "Outgoing Payment Monitoring": Select Menu "Outgoing Payment Monitoring"
+
+2020-12-18 01:21:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Outgoing Payment Monitoring.png]]
+
+2020-12-18 01:21:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:21:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:21:48 - [MESSAGE][PASSED] - Select Menu "Outgoing Payment Monitoring"
+
+2020-12-18 01:21:48 - [TEST_STEP][PASSED] - Input Account Number with value "1331603508": Input Account Number with value "1331603508"
+
+2020-12-18 01:21:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-18 01:21:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-18 01:21:53 - [MESSAGE][PASSED] - Text '1331603508' is set on object ''
+
+2020-12-18 01:21:53 - [MESSAGE][PASSED] - Input Account Number with value "1331603508"
+
+2020-12-18 01:21:53 - [TEST_STEP][PASSED] - Input Email on Dashboard with value "chaidir04121990@yahoo.co.id": Input Email on Dashboard with value "chaidir04121990@yahoo.co.id"
+
+2020-12-18 01:21:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-18 01:21:55 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:21:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-12-18 01:21:58 - [MESSAGE][PASSED] - Text 'chaidir04121990@yahoo.co.id' is set on object ''
+
+2020-12-18 01:21:58 - [MESSAGE][PASSED] - Input Email on Dashboard with value "chaidir04121990@yahoo.co.id"
+
+2020-12-18 01:21:58 - [TEST_STEP][PASSED] - Click button "Resend": Click button "Resend"
+
+2020-12-18 01:21:58 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Resend')]
+
+2020-12-18 01:22:01 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:22:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:22:02 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:22:02 - [MESSAGE][PASSED] - Click button "Resend"
+
+2020-12-18 01:22:02 - [TEST_STEP][FAILED] - Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait": Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait" FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/ISTools/Send_Email.feature:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+
+
+2020-12-18 01:22:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-12-18 01:22:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-12-18 01:22:34 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/1608229354380.png]]
+
+2020-12-18 01:22:35 - [MESSAGE][FAILED] - Unable to verify object '' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/1608229354940.png]]
+
+2020-12-18 01:22:35 - [MESSAGE][FAILED] - Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait" FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at ✽.Get text from pop up "IT Supporting Tools" with text "Notification is waiting to process, please wait"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/ISTools/Send_Email.feature:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"Notification is waiting to process, please wait")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.gettextconfirmationadd(Contract_Dispatcher.groovy:685)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+
+
+2020-12-18 01:22:35 - [TEST_STEP][NOT_RUN] - Click button "OK": Click button "OK"
+
+2020-12-18 01:22:35 - [MESSAGE][NOT_RUN] - Click button "OK"
+
+2020-12-18 01:22:35 - [MESSAGE][FAILED] - Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+
+2020-12-18 01:22:35 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-12-18 01:21:42 - [TEST_CASE][FAILED] - Test Cases/DRC/ISTools/DRC_ISTools_Send_Email: Test Cases/DRC/ISTools/DRC_ISTools_Send_Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_DataON_Sunfish_Server" time="23.016" classname="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_DataON_Sunfish_Server" status="PASSED">
+         <system-out><![CDATA[2020-12-18 01:22:35 - [TEST_CASE][PASSED] - Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_DataON_Sunfish_Server: Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_DataON_Sunfish_Server
+
+2020-12-18 01:22:35 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/ISTools/Connection_to_FTP_DataON_Sunfish_Server.feature"): Feature file: 'Include/features/DRC/ISTools/Connection_to_FTP_DataON_Sunfish_Server.feature' was passed
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/ISTools/Connection_to_FTP_DataON_Sunfish_Server.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/cucumber_report/1608229355563'...
+
+2020-12-18 01:22:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Connection to FTP DataON Sunfish Server by Hit Batch Scan HRIS: SCENARIO Connection to FTP DataON Sunfish Server by Hit Batch Scan HRIS
+
+2020-12-18 01:22:35 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:22:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:22:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:22:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:22:37 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:22:37 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:22:37 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:22:41 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:22:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:22:45 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:22:45 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-12-18 01:22:45 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:22:45 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:22:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:22:46 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-12-18 01:22:46 - [TEST_STEP][PASSED] - Select Menu "Batch New Employee": Select Menu "Batch New Employee"
+
+2020-12-18 01:22:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Batch New Employee.png]]
+
+2020-12-18 01:22:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:22:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:22:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:22:47 - [MESSAGE][PASSED] - Select Menu "Batch New Employee"
+
+2020-12-18 01:22:47 - [TEST_STEP][PASSED] - Verify Table Exist: Verify Table Exist
+
+2020-12-18 01:22:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-12-18 01:22:51 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:22:51 - [MESSAGE][PASSED] - Verify Table Exist
+
+2020-12-18 01:22:51 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-12-18 01:22:51 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-12-18 01:22:56 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-12-18 01:22:58 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Close browser
+
+2020-12-18 01:22:58 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/ISTools/Connection_to_FTP_DataON_Sunfish_Server.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_Workaround_Server" time="72.218" classname="Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_Workaround_Server" status="PASSED">
+         <system-out><![CDATA[2020-12-18 01:22:58 - [TEST_CASE][PASSED] - Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_Workaround_Server: Test Cases/DRC/ISTools/DRC_ISTools_Connection_to_FTP_Workaround_Server
+
+2020-12-18 01:22:58 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/ISTools/Connection_to_FTP_Workaround_Server.feature"): Feature file: 'Include/features/DRC/ISTools/Connection_to_FTP_Workaround_Server.feature' was passed
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/ISTools/Connection_to_FTP_Workaround_Server.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201218_012113/DRC/DRC_ISTools/20201218_012113/cucumber_report/1608229378600'...
+
+2020-12-18 01:22:58 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select ROLE_IT to enable Menu Outgoing Payment Monitoring (MANDATORY): SCENARIO Select ROLE_IT to enable Menu Outgoing Payment Monitoring (MANDATORY)
+
+2020-12-18 01:22:58 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:22:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:22:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:23:00 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:23:00 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:23:00 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:23:01 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:23:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:23:02 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:23:02 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-12-18 01:23:02 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:23:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:23:03 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-12-18 01:23:03 - [TEST_STEP][PASSED] - Select Menu "Role Management": Select Menu "Role Management"
+
+2020-12-18 01:23:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Role Management.png]]
+
+2020-12-18 01:23:05 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:23:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:23:07 - [MESSAGE][PASSED] - Select Menu "Role Management"
+
+2020-12-18 01:23:07 - [TEST_STEP][PASSED] - Choose Dropdown Username "mobile.test": Choose Dropdown Username "mobile.test"
+
+2020-12-18 01:23:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:38 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object ''  using regular expression
+
+2020-12-18 01:23:38 - [MESSAGE][PASSED] - Choose Dropdown Username "mobile.test"
+
+2020-12-18 01:23:38 - [TEST_STEP][PASSED] - Select Role "ROLE_IT": Select Role "ROLE_IT"
+
+2020-12-18 01:23:38 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:38 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-12-18 01:23:38 - [MESSAGE][INFO] - Element is already Checked
+
+2020-12-18 01:23:38 - [MESSAGE][PASSED] - Select Role "ROLE_IT"
+
+2020-12-18 01:23:38 - [TEST_STEP][PASSED] - Click button "Change": Click button "Change"
+
+2020-12-18 01:23:38 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Change')]
+
+2020-12-18 01:23:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:23:42 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:23:42 - [MESSAGE][PASSED] - Click button "Change"
+
+2020-12-18 01:23:42 - [TEST_STEP][PASSED] - Get text from pop up "Confirm" with text "Are you sure?": Get text from pop up "Confirm" with text "Are you sure?"
+
+2020-12-18 01:23:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-12-18 01:23:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:23:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:23:43 - [MESSAGE][PASSED] - Get text from pop up "Confirm" with text "Are you sure?"
+
+2020-12-18 01:23:43 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-12-18 01:23:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-12-18 01:23:46 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:23:47 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:23:47 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-12-18 01:23:47 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-12-18 01:23:47 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-12-18 01:23:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:23:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:23:51 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:23:51 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-12-18 01:23:51 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-12-18 01:23:51 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 01:23:51 - [MESSAGE][PASSED] - Close browser
+
+2020-12-18 01:23:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Connection to FTP Workaround Server by Menu Outgoing Payment Monitoring: SCENARIO Connection to FTP Workaround Server by Menu Outgoing Payment Monitoring
+
+2020-12-18 01:23:51 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-12-18 01:23:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-12-18 01:23:51 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-12-18 01:23:51 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-12-18 01:23:51 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-18 01:23:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-18 01:23:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-18 01:23:53 - [MESSAGE][PASSED] - Navigate to 'https://istools.homecredit.id/ist' successfully
+
+2020-12-18 01:23:53 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-12-18 01:23:53 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-18 01:23:57 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-18 01:23:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-18 01:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-18 01:24:01 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-18 01:24:01 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-12-18 01:24:01 - [MESSAGE][INFO] - Login Success
+
+2020-12-18 01:24:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-18 01:24:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-18 01:24:01 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-12-18 01:24:01 - [TEST_STEP][PASSED] - Select Menu "Outgoing Payment Monitoring": Select Menu "Outgoing Payment Monitoring"
+
+2020-12-18 01:24:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Outgoing Payment Monitoring.png]]
+
+2020-12-18 01:24:03 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:24:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:24:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-18 01:24:03 - [MESSAGE][PASSED] - Select Menu "Outgoing Payment Monitoring"
+
+2020-12-18 01:24:03 - [TEST_STEP][PASSED] - Verify Table Exist: Verify Table Exist
+
+2020-12-18 01:24:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-12-18 01:24:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:24:06 - [MESSAGE][PASSED] - Verify Table Exist
+
+2020-12-18 01:24:06 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-12-18 01:24:06 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-12-18 01:24:10 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Close browser
+
+2020-12-18 01:24:10 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/ISTools/Connection_to_FTP_Workaround_Server.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-18 01:21:22 - [TEST_SUITE][FAILED] - DRC_ISTools: Test Cases/DRC/ISTools/DRC_ISTools_Send_Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-12-18 01:21:22 - [TEST_SUITE][FAILED] - DRC_ISTools: Test Cases/DRC/ISTools/DRC_ISTools_Send_Email FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/DRC/ISTools/Send_Email.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at DRC_ISTools_Send_Email.run(DRC_ISTools_Send_Email:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1608229273939.run(TempTestSuite1608229273939.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

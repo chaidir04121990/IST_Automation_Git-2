@@ -1,0 +1,228 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Search by STATUS Success to Disburse and then View Detail of it",
+        "description": "",
+        "id": "view-detail-dashboard-for-bo-in-payment;search-by-status-success-to-disburse-and-then-view-detail-of-it",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1064388812,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 577358359,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151541733,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65942160,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577929236,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Dashboard for BO In Payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for BO In Payment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433138815,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select STATUS \"Success to Disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success to Disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081673005,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603786044,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65565053,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click View Detail",
+            "match": {
+              "location": "RTD.view_detail_dashboard_RTD()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30709593078,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Information in View Detail",
+            "match": {
+              "location": "RTD.view_details_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3215567294,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75268047,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "View Detail Dashboard for BO In Payment",
+    "description": "  I want to use this template for my feature file",
+    "id": "view-detail-dashboard-for-bo-in-payment",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_BO_In_Payment/View_Detail.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

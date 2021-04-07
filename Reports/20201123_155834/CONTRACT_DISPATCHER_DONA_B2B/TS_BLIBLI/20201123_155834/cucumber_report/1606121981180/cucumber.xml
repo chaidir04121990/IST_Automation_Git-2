@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="149.184883">
+<testcase classname="Contract Dispatcher for DONA BLIBLI" name="Assign User to Contract Dona BliBli" time="49.467154">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "Dona B2B"....................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contract Dispatcher for DONA BLIBLI" name="Check Mistake Matrix Dona BliBli" time="99.717729">
+<failure message="java.lang.AssertionError: PROCESSED Should be Y. Expression: (prc == Y). Values: prc = N&#10;&#9;at Conn_DB$_Contract_Dispatcher_Source_Process_closure10.doCall(Conn_DB.groovy:424)&#10;&#9;at Conn_DB.Contract_Dispatcher_Source_Process(Conn_DB.groovy:421)&#10;&#9;at Conn_DB$Contract_Dispatcher_Source_Process$3.call(Unknown Source)&#10;&#9;at CustomKeywords.Conn_DB.Contract_Dispatcher_Source_Process(CustomKeywords.groovy:285)&#10;&#9;at try_it_out_Conn_DB.Execution_Query_Status(try_it_out_Conn_DB.groovy:132)&#10;&#9;at ✽.Check Contract Number Process in Contract_Dispatcher_Source &quot;SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TEXT_CONTRACT_NUMBER='336'&quot;(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/BliBli_Check_Mistake_Matrix.feature:53)&#10;"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "DONA_BLIBLI".............passed
+And Click button "Claim"....................................................passed
+And Verify Tab Mistake Matrix Base on Type Contract.........................passed
+And Varify the mistake detail already match with the matrix Base on Type Contract.passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+Given Connect to Database...................................................passed
+And Check Contract Number in Contract_Dispatcher_Claim "SELECT * FROM CONTRACT_DISPATCHER_CLAIM WHERE CONTRACT_NUMBER='336' and CLAIM_DATE_END IS NULL".passed
+And Check Contract Number Process in Contract_Dispatcher_Source "SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TEXT_CONTRACT_NUMBER='336'".failed
+
+StackTrace:
+java.lang.AssertionError: PROCESSED Should be Y. Expression: (prc == Y). Values: prc = N
+	at Conn_DB$_Contract_Dispatcher_Source_Process_closure10.doCall(Conn_DB.groovy:424)
+	at Conn_DB.Contract_Dispatcher_Source_Process(Conn_DB.groovy:421)
+	at Conn_DB$Contract_Dispatcher_Source_Process$3.call(Unknown Source)
+	at CustomKeywords.Conn_DB.Contract_Dispatcher_Source_Process(CustomKeywords.groovy:285)
+	at try_it_out_Conn_DB.Execution_Query_Status(try_it_out_Conn_DB.groovy:132)
+	at ✽.Check Contract Number Process in Contract_Dispatcher_Source "SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TEXT_CONTRACT_NUMBER='336'"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/BliBli_Check_Mistake_Matrix.feature:53)
+]]></failure>
+</testcase>
+</testsuite>

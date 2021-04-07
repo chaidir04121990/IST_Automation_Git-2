@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.895245">
+<testcase classname="Title of your feature" name="Check KTP number based on maker and checker from DB Table SLIK_CHECKER" time="9.895245">
+<failure message="java.lang.AssertionError: KTP Number. Expression: (data == getKTP). Values: data = 3200000000000002, getKTP = 8888888888888888&#10;&#9;at Slik_Script.DB_Table_SLIK_Checker(Slik_Script.groovy:842)&#10;&#9;at ✽.Connect to DB Table SLIK_CHECKER(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature:33)&#10;"><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "SLIK Gateway Approval Non Customer"........................passed
+And Check Sign in as........................................................passed
+And Connect to DB Table SLIK_CHECKER........................................failed
+And Close browser...........................................................skipped
+
+StackTrace:
+java.lang.AssertionError: KTP Number. Expression: (data == getKTP). Values: data = 3200000000000002, getKTP = 8888888888888888
+	at Slik_Script.DB_Table_SLIK_Checker(Slik_Script.groovy:842)
+	at ✽.Connect to DB Table SLIK_CHECKER(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature:33)
+]]></failure>
+</testcase>
+</testsuite>

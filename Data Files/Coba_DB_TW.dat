@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Coba_DB_TW</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ddd5f9f7-5ea3-44f9-a0ff-5a484371bf5c</dataFileGUID>
+   <dataSourceUrl>jdbc:oracle:thin:@INFID04.ID.INFRA:1521/ID00C1HD.ID.INFRA</dataSourceUrl>
+   <driver>DBData</driver>
+   <driverClassName></driverClassName>
+   <isInternalPath>false</isInternalPath>
+   <password>QVBQX0FDQ09VTlQ=</password>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>false</value>
+      </entry>
+   </properties>
+   <query>SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TYPE_CONTRACT='TWO_WHEELERS' AND TEXT_CONTRACT_NUMBER='332'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>APP_ACCOUNT</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

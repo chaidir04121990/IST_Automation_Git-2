@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="135.706313">
+<testcase classname="TRIS update" name="Update Invoice Data Cetak" time="44.888927">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-7".passed
+And Check Invoice Format is "Cetak".........................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data General" time="37.850406">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-5".passed
+And Check Invoice Format is "General".......................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data HCI Format" time="14.836237">
+<failure message="com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by value 'HCI Format' on object ''  using regular expression&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.verifyOptionSelectedByValue(VerifyOptionSelectedByValueKeyword.groovy:106)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.execute(VerifyOptionSelectedByValueKeyword.groovy:70)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(WebUiBuiltInKeywords.groovy:2200)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByValue$11.call(Unknown Source)&#13;&#10;&#9;at ist_real.Contract_Dispatcher.checkFormat(Contract_Dispatcher.groovy:1848)&#13;&#10;&#9;at ✽.Check Invoice Format is &quot;HCI Format&quot;(C:/Users/ramsey.loloyanto/Documents/ist-Katalon/Include/features/IST_Real/TRIS/DEV/Tracker_Invoice_System_Update_Data.feature:83)&#13;&#10;Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with value 'HCI Format' present in object ''  using regular expression&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword$_verifyOptionSelectedByValue_closure1.doCall(VerifyOptionSelectedByValueKeyword.groovy:92)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword$_verifyOptionSelectedByValue_closure1.call(VerifyOptionSelectedByValueKeyword.groovy)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.verifyOptionSelectedByValue(VerifyOptionSelectedByValueKeyword.groovy:106)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.execute(VerifyOptionSelectedByValueKeyword.groovy:70)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(WebUiBuiltInKeywords.groovy:2200)&#13;&#10;&#9;at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByValue$11.call(Unknown Source)&#13;&#10;&#9;at ist_real.Contract_Dispatcher.checkFormat(Contract_Dispatcher.groovy:1848)&#13;&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:26)&#13;&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#13;&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:20)&#13;&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)&#13;&#10;&#9;at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;&#10;&#9;at cucumber.runner.TestStep.executeStep(TestStep.java:55)&#13;&#10;&#9;at cucumber.runner.TestStep.run(TestStep.java:42)&#13;&#10;&#9;at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)&#13;&#10;&#9;at cucumber.runner.TestCase.run(TestCase.java:47)&#13;&#10;&#9;at cucumber.runner.Runner.runPickle(Runner.java:44)&#13;&#10;&#9;at cucumber.runtime.Runtime.runFeature(Runtime.java:120)&#13;&#10;&#9;at cucumber.runtime.Runtime.run(Runtime.java:106)&#13;&#10;&#9;at cucumber.api.cli.Main.run(Main.java:35)&#13;&#10;&#9;at cucumber.api.cli.Main$run.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)&#13;&#10;&#9;at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)&#13;&#10;&#9;at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)&#13;&#10;&#9;at Tracker_Invoice_System_Update_Data.run(Tracker_Invoice_System_Update_Data:18)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#13;&#10;&#9;at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)&#13;&#10;&#9;at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)&#13;&#10;&#9;at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)&#13;&#10;&#9;at TempTestSuite1585753192807.run(TempTestSuite1585753192807.groovy:36)&#13;&#10;"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-3".passed
+And Check Invoice Format is "HCI Format"....................................failed
+And Update Data Value Based on Check Point..................................skipped
+And Check Corrected Result..................................................skipped
+And Click button "Save Invoice".............................................skipped
+And Verify Update Data in Invoice Summary...................................skipped
+And Verify Update Data in Additional Detail.................................skipped
+And Click button "Logout"...................................................skipped
+And Close browser...........................................................skipped
+
+StackTrace:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify option is selected by value 'HCI Format' on object ''  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.verifyOptionSelectedByValue(VerifyOptionSelectedByValueKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.execute(VerifyOptionSelectedByValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(WebUiBuiltInKeywords.groovy:2200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByValue$11.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.checkFormat(Contract_Dispatcher.groovy:1848)
+	at ✽.Check Invoice Format is "HCI Format"(C:/Users/ramsey.loloyanto/Documents/ist-Katalon/Include/features/IST_Real/TRIS/DEV/Tracker_Invoice_System_Update_Data.feature:83)
+Caused by: com.kms.katalon.core.exception.StepFailedException: There is no option with value 'HCI Format' present in object ''  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword$_verifyOptionSelectedByValue_closure1.doCall(VerifyOptionSelectedByValueKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword$_verifyOptionSelectedByValue_closure1.call(VerifyOptionSelectedByValueKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.verifyOptionSelectedByValue(VerifyOptionSelectedByValueKeyword.groovy:106)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyOptionSelectedByValueKeyword.execute(VerifyOptionSelectedByValueKeyword.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyOptionSelectedByValue(WebUiBuiltInKeywords.groovy:2200)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyOptionSelectedByValue$11.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.checkFormat(Contract_Dispatcher.groovy:1848)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Tracker_Invoice_System_Update_Data.run(Tracker_Invoice_System_Update_Data:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1585753192807.run(TempTestSuite1585753192807.groovy:36)
+]]></failure>
+</testcase>
+<testcase classname="TRIS update" name="Update Invoice Data School Invoice" time="38.130743">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Check User Login for Update.............................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Tracker Invoice System"....................................passed
+And Type on Textbox label "contract number of email address" with value "9999999999".passed
+And Click button "Search"...................................................passed
+And Verify Table Filled.....................................................passed
+And Right Click Invoice Want to Update based on sub contract number "9999999999-1".passed
+And Check Invoice Format is "School Invoice"................................passed
+And Update Data Value Based on Check Point..................................passed
+And Check Corrected Result..................................................passed
+And Click button "Save Invoice".............................................passed
+And Verify Update Data in Invoice Summary...................................passed
+And Verify Update Data in Additional Detail.................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

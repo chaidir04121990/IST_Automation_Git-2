@@ -1,0 +1,420 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Check Contract Status from BSL is Active and Credit Left before 90%\t in TRIS is 0 Purpopse in BSL and TRIS are different",
+        "description": "",
+        "id": "addendum;check-contract-status-from-bsl-is-active-and-credit-left-before-90%--in-tris-is-0-purpopse-in-bsl-and-tris-are-different",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1363636681,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to BSL C1",
+            "match": {
+              "location": "Login_IST.go_to_BSL_C1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1551777025,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login BSL C1 with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_BSL_C1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 681248186,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Login BSL C1 Succeed",
+            "match": {
+              "location": "Login_IST.Login_BSL_C1_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275913738,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Select \"Search for contract\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search for contract",
+                  "offset": 8
+                }
+              ],
+              "location": "BSL_try.select(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "groovy.lang.MissingPropertyException: No such property: Active_contract_number_in_BSL_for_TRIS_0 for class: internal.GlobalVariable\n\tat groovy.lang.MetaClassImpl.invokeStaticMissingProperty(MetaClassImpl.java:1004)\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1859)\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:1835)\n\tat groovy.lang.MetaClassImpl.getProperty(MetaClassImpl.java:3735)\n\tat org.codehaus.groovy.runtime.callsite.ClassMetaClassGetPropertySite.getProperty(ClassMetaClassGetPropertySite.java:51)\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)\n\tat BSL_try.Write_BSL_Active_Contract_Number(BSL_try.groovy:79)\n\tat ✽.Write Active Contract Number(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/TRIS/Addendum_Check_Contract_Status_in_BSL_And_CreditLimit_TRIS.feature:29)\n",
+              "duration": 928425,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "Write Active Contract Number",
+            "match": {
+              "location": "BSL_try.Write_BSL_Active_Contract_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "Click Button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "BSL_try.click_btn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "Check Contract Status BSL",
+            "match": {
+              "location": "BSL_try.check_ContractStatus()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Select Arrow Menu \"Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice System",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "Select Menu \"Tracker Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tracker Invoice System",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "Type on Textbox label \"contract number of email address\" with Active Contract Number in BSL and TRIS Credit Left Before 90\u003d0",
+            "match": {
+              "arguments": [
+                {
+                  "val": "contract number of email address",
+                  "offset": 23
+                }
+              ],
+              "location": "TRIS_Function.Write_Active_Contract_Number_for_TRIS_CLB90_is_0(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 41,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "Check_Credit_Left_before_90%",
+            "match": {
+              "location": "TRIS_Function.Check_90_Credit_Limit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "Click Button \"Submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Submit",
+                  "offset": 14
+                }
+              ],
+              "location": "BSL_try.click_btn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "Get text from pop up \"Confirm\" with text \"Apakah Kamu yakin akan memproses invoice ini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm",
+                  "offset": 22
+                },
+                {
+                  "val": "Apakah Kamu yakin akan memproses invoice ini",
+                  "offset": 42
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "Click button \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Successfully submitted\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Successfully submitted",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "Go to Outlook",
+            "match": {
+              "location": "Login_IST.go_to_Outlook_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Login Outlook with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_Outlook()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "Login Outlook Succeed",
+            "match": {
+              "location": "Login_IST.Login_Success_for_outlook()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "Verify Email Addendum Sent",
+            "match": {
+              "location": "TRIS_Function.Email_Addendum()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Addendum",
+    "description": "  I want to use this template for my feature file",
+    "id": "addendum",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/TRIS/Addendum_Check_Contract_Status_in_BSL_And_CreditLimit_TRIS.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

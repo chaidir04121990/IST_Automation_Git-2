@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SLIK_Gateway_Non_Customer" time="95.451" tests="7" failures="3" errors="0">
+   <testsuite name="TS_SLIK_Gateway_Non_Customer" tests="7" failures="3" errors="0" time="95.451" timestamp="2020-09-23 22:40:02" hostname="chaidir.pratama01 - localhost" id="Test Suites/SLIK/TS_SLIK_Gateway_Non_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="71608f708daeb11c78e7914b20f510f2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer" time="0.8" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-23 22:40:02 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+
+
+2020-09-23 22:40:03 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+
+2020-09-23 22:40:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875603188'...
+
+2020-09-23 22:40:03 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 22:40:02 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" time="73.553" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" status="PASSED">
+         <system-out><![CDATA[2020-09-23 22:40:03 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking
+
+2020-09-23 22:40:03 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed
+
+2020-09-23 22:40:03 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875603876'...
+
+2020-09-23 22:40:04 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Checking: SCENARIO SLIK Gateway Non Customer Checking
+
+2020-09-23 22:40:04 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 22:40:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 22:40:04 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 22:40:04 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 22:40:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 22:40:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 22:40:08 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 22:40:08 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 22:40:08 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 22:40:09 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 22:40:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 22:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 22:40:10 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 22:40:10 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 22:40:10 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 22:40:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 22:40:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 22:40:11 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 22:40:11 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 22:40:11 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:40:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:40:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 22:40:12 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 22:40:12 - [TEST_STEP][PASSED] - Input Data KTP Number: Input Data KTP Number
+
+2020-09-23 22:40:12 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-09-23 22:40:12 - [MESSAGE][PASSED] - Input Data KTP Number
+
+2020-09-23 22:40:12 - [TEST_STEP][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK: Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 22:40:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 22:40:14 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 22:40:14 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 22:40:15 - [MESSAGE][PASSED] - Text 'OPEX TestingAuto' is set on object ''
+
+2020-09-23 22:40:15 - [MESSAGE][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 22:40:15 - [TEST_STEP][PASSED] - Input Date of Birth "20-02-1990": Input Date of Birth "20-02-1990"
+
+2020-09-23 22:40:16 - [MESSAGE][PASSED] - Text '20-02-1990' is set on object ''
+
+2020-09-23 22:40:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 22:40:19 - [MESSAGE][PASSED] - Input Date of Birth "20-02-1990"
+
+2020-09-23 22:40:19 - [TEST_STEP][PASSED] - Select Gender "Laki-laki": Select Gender "Laki-laki"
+
+2020-09-23 22:40:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:40:19 - [MESSAGE][PASSED] - Select Gender "Laki-laki"
+
+2020-09-23 22:40:19 - [TEST_STEP][PASSED] - Select Purpose is "Penilaian Calon Kemitraan": Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 22:40:20 - [MESSAGE][PASSED] - All options with value 'Penilaian Calon Kemitraan' are selected in object ''  using regular expression
+
+2020-09-23 22:40:20 - [MESSAGE][PASSED] - Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 22:40:20 - [TEST_STEP][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK: Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 22:40:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 22:40:21 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 22:40:22 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 22:40:22 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object ''
+
+2020-09-23 22:40:22 - [MESSAGE][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 22:40:22 - [TEST_STEP][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK: Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 22:40:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 22:40:24 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 22:40:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 22:40:25 - [MESSAGE][PASSED] - Text 'Tester Auto' is set on object ''
+
+2020-09-23 22:40:25 - [MESSAGE][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 22:40:25 - [TEST_STEP][PASSED] - Input KTP Address "TESTING AUTO JAKARTA": Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 22:40:25 - [MESSAGE][PASSED] - Text 'TESTING AUTO JAKARTA' is set on object ''
+
+2020-09-23 22:40:25 - [MESSAGE][PASSED] - Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 22:40:25 - [TEST_STEP][PASSED] - Click button "Upload": Click button "Upload"
+
+2020-09-23 22:40:25 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Upload')]
+
+2020-09-23 22:40:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:40:30 - [MESSAGE][PASSED] - Click button "Upload"
+
+2020-09-23 22:40:30 - [TEST_STEP][PASSED] - Upload file "new_captcha1500.png": Upload file "new_captcha1500.png"
+
+2020-09-23 22:40:31 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-09-23 22:40:42 - [MESSAGE][PASSED] - Upload file "new_captcha1500.png"
+
+2020-09-23 22:40:42 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-09-23 22:40:42 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-09-23 22:40:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:40:45 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-09-23 22:40:45 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 22:40:46 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:40:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 22:40:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 22:40:46 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 22:40:46 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-09-23 22:40:46 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-09-23 22:40:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:40:49 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-09-23 22:40:49 - [TEST_STEP][PASSED] - Verify KTP Number Request Success: Verify KTP Number Request Success
+
+2020-09-23 22:41:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:41:10 - [MESSAGE][PASSED] - Verify KTP Number Request Success
+
+2020-09-23 22:41:10 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-09-23 22:41:10 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-09-23 22:41:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:41:13 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-09-23 22:41:13 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 22:41:13 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 22:41:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:41:17 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 22:41:17 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 22:41:17 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 22:41:17 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 22:41:17 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB" time="1.278" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 22:41:17 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB
+
+2020-09-23 22:41:17 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' was passed
+
+2020-09-23 22:41:17 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875677339'...
+
+2020-09-23 22:41:17 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER: SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER
+
+2020-09-23 22:41:17 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 22:41:18 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 22:41:18 - [TEST_STEP][PASSED] - Check KTP Number Non Customer in DB: Check KTP Number Non Customer in DB
+
+2020-09-23 22:41:18 - [MESSAGE][PASSED] - Check KTP Number Non Customer in DB
+
+2020-09-23 22:41:18 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP" time="14.972" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP" status="PASSED">
+         <system-out><![CDATA[2020-09-23 22:41:18 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP
+
+2020-09-23 22:41:18 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' was passed
+
+2020-09-23 22:41:18 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875678600'...
+
+2020-09-23 22:41:18 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Search Result: SCENARIO SLIK Gateway Non Customer Search Result
+
+2020-09-23 22:41:18 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 22:41:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 22:41:18 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 22:41:18 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 22:41:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 22:41:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 22:41:20 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 22:41:20 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 22:41:20 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 22:41:21 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 22:41:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 22:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 22:41:22 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 22:41:22 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 22:41:22 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 22:41:22 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 22:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 22:41:22 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 22:41:22 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 22:41:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:41:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:41:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 22:41:23 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 22:41:23 - [TEST_STEP][PASSED] - Input Data KTP Number for Search Result: Input Data KTP Number for Search Result
+
+2020-09-23 22:41:24 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 22:41:24 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-09-23 22:41:24 - [MESSAGE][PASSED] - Input Data KTP Number for Search Result
+
+2020-09-23 22:41:24 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 22:41:24 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 22:41:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:41:28 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 22:41:28 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 22:41:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:41:28 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 22:41:28 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 22:41:29 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 22:41:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 22:41:29 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 22:41:29 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 22:41:29 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 22:41:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 22:41:33 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 22:41:33 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 22:41:33 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 22:41:33 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 22:41:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED" time="0.199" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-23 22:41:33 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+
+
+2020-09-23 22:41:33 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+
+2020-09-23 22:41:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875693594'...
+
+2020-09-23 22:41:33 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 22:41:33 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status APPROVED FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Search By Status APPROVED.run(SLIK Gateway Non Customer Search By Status APPROVED:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_SUCCESS.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail" time="0.19" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.&lt;init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.&lt;init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-09-23 22:41:33 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more
+
+
+2020-09-23 22:41:33 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature"): Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+
+2020-09-23 22:41:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875693776'...
+
+2020-09-23 22:41:33 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 22:41:33 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK_Gateway_Non_Customer_View_Detail.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB" time="1.01" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 22:41:33 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB
+
+2020-09-23 22:41:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' was passed
+
+2020-09-23 22:41:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_223955/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_223955/cucumber_report/1600875693967'...
+
+2020-09-23 22:41:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete_KTPNumber_From_DB: SCENARIO Delete_KTPNumber_From_DB
+
+2020-09-23 22:41:34 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 22:41:34 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 22:41:34 - [TEST_STEP][PASSED] - Delete Contract From SLIK_DATA_NonCUSTOMER: Delete Contract From SLIK_DATA_NonCUSTOMER
+
+2020-09-23 22:41:34 - [MESSAGE][PASSED] - Delete Contract From SLIK_DATA_NonCUSTOMER
+
+2020-09-23 22:41:34 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 22:40:02 - [TEST_SUITE][FAILED] - TS_SLIK_Gateway_Non_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-09-23 22:40:02 - [TEST_SUITE][FAILED] - TS_SLIK_Gateway_Non_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Keyword runFeatureFile was failed (Root cause: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:70)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at Open Menu SLIK Gateway Non Customer.run(Open Menu SLIK Gateway Non Customer:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600875595636.run(TempTestSuite1600875595636.groovy:39)
+Caused by: java.lang.IllegalArgumentException: Not a file or directory: /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/Open_Menu_SLIK_Gateway_Non_Customer.feature
+	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
+	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
+	at cucumber.runtime.io.FileResourceIterator.createFileResourceIterator(FileResourceIterator.java:14)
+	at cucumber.runtime.io.FileResourceIterable.iterator(FileResourceIterable.java:19)
+	at cucumber.runtime.model.CucumberFeature.loadFromFeaturePath(CucumberFeature.java:111)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:48)
+	at cucumber.runtime.model.CucumberFeature.load(CucumberFeature.java:30)
+	at cucumber.runtime.RuntimeOptions.cucumberFeatures(RuntimeOptions.java:305)
+	at cucumber.runtime.Runtime.run(Runtime.java:97)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

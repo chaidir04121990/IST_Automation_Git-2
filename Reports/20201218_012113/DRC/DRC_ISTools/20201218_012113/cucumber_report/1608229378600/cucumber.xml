@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="72.0151">
+<testcase classname="Connection to FTP Workaround Server Portal HCID" name="Select ROLE_IT to enable Menu Outgoing Payment Monitoring (MANDATORY)" time="52.517445">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Role Management"...........................................passed
+And Choose Dropdown Username "mobile.test"..................................passed
+And Select Role "ROLE_IT"...................................................passed
+And Click button "Change"...................................................passed
+And Get text from pop up "Confirm" with text "Are you sure?"................passed
+And Click button "Yes"......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Connection to FTP Workaround Server Portal HCID" name="Connection to FTP Workaround Server by Menu Outgoing Payment Monitoring" time="19.497655">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Outgoing Payment Monitoring"...............................passed
+And Verify Table Exist......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

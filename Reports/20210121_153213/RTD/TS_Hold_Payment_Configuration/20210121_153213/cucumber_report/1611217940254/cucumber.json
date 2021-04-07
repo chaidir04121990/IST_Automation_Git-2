@@ -1,0 +1,196 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Release Schedule",
+        "description": "",
+        "id": "hold-payment-configuration-for-release-schedule;release-schedule",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990916039,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1035842613,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184998004,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 148278500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763997511,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Hold Payment Configuration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hold Payment Configuration",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3180420900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click button \"Release\" and Verify data",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Release",
+                  "offset": 14
+                }
+              ],
+              "location": "RTD.button_release_and_its_Data(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538687053,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Get text from pop up \"Confirm\" with text \"Are you sure want to release this param?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirm",
+                  "offset": 22
+                },
+                {
+                  "val": "Are you sure want to release this param?",
+                  "offset": 42
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3097037392,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click button \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3064395070,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Data dont Exist",
+            "match": {
+              "location": "RTD.data_disappear_from_table()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Hold Payment Configuration for Release schedule",
+    "description": "  I want to use this template for my feature file",
+    "id": "hold-payment-configuration-for-release-schedule",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Hold Payment Configuration/Release_Schedule.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

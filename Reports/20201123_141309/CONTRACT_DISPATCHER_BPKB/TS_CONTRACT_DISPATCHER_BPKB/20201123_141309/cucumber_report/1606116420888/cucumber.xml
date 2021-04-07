@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.279359">
+<testcase classname="Contract with Type BPKB Doesn't Exist in Contract Dispatcher Menu" name="Go to Menu Contract Dispatcher to select type contract BPKB but it doesn't exist" time="39.279359">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "BPKB"....................passed
+And Comment "Type Contract BPKB Does Not Exist".............................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

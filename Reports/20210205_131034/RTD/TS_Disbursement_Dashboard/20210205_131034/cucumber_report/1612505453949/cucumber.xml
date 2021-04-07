@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.323317">
+<testcase classname="View Detail Dashboard for BO In Payment" name="Search by STATUS Success to Disburse and then View Detail of it" time="47.323317">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Dashboard for CCC/OCS".....................................passed
+And Select STATUS "Success to Disburse".....................................passed
+And Click button "Search"...................................................passed
+And Verify Search Result Presents...........................................passed
+And Click View Detail.......................................................passed
+And Verify Information in View Detail.......................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

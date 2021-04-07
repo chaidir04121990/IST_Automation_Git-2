@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.898446">
+<testcase classname="Title of your feature" name="Approve KTP Number by Checker" time="30.898446">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "SLIK Gateway Approval Non Customer"........................passed
+And Verify Table Result Exist...............................................passed
+And Get Data From Table.....................................................passed
+And Click Checkbox Validate.................................................passed
+And Click button "Continue".................................................passed
+And Click Checkbox Saya Setuju..............................................passed
+And Click button "Check SLIK"...............................................passed
+And Get text from pop up "Confirmation Approve Data" with text "Are you sure to SUBMIT this data ?".passed
+And Click button "Yes"......................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Data is processed".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

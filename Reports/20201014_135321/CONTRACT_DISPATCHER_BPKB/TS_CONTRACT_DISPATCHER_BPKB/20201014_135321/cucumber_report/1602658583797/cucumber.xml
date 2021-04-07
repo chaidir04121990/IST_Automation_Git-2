@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="68.372915">
+<testcase classname="Column PROCESSED in CONTRACT_DISPATCHER_SRC_BPKB change to be 'N' when STATUS in CONTRACT_DISPATCHER_CLAIM is RELEASE" name="Claim Contract BPKB in Contract Dispatcher Menu then idle for 10 minutes, STATUS in Table CONTRACT_DISPATCHER_CLAIM turn RELEASE and PROCESSED in CONTRACT_DISPATCHER_SRC_BPKB turns N" time="68.372915">
+<failure message="java.lang.AssertionError: PROCESSED Should be N. Expression: (prc == N). Values: prc = Y&#10;&#9;at Conn_DB$_Execution_Query_closure3.doCall(Conn_DB.groovy:146)&#10;&#9;at Conn_DB.Execution_Query(Conn_DB.groovy:143)&#10;&#9;at Conn_DB$Execution_Query$2.call(Unknown Source)&#10;&#9;at CustomKeywords.Conn_DB.Execution_Query(CustomKeywords.groovy:218)&#10;&#9;at try_it_out_Conn_DB.Execution_Query(try_it_out_Conn_DB.groovy:81)&#10;&#9;at ✽.Exec Query idle for Ten Minutes &quot;SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'&quot;(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature:35)&#10;"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "BPKB"....................passed
+And Click button "Claim"....................................................passed
+And Sleep ten minutes.......................................................passed
+Given Connect to Database...................................................passed
+And Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'".failed
+And Select Menu "Contract Dispatcher".......................................skipped
+
+StackTrace:
+java.lang.AssertionError: PROCESSED Should be N. Expression: (prc == N). Values: prc = Y
+	at Conn_DB$_Execution_Query_closure3.doCall(Conn_DB.groovy:146)
+	at Conn_DB.Execution_Query(Conn_DB.groovy:143)
+	at Conn_DB$Execution_Query$2.call(Unknown Source)
+	at CustomKeywords.Conn_DB.Execution_Query(CustomKeywords.groovy:218)
+	at try_it_out_Conn_DB.Execution_Query(try_it_out_Conn_DB.groovy:81)
+	at ✽.Exec Query idle for Ten Minutes "SELECT * FROM CONTRACT_DISPATCHER_SRC_BPKB WHERE TEXT_CONTRACT_NUMBER='333'"(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Column_PROCESSED_Turn_N_When_Status_RELEASE_BPKB.feature:35)
+]]></failure>
+</testcase>
+</testsuite>

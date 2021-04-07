@@ -1,0 +1,485 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Assign User to Contract BPKB",
+        "description": "",
+        "id": "contract-dispatcher-bpkb;assign-user-to-contract-bpkb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4049869315,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2571341257,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558182695,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 307738770,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Contract Dispatcher Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 861333076,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Management Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Management Assignment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2497129212,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Username \"mobile.test\" of Management Assignment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile.test",
+                  "offset": 17
+                }
+              ],
+              "location": "Contract_Dispatcher.UsernameofManagementAssignment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4029941994,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Check for username if already assigned to \"BPKB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BPKB",
+                  "offset": 43
+                }
+              ],
+              "location": "Contract_Dispatcher.CheckUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9858902,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3757308864,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91886467,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Select Contract Dispatcher Menu based on type contract BPKB",
+        "description": "",
+        "id": "contract-dispatcher-bpkb;select-contract-dispatcher-menu-based-on-type-contract-bpkb",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3216198443,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2505837372,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 524480853,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 810548873,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select Menu \"Contract Dispatcher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1787765831,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select Contract Number based on Type Contract \"BPKB\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BPKB",
+                  "offset": 47
+                }
+              ],
+              "location": "Contract_Dispatcher.Contract_Number_based_Type_Contract(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3266479246,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click button \"Claim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9024993921,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Varify the mistake detail already match with the matrix Base on Type Contract",
+            "match": {
+              "location": "Contract_Dispatcher.Tab_Matrix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278784178,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Checkbox General Mistake \"01. BPKB bagian depan tidak ada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01. BPKB bagian depan tidak ada",
+                  "offset": 26
+                }
+              ],
+              "location": "Contract_Dispatcher.checkboxGeneralMistake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1363392782,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Choose Dropdown mistake type \"Dokumen diunggah tidak ada\" from mistake name \"01. BPKB bagian depan tidak ada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dokumen diunggah tidak ada",
+                  "offset": 30
+                },
+                {
+                  "val": "01. BPKB bagian depan tidak ada",
+                  "offset": 77
+                }
+              ],
+              "location": "Contract_Dispatcher.Dropdown_mistaketypefrommistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 963028744,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Type on textarea note before based on mistake name \"01. BPKB bagian depan tidak ada\" with value \"TESTING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "01. BPKB bagian depan tidak ada",
+                  "offset": 52
+                },
+                {
+                  "val": "TESTING",
+                  "offset": 97
+                }
+              ],
+              "location": "Contract_Dispatcher.notebeforeonmistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3295159487,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click button \"Save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1820917049,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Mistake has been saved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Mistake has been saved",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3369334219,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3827423156,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88580752,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Contract Dispatcher BPKB",
+    "description": "  I want to use this template for my feature file",
+    "id": "contract-dispatcher-bpkb",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_BPKB/Contract_Dispatcher_BPKB.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,423 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Select Menu Management Assignment to give assign contract PAPERLESS POS",
+        "description": "",
+        "id": "connection-to-database-ist-tracker;select-menu-management-assignment-to-give-assign-contract-paperless-pos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1612883542,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 897203671,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158582024,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67314682,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Arrow Menu \"Contract Dispatcher Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640536680,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Menu \"Management Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Management Assignment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3089978221,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Reset All User\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reset All User",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585055145,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Get text from pop up \"Confirmation Reset All\" with text \"Are you sure ?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirmation Reset All",
+                  "offset": 22
+                },
+                {
+                  "val": "Are you sure ?",
+                  "offset": 57
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3092271027,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10664620,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253602950,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Notification \"Reset All Success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reset All Success",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.Notif(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2221771332,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Select Username \"mobile.test\" of Management Assignment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile.test",
+                  "offset": 17
+                }
+              ],
+              "location": "Contract_Dispatcher.UsernameofManagementAssignment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106119506,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Check unchecked contract type POS",
+            "match": {
+              "location": "Contract_Dispatcher.CheckUncheckedContractTypePOS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3957503434,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Check for username if already assigned to \"Paperless\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paperless",
+                  "offset": 43
+                }
+              ],
+              "location": "Contract_Dispatcher.CheckUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3273070117,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79455117,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Connection to Database IST Tracker with Search data from menu(Contract Dispatcher)",
+        "description": "",
+        "id": "connection-to-database-ist-tracker;connection-to-database-ist-tracker-with-search-data-from-menu(contract-dispatcher)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1685064870,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 856405366,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151597707,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 565520543,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Select Menu \"Contract Dispatcher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3027708417,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Select Contract Number based on Type Contract \"PAPERLESS POS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PAPERLESS POS",
+                  "offset": 47
+                }
+              ],
+              "location": "Contract_Dispatcher.Contract_Number_based_Type_Contract(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3275571641,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78946047,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Connection to Database IST Tracker",
+    "description": "  I want to use this template for my feature file",
+    "id": "connection-to-database-ist-tracker",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/IST_Tracker/Connection_to_Database.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

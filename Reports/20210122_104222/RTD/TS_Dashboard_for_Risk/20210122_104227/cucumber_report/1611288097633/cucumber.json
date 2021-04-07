@@ -1,0 +1,1994 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Search by STATUS Eligible to Disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-eligible-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1510795164,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 593361608,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157265580,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69380823,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594824369,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376412149,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select STATUS \"Eligible to disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eligible to disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3085408197,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9625128449,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3218896886,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82869718,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Search by STATUS Waiting validation from Risk",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-waiting-validation-from-risk",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1090189189,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 601984183,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155137449,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66401992,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585745347,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382305779,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Select STATUS \"Waiting validation from Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waiting validation from Risk",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083521920,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3365018413,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3224899444,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76707614,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Search by STATUS Waiting validation from In Payment",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-waiting-validation-from-in-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1239180135,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 655846522,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155096673,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65751097,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 569430996,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 426911208,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Select STATUS \"Waiting validation from In Payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waiting validation from In Payment",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3082592001,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 787681731,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3182987707,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78484786,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Search by STATUS Ready to disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-ready-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1211056767,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607978968,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154485200,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66004817,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577575712,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 395500254,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Select STATUS \"Ready to disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ready to disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3082953605,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3343428376,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3221153781,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76002750,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "Search by STATUS Failed due to invalid bank account",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-failed-due-to-invalid-bank-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1217062562,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 603433806,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150923701,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66575252,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565362836,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 448529087,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Select STATUS \"Failed due to invalid bank account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to invalid bank account",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086031508,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2188842755,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3201825481,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77133354,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 94,
+        "name": "Search by STATUS Failed due to system error",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-failed-due-to-system-error",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1120330798,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 947561722,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154233237,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70087481,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 609616028,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 466655866,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Select STATUS \"Failed due to system error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to system error",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084387093,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4870770433,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3207116459,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76747779,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 108,
+        "name": "Search by STATUS Failed due to insufficient fund",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-failed-due-to-insufficient-fund",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475435966,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607828184,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155002733,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67478168,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602610015,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 484633077,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "Select STATUS \"Failed due to insufficient fund\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to insufficient fund",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083255664,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4878147542,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3192728868,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78304747,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 122,
+        "name": "Search by STATUS Failed due to not supported bank",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-failed-due-to-not-supported-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1325390743,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 597556507,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153498253,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68583346,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621887299,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 416551011,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "Select STATUS \"Failed due to not supported bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to not supported bank",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080938613,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4816379445,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3236075301,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79025374,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 136,
+        "name": "Search by STATUS Manual Disbursement",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-manual-disbursement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1334219689,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589532600,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154320930,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69086501,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601915324,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 428908745,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "Select STATUS \"Manual Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Disbursement",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080330749,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9653456985,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3206036612,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77526590,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 150,
+        "name": "Search by STATUS DONE",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-done",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1123443889,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 713233925,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152080946,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69658787,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588482135,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 460058812,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "Select STATUS \"DONE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DONE",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081183916,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9567116241,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3207805144,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79719504,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 164,
+        "name": "Search by STATUS Success to Disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-risk;search-by-status-success-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1467845490,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 616360420,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155704848,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69303002,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 615049063,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "Select Menu \"Dashboard for Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for Risk",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 481564167,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "Select STATUS \"Success to Disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success to Disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3082276714,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 826708478,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3195007728,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76598303,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Search by STATUS for Dashboard for Risk",
+    "description": "  I want to use this template for my feature file",
+    "id": "search-by-status-for-dashboard-for-risk",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_STATUS_Dashboard_for_Risk.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Dashboard_for_Risk" time="210.364" tests="4" failures="1" errors="0">
+   <testsuite name="TS_Dashboard_for_Risk" tests="4" failures="1" errors="0" time="210.364" timestamp="2021-01-22 11:59:45" hostname="chaidir.pratama01 - localhost" id="Test Suites/RTD/TS_Dashboard_for_Risk">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/Download_data.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/1611291722896.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/1611291736740.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="b1f74e0d728f90400fa43b64308a88bb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk" time="39.862" classname="Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk" status="FAILED">
+         <failure type="FAILED" message="Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+"/>
+         <system-out><![CDATA[2021-01-22 11:59:45 - [TEST_CASE][FAILED] - Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+
+
+2021-01-22 11:59:45 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+)
+
+2021-01-22 11:59:45 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/cucumber_report/1611291585817'...
+
+2021-01-22 11:59:46 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO Search by STATUS Success to Disburse and then View Detail of it: SCENARIO Search by STATUS Success to Disburse and then View Detail of it FAILED.
+Reason:
+java.lang.AssertionError: COUNT OF TABLE HEADER AND CONTENT ROW MUST BE EQUAL;. Expression: (content_row_count == array_header_table.size()). Values: content_row_count = 11
+	at RTD.view_details_information(RTD.groovy:320)
+	at ✽.Verify Information in View Detail(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature:36)
+
+
+2021-01-22 11:59:46 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 11:59:46 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 11:59:46 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 11:59:46 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 11:59:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 11:59:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 11:59:48 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 11:59:48 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 11:59:48 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 11:59:49 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 11:59:49 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 11:59:49 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 11:59:49 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 11:59:49 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 11:59:50 - [TEST_STEP][PASSED] - Select STATUS "Success to Disburse": Select STATUS "Success to Disburse"
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - All options with value 'Success to Disburse' are selected in object ''  using regular expression
+
+2021-01-22 11:59:50 - [MESSAGE][PASSED] - Select STATUS "Success to Disburse"
+
+2021-01-22 11:59:50 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 11:59:50 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 11:59:53 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 11:59:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 11:59:53 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 11:59:53 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 11:59:53 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 11:59:54 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 11:59:54 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 11:59:54 - [TEST_STEP][PASSED] - Click View Detail: Click View Detail
+
+2021-01-22 11:59:54 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 11:59:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 11:59:54 - [MESSAGE][PASSED] - Click View Detail
+
+2021-01-22 11:59:54 - [TEST_STEP][FAILED] - Verify Information in View Detail: Verify Information in View Detail FAILED.
+Reason:
+java.lang.AssertionError: COUNT OF TABLE HEADER AND CONTENT ROW MUST BE EQUAL;. Expression: (content_row_count == array_header_table.size()). Values: content_row_count = 11
+	at RTD.view_details_information(RTD.groovy:320)
+	at ✽.Verify Information in View Detail(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature:36)
+
+
+2021-01-22 11:59:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 11:59:57 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '3900014152'
+
+2021-01-22 12:00:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:00 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'IDITXLeks TESTERbIvIvO'
+
+2021-01-22 12:00:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:03 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Success to Disburse'
+
+2021-01-22 12:00:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:06 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'Rp 7,000,000'
+
+2021-01-22 12:00:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:10 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'KESEJAHTERAAN EKONOMI'
+
+2021-01-22 12:00:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:13 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: '1'
+
+2021-01-22 12:00:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:16 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'NAMA ADA DISINI'
+
+2021-01-22 12:00:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:19 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: 'KESEJAHTERAAN EKONOMI'
+
+2021-01-22 12:00:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:22 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Attribute 'value' of object '' is: ''
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Text of object '' is: 'CUID'
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Text of object '' is: 'Contract Number'
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Text of object '' is: 'Contract Number Old'
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Text of object '' is: 'Status'
+
+2021-01-22 12:00:25 - [MESSAGE][PASSED] - Text of object '' is: 'Update Information'
+
+2021-01-22 12:00:25 - [MESSAGE][FAILED] - Verify Information in View Detail FAILED.
+Reason:
+java.lang.AssertionError: COUNT OF TABLE HEADER AND CONTENT ROW MUST BE EQUAL;. Expression: (content_row_count == array_header_table.size()). Values: content_row_count = 11
+	at RTD.view_details_information(RTD.groovy:320)
+	at ✽.Verify Information in View Detail(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature:36)
+
+
+2021-01-22 12:00:25 - [TEST_STEP][NOT_RUN] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:00:25 - [MESSAGE][NOT_RUN] - Click button "Logout"
+
+2021-01-22 12:00:25 - [TEST_STEP][NOT_RUN] - Close browser: Close browser
+
+2021-01-22 12:00:25 - [MESSAGE][NOT_RUN] - Close browser
+
+2021-01-22 12:00:25 - [MESSAGE][FAILED] - Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+
+2021-01-22 12:00:25 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-01-22 11:59:45 - [TEST_CASE][FAILED] - Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Dashboard for Risk/TC_Export_Data_Dashboard_for_Risk" time="9.661" classname="Test Cases/RTD/Dashboard for Risk/TC_Export_Data_Dashboard_for_Risk" status="PASSED">
+         <system-out><![CDATA[2021-01-22 12:00:25 - [TEST_CASE][PASSED] - Test Cases/RTD/Dashboard for Risk/TC_Export_Data_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_Export_Data_Dashboard_for_Risk
+
+2021-01-22 12:00:25 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Dashboard_for_Risk/Export_Data_Dashboard_for_Risk.feature"): Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Export_Data_Dashboard_for_Risk.feature' was passed
+
+2021-01-22 12:00:25 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Export_Data_Dashboard_for_Risk.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/cucumber_report/1611291625561'...
+
+2021-01-22 12:00:25 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Export Data: SCENARIO Export Data
+
+2021-01-22 12:00:25 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:00:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-22 12:00:25 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:00:25 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:00:25 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:00:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:00:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:00:26 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:00:26 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:00:26 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:00:26 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:00:27 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:00:27 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:00:27 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:27 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:27 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:28 - [TEST_STEP][PASSED] - Input Contract RTD in Contract Number label: Input Contract RTD in Contract Number label
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Text '4000014162' is set on object ''
+
+2021-01-22 12:00:28 - [MESSAGE][PASSED] - Input Contract RTD in Contract Number label
+
+2021-01-22 12:00:28 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:00:28 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:00:31 - [TEST_STEP][PASSED] - Verify Table Filled: Verify Table Filled
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:31 - [MESSAGE][PASSED] - Verify Table Filled
+
+2021-01-22 12:00:31 - [TEST_STEP][PASSED] - Click button "Export Data": Click button "Export Data"
+
+2021-01-22 12:00:31 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Export Data')]
+
+2021-01-22 12:00:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/Download_data.png]]
+
+2021-01-22 12:00:35 - [MESSAGE][PASSED] - Click button "Export Data"
+
+2021-01-22 12:00:35 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Export_Data_Dashboard_for_Risk.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Dashboard for Risk/TC_Search_by_STATUS_Dashboard_for_Risk" time="149.825" classname="Test Cases/RTD/Dashboard for Risk/TC_Search_by_STATUS_Dashboard_for_Risk" status="PASSED">
+         <system-out><![CDATA[2021-01-22 12:00:35 - [TEST_CASE][PASSED] - Test Cases/RTD/Dashboard for Risk/TC_Search_by_STATUS_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_Search_by_STATUS_Dashboard_for_Risk
+
+2021-01-22 12:00:35 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_STATUS_Dashboard_for_Risk.feature"): Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_STATUS_Dashboard_for_Risk.feature' was passed
+
+2021-01-22 12:00:35 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_STATUS_Dashboard_for_Risk.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/cucumber_report/1611291635204'...
+
+2021-01-22 12:00:35 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Eligible to Disburse: SCENARIO Search by STATUS Eligible to Disburse
+
+2021-01-22 12:00:35 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:00:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-22 12:00:35 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:00:35 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:00:35 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:00:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:00:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:00:36 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:00:36 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:00:36 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:00:36 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:00:37 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:37 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:00:37 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:37 - [TEST_STEP][PASSED] - Select STATUS "Eligible to disburse": Select STATUS "Eligible to disburse"
+
+2021-01-22 12:00:38 - [MESSAGE][PASSED] - All options with value 'Eligible to disburse' are selected in object ''  using regular expression
+
+2021-01-22 12:00:38 - [MESSAGE][PASSED] - Select STATUS "Eligible to disburse"
+
+2021-01-22 12:00:38 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:00:38 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:00:41 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:41 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:00:41 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:00:41 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:00:41 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:50 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:00:50 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:00:50 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:00:53 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:54 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:00:54 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:00:54 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:00:54 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:00:54 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:00:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Waiting validation from Risk: SCENARIO Search by STATUS Waiting validation from Risk
+
+2021-01-22 12:00:54 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:00:54 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:00:54 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:00:54 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:00:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:00:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:00:55 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:00:55 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:00:55 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:00:55 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:55 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:00:55 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:00:56 - [TEST_STEP][PASSED] - Select STATUS "Waiting validation from Risk": Select STATUS "Waiting validation from Risk"
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - All options with value 'Waiting validation from Risk' are selected in object ''  using regular expression
+
+2021-01-22 12:00:56 - [MESSAGE][PASSED] - Select STATUS "Waiting validation from Risk"
+
+2021-01-22 12:00:56 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:00:56 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:00:59 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:00:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:00 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:00 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:00 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:01:00 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:03 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:01:03 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:01:03 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:01:06 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:01:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Waiting validation from In Payment: SCENARIO Search by STATUS Waiting validation from In Payment
+
+2021-01-22 12:01:06 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:01:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:01:06 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:01:06 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:01:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:01:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:01:07 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:01:07 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:01:07 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:01:07 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:01:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:01:08 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:01:08 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:01:08 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:08 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:01:08 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:08 - [TEST_STEP][PASSED] - Select STATUS "Waiting validation from In Payment": Select STATUS "Waiting validation from In Payment"
+
+2021-01-22 12:01:09 - [MESSAGE][PASSED] - All options with value 'Waiting validation from In Payment' are selected in object ''  using regular expression
+
+2021-01-22 12:01:09 - [MESSAGE][PASSED] - Select STATUS "Waiting validation from In Payment"
+
+2021-01-22 12:01:09 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:01:09 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:12 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:12 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:01:12 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:01:12 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:01:15 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:01:16 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:01:16 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Ready to disburse: SCENARIO Search by STATUS Ready to disburse
+
+2021-01-22 12:01:16 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:01:16 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:01:16 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:01:16 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:01:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:01:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:01:17 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:01:17 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:01:17 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:01:17 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:17 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:17 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:18 - [TEST_STEP][PASSED] - Select STATUS "Ready to disburse": Select STATUS "Ready to disburse"
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - All options with value 'Ready to disburse' are selected in object ''  using regular expression
+
+2021-01-22 12:01:18 - [MESSAGE][PASSED] - Select STATUS "Ready to disburse"
+
+2021-01-22 12:01:18 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:01:18 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:01:21 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:21 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:21 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:21 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:01:22 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:25 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:01:25 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:01:25 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:01:28 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:01:28 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Failed due to invalid bank account: SCENARIO Search by STATUS Failed due to invalid bank account
+
+2021-01-22 12:01:28 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:01:28 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:01:28 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:01:28 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:01:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:01:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:01:29 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:01:29 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:01:29 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:01:29 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:01:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:01:30 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:01:30 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:01:30 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:30 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:01:30 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:30 - [TEST_STEP][PASSED] - Select STATUS "Failed due to invalid bank account": Select STATUS "Failed due to invalid bank account"
+
+2021-01-22 12:01:31 - [MESSAGE][PASSED] - All options with value 'Failed due to invalid bank account' are selected in object ''  using regular expression
+
+2021-01-22 12:01:31 - [MESSAGE][PASSED] - Select STATUS "Failed due to invalid bank account"
+
+2021-01-22 12:01:31 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:01:31 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:01:34 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:34 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:34 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:34 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:01:34 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:36 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:01:36 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:01:36 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:01:39 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:01:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Failed due to system error: SCENARIO Search by STATUS Failed due to system error
+
+2021-01-22 12:01:39 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:01:39 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:01:39 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:01:39 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:01:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:01:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:01:40 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:01:40 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:01:40 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:01:40 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:01:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:01:41 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:01:41 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:01:41 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:41 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:01:41 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:41 - [TEST_STEP][PASSED] - Select STATUS "Failed due to system error": Select STATUS "Failed due to system error"
+
+2021-01-22 12:01:42 - [MESSAGE][PASSED] - All options with value 'Failed due to system error' are selected in object ''  using regular expression
+
+2021-01-22 12:01:42 - [MESSAGE][PASSED] - Select STATUS "Failed due to system error"
+
+2021-01-22 12:01:42 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:01:42 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:01:45 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:45 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:45 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:45 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:01:45 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:49 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:01:49 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:01:49 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:01:52 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:01:53 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:01:53 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Failed due to insufficient fund: SCENARIO Search by STATUS Failed due to insufficient fund
+
+2021-01-22 12:01:53 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:01:53 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:01:53 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:01:53 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:01:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:01:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:01:54 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:01:54 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:01:54 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:01:54 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:54 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:01:54 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:01:55 - [TEST_STEP][PASSED] - Select STATUS "Failed due to insufficient fund": Select STATUS "Failed due to insufficient fund"
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - All options with value 'Failed due to insufficient fund' are selected in object ''  using regular expression
+
+2021-01-22 12:01:55 - [MESSAGE][PASSED] - Select STATUS "Failed due to insufficient fund"
+
+2021-01-22 12:01:55 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:01:55 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:01:58 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:01:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:01:58 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:01:58 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:01:58 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:02:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[@style='display:none' and contains(text(),'-Empty-')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-22 12:02:03 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//td[@style='display:none' and contains(text(),'-Empty-')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//td[@style='display:none' and contains(text(),'-Empty-')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$11.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.VerifyTblFilled(Contract_Dispatcher.groovy:1313)
+	at ist_real.Contract_Dispatcher$VerifyTblFilled$0.call(Unknown Source)
+	at RTD.Search_Result_Presents(RTD.groovy:191)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_Search_by_STATUS_Dashboard_for_Risk.run(TC_Search_by_STATUS_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/1611291722896.png]]
+
+2021-01-22 12:02:03 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:02:03 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:02:03 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:02:06 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:02:06 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:02:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Failed due to not supported bank: SCENARIO Search by STATUS Failed due to not supported bank
+
+2021-01-22 12:02:06 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:02:06 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:02:06 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:02:06 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:02:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:02:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:02:07 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:02:07 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:02:07 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:02:08 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:02:08 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:02:08 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:08 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:08 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:09 - [TEST_STEP][PASSED] - Select STATUS "Failed due to not supported bank": Select STATUS "Failed due to not supported bank"
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - All options with value 'Failed due to not supported bank' are selected in object ''  using regular expression
+
+2021-01-22 12:02:09 - [MESSAGE][PASSED] - Select STATUS "Failed due to not supported bank"
+
+2021-01-22 12:02:09 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:02:09 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:02:12 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:12 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:12 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:02:12 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:02:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[@style='display:none' and contains(text(),'-Empty-')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-01-22 12:02:17 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//td[@style='display:none' and contains(text(),'-Empty-')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//td[@style='display:none' and contains(text(),'-Empty-')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1444)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$11.call(Unknown Source)
+	at ist_real.Contract_Dispatcher.VerifyTblFilled(Contract_Dispatcher.groovy:1313)
+	at ist_real.Contract_Dispatcher$VerifyTblFilled$0.call(Unknown Source)
+	at RTD.Search_Result_Presents(RTD.groovy:191)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_Search_by_STATUS_Dashboard_for_Risk.run(TC_Search_by_STATUS_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/1611291736740.png]]
+
+2021-01-22 12:02:17 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:02:17 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:02:17 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:02:20 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:02:20 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:02:20 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Manual Disbursement: SCENARIO Search by STATUS Manual Disbursement
+
+2021-01-22 12:02:20 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:02:20 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:02:20 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:02:20 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:02:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:02:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:02:21 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:02:21 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:02:21 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:02:21 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:02:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:02:22 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:02:22 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:02:22 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:22 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:02:22 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:02:23 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:23 - [TEST_STEP][PASSED] - Select STATUS "Manual Disbursement": Select STATUS "Manual Disbursement"
+
+2021-01-22 12:02:23 - [MESSAGE][PASSED] - All options with value 'Manual Disbursement' are selected in object ''  using regular expression
+
+2021-01-22 12:02:23 - [MESSAGE][PASSED] - Select STATUS "Manual Disbursement"
+
+2021-01-22 12:02:23 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:02:23 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:02:26 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:26 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:26 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:02:26 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:02:26 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:34 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:02:34 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:02:34 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:02:37 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:02:37 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:02:37 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS DONE: SCENARIO Search by STATUS DONE
+
+2021-01-22 12:02:37 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:02:37 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:02:37 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:02:37 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:02:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:02:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:02:38 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:02:38 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:02:38 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:02:38 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:02:39 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:02:39 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:02:39 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:39 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:39 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:40 - [TEST_STEP][PASSED] - Select STATUS "DONE": Select STATUS "DONE"
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - All options with value 'DONE' are selected in object ''  using regular expression
+
+2021-01-22 12:02:40 - [MESSAGE][PASSED] - Select STATUS "DONE"
+
+2021-01-22 12:02:40 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:02:40 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:02:43 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:43 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:43 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:02:43 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:02:43 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:51 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:02:51 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:02:51 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:02:54 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:02:55 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:02:55 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by STATUS Success to Disburse: SCENARIO Search by STATUS Success to Disburse
+
+2021-01-22 12:02:55 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:02:55 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:02:55 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:02:55 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:02:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:02:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:02:56 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:02:56 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:02:56 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:02:56 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:56 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:02:56 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:02:57 - [TEST_STEP][PASSED] - Select STATUS "Success to Disburse": Select STATUS "Success to Disburse"
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - All options with value 'Success to Disburse' are selected in object ''  using regular expression
+
+2021-01-22 12:02:57 - [MESSAGE][PASSED] - Select STATUS "Success to Disburse"
+
+2021-01-22 12:02:57 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:02:57 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:03:00 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:03:00 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:03:00 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:03:00 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:03:00 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:01 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:03:01 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-22 12:03:01 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-22 12:03:04 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Close browser
+
+2021-01-22 12:03:04 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_STATUS_Dashboard_for_Risk.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Dashboard for Risk/TC_Search_by_Contract_Number_Dashboard_for_Risk" time="6.925" classname="Test Cases/RTD/Dashboard for Risk/TC_Search_by_Contract_Number_Dashboard_for_Risk" status="PASSED">
+         <system-out><![CDATA[2021-01-22 12:03:04 - [TEST_CASE][PASSED] - Test Cases/RTD/Dashboard for Risk/TC_Search_by_Contract_Number_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_Search_by_Contract_Number_Dashboard_for_Risk
+
+2021-01-22 12:03:05 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_Contract_Number_Dashboard_for_Risk.feature"): Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_Contract_Number_Dashboard_for_Risk.feature' was passed
+
+2021-01-22 12:03:05 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_Contract_Number_Dashboard_for_Risk.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210122_113940/RTD/TS_Dashboard_for_Risk/20210122_113945/cucumber_report/1611291785038'...
+
+2021-01-22 12:03:05 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search by Contract Number and it found on Dashboard: SCENARIO Search by Contract Number and it found on Dashboard
+
+2021-01-22 12:03:05 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-22 12:03:05 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-22 12:03:05 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-22 12:03:05 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-22 12:03:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-22 12:03:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-22 12:03:06 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-22 12:03:06 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-22 12:03:06 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-22 12:03:06 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-22 12:03:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-22 12:03:07 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-22 12:03:07 - [MESSAGE][INFO] - Login Success
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Login Success
+
+2021-01-22 12:03:07 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-22 12:03:07 - [TEST_STEP][PASSED] - Select Menu "Dashboard for Risk": Select Menu "Dashboard for Risk"
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Dashboard for Risk.png]]
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-22 12:03:07 - [MESSAGE][PASSED] - Select Menu "Dashboard for Risk"
+
+2021-01-22 12:03:07 - [TEST_STEP][PASSED] - Input Contract RTD in Contract Number label: Input Contract RTD in Contract Number label
+
+2021-01-22 12:03:08 - [MESSAGE][PASSED] - Text '4000014162' is set on object ''
+
+2021-01-22 12:03:08 - [MESSAGE][PASSED] - Input Contract RTD in Contract Number label
+
+2021-01-22 12:03:08 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2021-01-22 12:03:08 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Click button "Search"
+
+2021-01-22 12:03:11 - [TEST_STEP][PASSED] - Verify Search Result Presents: Verify Search Result Presents
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Verify Search Result Presents
+
+2021-01-22 12:03:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Dashboard_for_Risk/Search_by_Contract_Number_Dashboard_for_Risk.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-22 11:59:45 - [TEST_SUITE][FAILED] - TS_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-01-22 11:59:45 - [TEST_SUITE][FAILED] - TS_Dashboard_for_Risk: Test Cases/RTD/Dashboard for Risk/TC_View_Detail_Dashboard_for_Risk FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/RTD/Dashboard_for_Risk/View_Detail_Dashboard_for_Risk.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at TC_View_Detail_Dashboard_for_Risk.run(TC_View_Detail_Dashboard_for_Risk:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1611290385324.run(TempTestSuite1611290385324.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

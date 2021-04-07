@@ -1,0 +1,150 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Connection to FTP DataON Sunfish Server by Hit Batch Scan HRIS",
+        "description": "",
+        "id": "connection-to-ftp-dataon-sunfish-server;connection-to-ftp-dataon-sunfish-server-by-hit-batch-scan-hris",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1415248598,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 582207264,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154597319,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 578434358,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Batch New Employee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Batch New Employee",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3024589459,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify Table Exist",
+            "match": {
+              "location": "Contract_Dispatcher.hardcopyjournettwtable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3168111813,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78117318,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Connection to FTP DataON Sunfish Server",
+    "description": "  I want to use this template for my feature file",
+    "id": "connection-to-ftp-dataon-sunfish-server",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/ISTools/Connection_to_FTP_DataON_Sunfish_Server.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

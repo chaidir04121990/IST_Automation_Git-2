@@ -1,0 +1,2352 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Search by STATUS Eligible to Disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-eligible-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3736037253,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1564104311,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 175777103,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 93728561,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 744305782,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465421451,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select STATUS \"Eligible to disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eligible to disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3101305650,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7049528056,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3213037778,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83080232,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Search by STATUS Waiting approval from Risk",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-waiting-approval-from-risk",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2163880532,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1620700702,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165155846,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71634887,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606276450,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459530533,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Select STATUS \"Waiting approval from Risk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waiting approval from Risk",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3085309685,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3735579301,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3221226785,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77063735,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 52,
+        "name": "Search by STATUS Waiting for approval from In Payment",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-waiting-for-approval-from-in-payment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2767274081,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 878892286,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154266837,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66853766,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583220066,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422277204,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Select STATUS \"Waiting for approval from In Payment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waiting for approval from In Payment",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081370056,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599612421,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3579861683,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74505398,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Search by STATUS Not eligible to disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-not-eligible-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3028178448,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 854284894,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155605995,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69067238,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 591502522,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 556205751,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "Select STATUS \"Not eligible to disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not eligible to disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081534214,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6556772777,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3669945770,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77023426,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 80,
+        "name": "Search by STATUS Ready to disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-ready-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2008720735,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1416889794,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153898204,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66027726,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592246694,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 511947847,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Select STATUS \"Ready to disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ready to disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081755863,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2379384847,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3203721366,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77814114,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 94,
+        "name": "Search by STATUS Failed due to invalid bank account",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-failed-due-to-invalid-bank-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2230478171,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 735630483,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 162272129,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67156332,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 626593676,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 688244446,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "Select STATUS \"Failed due to invalid bank account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to invalid bank account",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086504271,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1505138971,
+              "status": "passed"
+            },
+            "line": 104,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3880144793,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78934104,
+              "status": "passed"
+            },
+            "line": 106,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 108,
+        "name": "Search by STATUS Failed due to system error",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-failed-due-to-system-error",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5316814082,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1120746919,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164119424,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67194812,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587930557,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 747990805,
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "Select STATUS \"Failed due to system error\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to system error",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081376874,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3271984835,
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3246269523,
+              "status": "passed"
+            },
+            "line": 119,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75933078,
+              "status": "passed"
+            },
+            "line": 120,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 122,
+        "name": "Search by STATUS Failed due to insufficient fund",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-failed-due-to-insufficient-fund",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2975008063,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 884399810,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152452695,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65690983,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590544664,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 480518829,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "Select STATUS \"Failed due to insufficient fund\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to insufficient fund",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080492721,
+              "status": "passed"
+            },
+            "line": 131,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4758395823,
+              "status": "passed"
+            },
+            "line": 132,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3198927925,
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77036918,
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 136,
+        "name": "Search by STATUS Failed due to not supported bank",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-failed-due-to-not-supported-bank",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2778906087,
+              "status": "passed"
+            },
+            "line": 137,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1214436781,
+              "status": "passed"
+            },
+            "line": 138,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154030953,
+              "status": "passed"
+            },
+            "line": 141,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66221315,
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 610728773,
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771028420,
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "Select STATUS \"Failed due to not supported bank\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Failed due to not supported bank",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3078575950,
+              "status": "passed"
+            },
+            "line": 145,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4694581282,
+              "status": "passed"
+            },
+            "line": 146,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3213401081,
+              "status": "passed"
+            },
+            "line": 147,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76359184,
+              "status": "passed"
+            },
+            "line": 148,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 150,
+        "name": "Search by STATUS Manual Disbursement",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-manual-disbursement",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4723084658,
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 992050331,
+              "status": "passed"
+            },
+            "line": 152,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145537693,
+              "status": "passed"
+            },
+            "line": 155,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65582765,
+              "status": "passed"
+            },
+            "line": 156,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672677794,
+              "status": "passed"
+            },
+            "line": 157,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1163920964,
+              "status": "passed"
+            },
+            "line": 158,
+            "name": "Select STATUS \"Manual Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manual Disbursement",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3083423076,
+              "status": "passed"
+            },
+            "line": 159,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6440789886,
+              "status": "passed"
+            },
+            "line": 160,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3442646784,
+              "status": "passed"
+            },
+            "line": 161,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76363497,
+              "status": "passed"
+            },
+            "line": 162,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 164,
+        "name": "Search by STATUS DONE",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-done",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2622162964,
+              "status": "passed"
+            },
+            "line": 165,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 882502193,
+              "status": "passed"
+            },
+            "line": 166,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152550203,
+              "status": "passed"
+            },
+            "line": 169,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63749902,
+              "status": "passed"
+            },
+            "line": 170,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599606131,
+              "status": "passed"
+            },
+            "line": 171,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456229452,
+              "status": "passed"
+            },
+            "line": 172,
+            "name": "Select STATUS \"DONE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DONE",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3081916324,
+              "status": "passed"
+            },
+            "line": 173,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6456425690,
+              "status": "passed"
+            },
+            "line": 174,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3230286084,
+              "status": "passed"
+            },
+            "line": 175,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80666179,
+              "status": "passed"
+            },
+            "line": 176,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 178,
+        "name": "Search by STATUS Waiting Partner Confirmation",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-waiting-partner-confirmation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2345679171,
+              "status": "passed"
+            },
+            "line": 179,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1302884175,
+              "status": "passed"
+            },
+            "line": 180,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152739994,
+              "status": "passed"
+            },
+            "line": 183,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65684027,
+              "status": "passed"
+            },
+            "line": 184,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 575794575,
+              "status": "passed"
+            },
+            "line": 185,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 555369053,
+              "status": "passed"
+            },
+            "line": 186,
+            "name": "Select STATUS \"Waiting Partner Confirmation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Waiting Partner Confirmation",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080755497,
+              "status": "passed"
+            },
+            "line": 187,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4189383912,
+              "status": "passed"
+            },
+            "line": 188,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3199901723,
+              "status": "passed"
+            },
+            "line": 189,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77596774,
+              "status": "passed"
+            },
+            "line": 190,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      },
+      {
+        "line": 192,
+        "name": "Search by STATUS Success to Disburse",
+        "description": "",
+        "id": "search-by-status-for-dashboard-for-bo-in-payment;search-by-status-success-to-disburse",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2134114832,
+              "status": "passed"
+            },
+            "line": 193,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 741299126,
+              "status": "passed"
+            },
+            "line": 194,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152390192,
+              "status": "passed"
+            },
+            "line": 197,
+            "name": "Login Success",
+            "match": {
+              "location": "Login_IST.Login_Success()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 64504666,
+              "status": "passed"
+            },
+            "line": 198,
+            "name": "Select Arrow Menu \"Real Time Disbursement\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Time Disbursement",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 570836787,
+              "status": "passed"
+            },
+            "line": 199,
+            "name": "Select Menu \"Dashboard for CCC/OCS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard for CCC/OCS",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 465685021,
+              "status": "passed"
+            },
+            "line": 200,
+            "name": "Select STATUS \"Success to Disburse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success to Disburse",
+                  "offset": 15
+                }
+              ],
+              "location": "RTD.Select_STATUS(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3077772986,
+              "status": "passed"
+            },
+            "line": 201,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 576332464,
+              "status": "passed"
+            },
+            "line": 202,
+            "name": "Verify Search Result Presents",
+            "match": {
+              "location": "RTD.Search_Result_Presents()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3244262090,
+              "status": "passed"
+            },
+            "line": 203,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76939170,
+              "status": "passed"
+            },
+            "line": 204,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Search by STATUS for Dashboard for BO In Payment",
+    "description": "  I want to use this template for my feature file",
+    "id": "search-by-status-for-dashboard-for-bo-in-payment",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/RTD/Dashboard_for_CCC_OCS/Search_by_STATUS_CCC_OCS.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

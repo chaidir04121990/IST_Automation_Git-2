@@ -1,0 +1,184 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling",
+        "description": "",
+        "id": "send-email-handling;send-email-by-select-menu-email-handling-from-invoice-system-then-generate-email-handling",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2463510299,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1856643621,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 399942934,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 275327168,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Arrow Menu \"Invoice System\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Invoice System",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1426106259,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Menu \"Email Handling\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email Handling",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1229961263,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Select Email handling \"Email tidak terdaftar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Email tidak terdaftar",
+                  "offset": 23
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectEmailHandling(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993639033,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Type EmailClient on \"Alamat Email yang digunakan client\" with value \"chaidir04121990@yahoo.co.id\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alamat Email yang digunakan client",
+                  "offset": 21
+                },
+                {
+                  "val": "chaidir04121990@yahoo.co.id",
+                  "offset": 69
+                }
+              ],
+              "location": "Contract_Dispatcher.TypeEmailClient(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3629930894,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Generate Email\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Generate Email",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Send Email Handling",
+    "description": "  I want to use this template for my feature file",
+    "id": "send-email-handling",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/DRC/IST_Tracker/Send_Email.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="103.505037">
+<testcase classname="Contract Dispatcher Two Wheelers" name="Select Menu Contract Dispatcher and Select Contract based on type contract Two Wheelers" time="103.505037">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "TWO_WHEELERS"............passed
+And Click button "Claim"....................................................passed
+And Varify the mistake detail already match with the matrix Base on Type Contract.passed
+And Click on Tab "KTP"......................................................passed
+And Checkbox General Mistake "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP".passed
+And Choose Dropdown mistake type "Beda RT" from mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP".passed
+And Type on textarea note before based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING".passed
+And Type on textarea note after based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING after".passed
+And Click button "Save".....................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Mistake has been saved".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

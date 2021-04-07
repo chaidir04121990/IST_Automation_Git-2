@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.152318">
+<testcase classname="SLIK Bulk Request MPF" name="SLIK Bulk Request" time="39.152318">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "SLIK Bulk Request MPF".....................................passed
+And Click button "Upload Data"..............................................passed
+And Upload file "Template Bulk Request MPF.csv".............................passed
+And Click button "Process"..................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Data is processed".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,88 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM",
+        "description": "",
+        "id": "title-of-your-feature;update-table-contract-dispatcher-source-and-contract-disptacher-claim",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 300795861,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to Database",
+            "match": {
+              "location": "try_it_out_Conn_DB.Conn_DB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 172944524,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Update Tbl CONTRACT DISPATCHER SOURCE To Change PROCESSED From Y to N For Bukalapak B2B",
+            "match": {
+              "location": "try_it_out_Conn_DB.Update_tbl_CDS_Column_PROCESSED_Bukalapak_B2B()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 235070614,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_value_PROCESS_from_column_STATUS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169691645,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Delete Contract From TRK_REGISTRATION_MISTAKE",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_Contract_from_TRK_REGISTRATION_MISTAKE()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BUKALAPAK/Update_Tbl_CDS_CDC_TRK_RegMistake.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

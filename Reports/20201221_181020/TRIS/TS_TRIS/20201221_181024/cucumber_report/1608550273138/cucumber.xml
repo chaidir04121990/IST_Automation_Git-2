@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="3.895345">
+<testcase classname="Addendum" name="Check Contract Status from BSL is Active and Credit Left before 90%&#9; in TRIS is 0 Purpopse in BSL and TRIS are different" time="3.895345">
+<failure message="groovy.lang.MissingPropertyException: No such property: Active_contract_number_in_BSL_for_TRIS_0 for class: internal.GlobalVariable&#10;&#9;at BSL_try.Write_BSL_Active_Contract_Number(BSL_try.groovy:79)&#10;&#9;at ✽.Write Active Contract Number(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/TRIS/Addendum_Check_Contract_Status_in_BSL_And_CreditLimit_TRIS.feature:29)&#10;"><![CDATA[Given Go to BSL C1..........................................................passed
+When Login BSL C1 with valid credentials....................................passed
+Then Login BSL C1 Succeed...................................................passed
+And Select "Search for contract"............................................passed
+And Write Active Contract Number............................................failed
+And Click Button "Search"...................................................skipped
+And Check Contract Status BSL...............................................skipped
+Given Go to ISTools.........................................................skipped
+When Login IST with valid credentials.......................................skipped
+Then Login Success for contract dispatcher..................................skipped
+And Select Arrow Menu "Invoice System"......................................skipped
+And Select Menu "Tracker Invoice System"....................................skipped
+And Type on Textbox label "contract number of email address" with Active Contract Number in BSL and TRIS Credit Left Before 90=0.skipped
+And Click button "Search"...................................................skipped
+And Check_Credit_Left_before_90%............................................skipped
+And Click Button "Submit"...................................................skipped
+And Get text from pop up "Confirm" with text "Apakah Kamu yakin akan memproses invoice ini".skipped
+And Click button "Yes"......................................................skipped
+And Wait page for load......................................................skipped
+And Get text from pop up "IT Supporting Tools" with text "Successfully submitted".skipped
+And Click button "OK".......................................................skipped
+And Close browser...........................................................skipped
+Given Go to Outlook.........................................................skipped
+When Login Outlook with valid credentials...................................skipped
+Then Login Outlook Succeed..................................................skipped
+And Verify Email Addendum Sent..............................................skipped
+
+StackTrace:
+groovy.lang.MissingPropertyException: No such property: Active_contract_number_in_BSL_for_TRIS_0 for class: internal.GlobalVariable
+	at BSL_try.Write_BSL_Active_Contract_Number(BSL_try.groovy:79)
+	at ✽.Write Active Contract Number(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/TRIS/Addendum_Check_Contract_Status_in_BSL_And_CreditLimit_TRIS.feature:29)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="45.858725">
+<testcase classname="Claim Contract Dona BliBli then Save it Without Register any Mistakes" name="Select Menu Contract Dispatcher and Select Contract based on type contract Dona BliBli" time="45.858725">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "DONA_BLIBLI".............passed
+And Click button "Claim"....................................................passed
+And Verify Tab Mistake Matrix Base on Type Contract.........................passed
+And Varify the mistake detail already match with the matrix Base on Type Contract.passed
+And Click button "Save".....................................................passed
+And Get text from pop up "Confirmation Stop" with text "Are you sure?"......passed
+And Click button "OK".......................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Successfully saved".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

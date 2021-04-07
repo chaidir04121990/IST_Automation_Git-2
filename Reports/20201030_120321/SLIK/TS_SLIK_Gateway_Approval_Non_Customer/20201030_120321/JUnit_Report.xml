@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_SLIK_Gateway_Approval_Non_Customer" time="228.501" tests="5" failures="0" errors="0">
+   <testsuite name="TS_SLIK_Gateway_Approval_Non_Customer" tests="5" failures="0" errors="0" time="228.501" timestamp="2020-10-30 12:03:29" hostname="chaidir.pratama01 - localhost" id="Test Suites/SLIK/TS_SLIK_Gateway_Approval_Non_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 86.0.4240.111"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="a36f0c91f5b45c9972665b6b8a427475"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" time="82.453" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" status="PASSED">
+         <system-out><![CDATA[2020-10-30 12:03:29 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking
+
+2020-10-30 12:03:29 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed
+
+2020-10-30 12:03:29 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/cucumber_report/1604034209530'...
+
+2020-10-30 12:03:30 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Checking: SCENARIO SLIK Gateway Non Customer Checking
+
+2020-10-30 12:03:30 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-10-30 12:03:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 12:03:30 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-30 12:03:30 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-30 12:03:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 12:03:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 12:03:35 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01preprod.id.nonprod/ist/' successfully
+
+2020-10-30 12:03:35 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-10-30 12:03:35 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-30 12:03:38 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-30 12:03:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-30 12:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-30 12:03:41 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-30 12:03:41 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-30 12:03:41 - [MESSAGE][INFO] - Login Success
+
+2020-10-30 12:03:41 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-30 12:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-30 12:03:41 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-30 12:03:41 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-10-30 12:03:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:03:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:03:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:03:42 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-10-30 12:03:42 - [TEST_STEP][PASSED] - Input Data KTP Number: Input Data KTP Number
+
+2020-10-30 12:03:44 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-10-30 12:03:44 - [MESSAGE][PASSED] - Input Data KTP Number
+
+2020-10-30 12:03:44 - [TEST_STEP][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK: Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-10-30 12:03:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:03:45 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:03:45 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:03:46 - [MESSAGE][PASSED] - Text 'OPEX TestingAuto' is set on object ''
+
+2020-10-30 12:03:46 - [MESSAGE][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-10-30 12:03:46 - [TEST_STEP][PASSED] - Input Date of Birth "20-02-1990": Input Date of Birth "20-02-1990"
+
+2020-10-30 12:03:47 - [MESSAGE][PASSED] - Text '20-02-1990' is set on object ''
+
+2020-10-30 12:03:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-30 12:03:50 - [MESSAGE][PASSED] - Input Date of Birth "20-02-1990"
+
+2020-10-30 12:03:50 - [TEST_STEP][PASSED] - Select Gender "Laki-laki": Select Gender "Laki-laki"
+
+2020-10-30 12:03:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:03:50 - [MESSAGE][PASSED] - Select Gender "Laki-laki"
+
+2020-10-30 12:03:50 - [TEST_STEP][PASSED] - Select Purpose is "Penilaian Calon Kemitraan": Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-10-30 12:03:51 - [MESSAGE][PASSED] - All options with value 'Penilaian Calon Kemitraan' are selected in object ''  using regular expression
+
+2020-10-30 12:03:51 - [MESSAGE][PASSED] - Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-10-30 12:03:51 - [TEST_STEP][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK: Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-10-30 12:03:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:03:52 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:03:53 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:03:54 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object ''
+
+2020-10-30 12:03:54 - [MESSAGE][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-10-30 12:03:54 - [TEST_STEP][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK: Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-10-30 12:03:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:03:55 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:03:55 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:03:56 - [MESSAGE][PASSED] - Text 'Tester Auto' is set on object ''
+
+2020-10-30 12:03:56 - [MESSAGE][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-10-30 12:03:56 - [TEST_STEP][PASSED] - Input KTP Address "TESTING AUTO JAKARTA": Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-10-30 12:03:56 - [MESSAGE][PASSED] - Text 'TESTING AUTO JAKARTA' is set on object ''
+
+2020-10-30 12:03:56 - [MESSAGE][PASSED] - Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-10-30 12:03:56 - [TEST_STEP][PASSED] - Click button "Upload": Click button "Upload"
+
+2020-10-30 12:03:56 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Upload')]
+
+2020-10-30 12:04:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:01 - [MESSAGE][PASSED] - Click button "Upload"
+
+2020-10-30 12:04:01 - [TEST_STEP][PASSED] - Upload file "new_captcha1500.png": Upload file "new_captcha1500.png"
+
+2020-10-30 12:04:02 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-10-30 12:04:16 - [MESSAGE][PASSED] - Upload file "new_captcha1500.png"
+
+2020-10-30 12:04:16 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-10-30 12:04:16 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-10-30 12:04:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:19 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-10-30 12:04:19 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-10-30 12:04:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:04:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:04:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:04:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:04:21 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-10-30 12:04:21 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-10-30 12:04:21 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-10-30 12:04:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:24 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-10-30 12:04:24 - [TEST_STEP][PASSED] - Verify KTP Number Request Success: Verify KTP Number Request Success
+
+2020-10-30 12:04:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:04:44 - [MESSAGE][PASSED] - Verify KTP Number Request Success
+
+2020-10-30 12:04:44 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-30 12:04:44 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-30 12:04:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:48 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-30 12:04:48 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-30 12:04:48 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-30 12:04:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:51 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-30 12:04:51 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-30 12:04:51 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-30 12:04:51 - [MESSAGE][PASSED] - Close browser
+
+2020-10-30 12:04:51 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Check KTP number based on maker and checker" time="9.919" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Check KTP number based on maker and checker" status="PASSED">
+         <system-out><![CDATA[2020-10-30 12:04:51 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Check KTP number based on maker and checker: Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Check KTP number based on maker and checker
+
+2020-10-30 12:04:51 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature' was passed
+
+2020-10-30 12:04:51 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/cucumber_report/1604034291833'...
+
+2020-10-30 12:04:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Check KTP number based on maker and checker from DB Table SLIK_CHECKER: SCENARIO Check KTP number based on maker and checker from DB Table SLIK_CHECKER
+
+2020-10-30 12:04:52 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-10-30 12:04:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 12:04:52 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-30 12:04:52 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-30 12:04:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 12:04:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 12:04:55 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01preprod.id.nonprod/ist/' successfully
+
+2020-10-30 12:04:55 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-10-30 12:04:55 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-30 12:04:55 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-30 12:04:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-30 12:04:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-30 12:04:57 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-30 12:04:57 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-30 12:04:57 - [MESSAGE][INFO] - Login Success
+
+2020-10-30 12:04:57 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-30 12:04:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-30 12:04:57 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-30 12:04:57 - [TEST_STEP][PASSED] - Select Menu "SLIK Gateway Approval Non Customer": Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:04:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png]]
+
+2020-10-30 12:04:59 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:04:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:04:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:04:59 - [MESSAGE][PASSED] - Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:04:59 - [TEST_STEP][PASSED] - Check Sign in as: Check Sign in as
+
+2020-10-30 12:05:00 - [MESSAGE][PASSED] - Text of object '' is: 'Sign in as mobile.test'
+
+2020-10-30 12:05:00 - [MESSAGE][PASSED] - Check Sign in as
+
+2020-10-30 12:05:00 - [TEST_STEP][PASSED] - Connect to DB Table SLIK_CHECKER: Connect to DB Table SLIK_CHECKER
+
+2020-10-30 12:05:01 - [MESSAGE][PASSED] - Text of object '' is: '8888888888888888'
+
+2020-10-30 12:05:01 - [MESSAGE][PASSED] - Connect to DB Table SLIK_CHECKER
+
+2020-10-30 12:05:01 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-30 12:05:01 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-30 12:05:01 - [MESSAGE][PASSED] - Close browser
+
+2020-10-30 12:05:01 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Check KTP number based on maker and checker.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Approve KTP Number" time="32.938" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Approve KTP Number" status="PASSED">
+         <system-out><![CDATA[2020-10-30 12:05:01 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Approve KTP Number: Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Approve KTP Number
+
+2020-10-30 12:05:01 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Approve_KTP_Number.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Approve_KTP_Number.feature' was passed
+
+2020-10-30 12:05:01 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Approve_KTP_Number.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/cucumber_report/1604034301740'...
+
+2020-10-30 12:05:01 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Approve KTP Number by Checker: SCENARIO Approve KTP Number by Checker
+
+2020-10-30 12:05:01 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-10-30 12:05:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 12:05:01 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-30 12:05:01 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-30 12:05:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 12:05:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 12:05:05 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01preprod.id.nonprod/ist/' successfully
+
+2020-10-30 12:05:05 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-10-30 12:05:05 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-30 12:05:06 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-30 12:05:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-30 12:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-30 12:05:07 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-30 12:05:07 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-30 12:05:07 - [MESSAGE][INFO] - Login Success
+
+2020-10-30 12:05:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-30 12:05:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-30 12:05:08 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-30 12:05:08 - [TEST_STEP][PASSED] - Select Menu "SLIK Gateway Approval Non Customer": Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:05:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png]]
+
+2020-10-30 12:05:09 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:09 - [MESSAGE][PASSED] - Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:05:09 - [TEST_STEP][PASSED] - Verify Table Result Exist: Verify Table Result Exist
+
+2020-10-30 12:05:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:10 - [MESSAGE][PASSED] - Verify Table Result Exist
+
+2020-10-30 12:05:10 - [TEST_STEP][PASSED] - Get Data From Table: Get Data From Table
+
+2020-10-30 12:05:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:11 - [MESSAGE][PASSED] - Text of object '' is: '1'
+
+2020-10-30 12:05:11 - [MESSAGE][PASSED] - Text of object '' is: '8888888888888888'
+
+2020-10-30 12:05:12 - [MESSAGE][PASSED] - Text of object '' is: 'OPEX TestingAuto'
+
+2020-10-30 12:05:12 - [MESSAGE][PASSED] - Text of object '' is: 'View Document'
+
+2020-10-30 12:05:12 - [MESSAGE][PASSED] - Text of object '' is: ''
+
+2020-10-30 12:05:12 - [MESSAGE][PASSED] - Get Data From Table
+
+2020-10-30 12:05:12 - [TEST_STEP][PASSED] - Click Checkbox Validate: Click Checkbox Validate
+
+2020-10-30 12:05:13 - [MESSAGE][PASSED] - Text of object '' is: '8888888888888888'
+
+2020-10-30 12:05:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:13 - [MESSAGE][PASSED] - Click Checkbox Validate
+
+2020-10-30 12:05:13 - [TEST_STEP][PASSED] - Click button "Continue": Click button "Continue"
+
+2020-10-30 12:05:13 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Continue')]
+
+2020-10-30 12:05:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:16 - [MESSAGE][PASSED] - Click button "Continue"
+
+2020-10-30 12:05:16 - [TEST_STEP][PASSED] - Click Checkbox Saya Setuju: Click Checkbox Saya Setuju
+
+2020-10-30 12:05:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:17 - [MESSAGE][PASSED] - Click Checkbox Saya Setuju
+
+2020-10-30 12:05:17 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-10-30 12:05:17 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-10-30 12:05:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:21 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-10-30 12:05:21 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Approve Data" with text "Are you sure to SUBMIT this data ?": Get text from pop up "Confirmation Approve Data" with text "Are you sure to SUBMIT this data ?"
+
+2020-10-30 12:05:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:05:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:22 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Approve Data" with text "Are you sure to SUBMIT this data ?"
+
+2020-10-30 12:05:22 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-10-30 12:05:22 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-10-30 12:05:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:25 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-10-30 12:05:25 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Data is processed": Get text from pop up "IT Supporting Tools" with text "Data is processed"
+
+2020-10-30 12:05:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:05:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:27 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Data is processed"
+
+2020-10-30 12:05:27 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-30 12:05:27 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-30 12:05:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:30 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-30 12:05:30 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-30 12:05:30 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-30 12:05:34 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:34 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-30 12:05:34 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-30 12:05:34 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-30 12:05:34 - [MESSAGE][PASSED] - Close browser
+
+2020-10-30 12:05:34 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Approve_KTP_Number.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" time="76.166" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" status="PASSED">
+         <system-out><![CDATA[2020-10-30 12:05:34 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking
+
+2020-10-30 12:05:34 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed
+
+2020-10-30 12:05:34 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/cucumber_report/1604034334587'...
+
+2020-10-30 12:05:34 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Checking: SCENARIO SLIK Gateway Non Customer Checking
+
+2020-10-30 12:05:34 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-10-30 12:05:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 12:05:34 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-30 12:05:34 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-30 12:05:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 12:05:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 12:05:39 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01preprod.id.nonprod/ist/' successfully
+
+2020-10-30 12:05:39 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-10-30 12:05:39 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-30 12:05:40 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-30 12:05:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-30 12:05:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-30 12:05:41 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-30 12:05:41 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-30 12:05:41 - [MESSAGE][INFO] - Login Success
+
+2020-10-30 12:05:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-30 12:05:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-30 12:05:42 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-30 12:05:42 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-10-30 12:05:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:05:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:05:43 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-10-30 12:05:43 - [TEST_STEP][PASSED] - Input Data KTP Number: Input Data KTP Number
+
+2020-10-30 12:05:44 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-10-30 12:05:44 - [MESSAGE][PASSED] - Input Data KTP Number
+
+2020-10-30 12:05:44 - [TEST_STEP][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK: Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-10-30 12:05:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:05:45 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:05:45 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:05:46 - [MESSAGE][PASSED] - Text 'OPEX TestingAuto' is set on object ''
+
+2020-10-30 12:05:46 - [MESSAGE][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-10-30 12:05:46 - [TEST_STEP][PASSED] - Input Date of Birth "20-02-1990": Input Date of Birth "20-02-1990"
+
+2020-10-30 12:05:46 - [MESSAGE][PASSED] - Text '20-02-1990' is set on object ''
+
+2020-10-30 12:05:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-10-30 12:05:49 - [MESSAGE][PASSED] - Input Date of Birth "20-02-1990"
+
+2020-10-30 12:05:49 - [TEST_STEP][PASSED] - Select Gender "Laki-laki": Select Gender "Laki-laki"
+
+2020-10-30 12:05:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:05:50 - [MESSAGE][PASSED] - Select Gender "Laki-laki"
+
+2020-10-30 12:05:50 - [TEST_STEP][PASSED] - Select Purpose is "Penilaian Calon Kemitraan": Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-10-30 12:05:51 - [MESSAGE][PASSED] - All options with value 'Penilaian Calon Kemitraan' are selected in object ''  using regular expression
+
+2020-10-30 12:05:51 - [MESSAGE][PASSED] - Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-10-30 12:05:51 - [TEST_STEP][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK: Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-10-30 12:05:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:05:52 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:05:52 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:05:53 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object ''
+
+2020-10-30 12:05:53 - [MESSAGE][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-10-30 12:05:53 - [TEST_STEP][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK: Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-10-30 12:05:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-10-30 12:05:54 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-10-30 12:05:54 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-10-30 12:05:55 - [MESSAGE][PASSED] - Text 'Tester Auto' is set on object ''
+
+2020-10-30 12:05:55 - [MESSAGE][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-10-30 12:05:55 - [TEST_STEP][PASSED] - Input KTP Address "TESTING AUTO JAKARTA": Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-10-30 12:05:55 - [MESSAGE][PASSED] - Text 'TESTING AUTO JAKARTA' is set on object ''
+
+2020-10-30 12:05:55 - [MESSAGE][PASSED] - Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-10-30 12:05:55 - [TEST_STEP][PASSED] - Click button "Upload": Click button "Upload"
+
+2020-10-30 12:05:55 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Upload')]
+
+2020-10-30 12:06:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:01 - [MESSAGE][PASSED] - Click button "Upload"
+
+2020-10-30 12:06:01 - [TEST_STEP][PASSED] - Upload file "new_captcha1500.png": Upload file "new_captcha1500.png"
+
+2020-10-30 12:06:01 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-10-30 12:06:15 - [MESSAGE][PASSED] - Upload file "new_captcha1500.png"
+
+2020-10-30 12:06:15 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-10-30 12:06:15 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-10-30 12:06:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:18 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-10-30 12:06:18 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-10-30 12:06:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:06:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:06:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:06:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:06:20 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-10-30 12:06:20 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-10-30 12:06:20 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-10-30 12:06:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:23 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-10-30 12:06:23 - [TEST_STEP][PASSED] - Verify KTP Number Request Success: Verify KTP Number Request Success
+
+2020-10-30 12:06:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:06:43 - [MESSAGE][PASSED] - Verify KTP Number Request Success
+
+2020-10-30 12:06:43 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-30 12:06:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-30 12:06:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:47 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-30 12:06:47 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-10-30 12:06:47 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-10-30 12:06:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:50 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-10-30 12:06:50 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-30 12:06:50 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-30 12:06:50 - [MESSAGE][PASSED] - Close browser
+
+2020-10-30 12:06:50 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Reject KTP Number" time="23.428" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Reject KTP Number" status="PASSED">
+         <system-out><![CDATA[2020-10-30 12:06:50 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Reject KTP Number: Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Reject KTP Number
+
+2020-10-30 12:06:50 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Reject_KTP_Number.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Reject_KTP_Number.feature' was passed
+
+2020-10-30 12:06:50 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Reject_KTP_Number.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201030_120321/SLIK/TS_SLIK_Gateway_Approval_Non_Customer/20201030_120321/cucumber_report/1604034410852'...
+
+2020-10-30 12:06:51 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Reject KTP Number by Checker: SCENARIO Reject KTP Number by Checker
+
+2020-10-30 12:06:51 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-10-30 12:06:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-30 12:06:51 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-10-30 12:06:51 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-10-30 12:06:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-30 12:06:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-30 12:06:53 - [MESSAGE][PASSED] - Navigate to 'https://id-ist01preprod.id.nonprod/ist/' successfully
+
+2020-10-30 12:06:53 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-10-30 12:06:53 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-10-30 12:06:54 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-10-30 12:06:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-10-30 12:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-10-30 12:06:55 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-10-30 12:06:55 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-10-30 12:06:55 - [MESSAGE][INFO] - Login Success
+
+2020-10-30 12:06:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-30 12:06:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-10-30 12:06:56 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-10-30 12:06:56 - [TEST_STEP][PASSED] - Select Menu "SLIK Gateway Approval Non Customer": Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:06:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-SLIK Gateway Approval Non Customer.png]]
+
+2020-10-30 12:06:57 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:06:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:06:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:06:57 - [MESSAGE][PASSED] - Select Menu "SLIK Gateway Approval Non Customer"
+
+2020-10-30 12:06:57 - [TEST_STEP][PASSED] - Verify Table Result Exist: Verify Table Result Exist
+
+2020-10-30 12:06:58 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:06:58 - [MESSAGE][PASSED] - Verify Table Result Exist
+
+2020-10-30 12:06:58 - [TEST_STEP][PASSED] - Get Data From Table: Get Data From Table
+
+2020-10-30 12:06:59 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:06:59 - [MESSAGE][PASSED] - Text of object '' is: '1'
+
+2020-10-30 12:06:59 - [MESSAGE][PASSED] - Text of object '' is: '8888888888888888'
+
+2020-10-30 12:07:00 - [MESSAGE][PASSED] - Text of object '' is: 'OPEX TestingAuto'
+
+2020-10-30 12:07:00 - [MESSAGE][PASSED] - Text of object '' is: 'View Document'
+
+2020-10-30 12:07:00 - [MESSAGE][PASSED] - Text of object '' is: ''
+
+2020-10-30 12:07:00 - [MESSAGE][PASSED] - Get Data From Table
+
+2020-10-30 12:07:00 - [TEST_STEP][PASSED] - Click Checkbox Validate: Click Checkbox Validate
+
+2020-10-30 12:07:01 - [MESSAGE][PASSED] - Text of object '' is: '8888888888888888'
+
+2020-10-30 12:07:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:07:01 - [MESSAGE][PASSED] - Click Checkbox Validate
+
+2020-10-30 12:07:01 - [TEST_STEP][PASSED] - Click button "Reject": Click button "Reject"
+
+2020-10-30 12:07:01 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Reject')]
+
+2020-10-30 12:07:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:07:04 - [MESSAGE][PASSED] - Click button "Reject"
+
+2020-10-30 12:07:04 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to Reject this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to Reject this data ?"
+
+2020-10-30 12:07:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:07:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:07:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:07:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:07:06 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to Reject this data ?"
+
+2020-10-30 12:07:06 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-10-30 12:07:06 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-10-30 12:07:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:07:09 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-10-30 12:07:09 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "1 data successfully rejected": Get text from pop up "IT Supporting Tools" with text "1 data successfully rejected"
+
+2020-10-30 12:07:10 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-10-30 12:07:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-10-30 12:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:07:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-30 12:07:10 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "1 data successfully rejected"
+
+2020-10-30 12:07:10 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-10-30 12:07:10 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-10-30 12:07:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-10-30 12:07:14 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-10-30 12:07:14 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-10-30 12:07:14 - [MESSAGE][PASSED] - Browser is closed
+
+2020-10-30 12:07:14 - [MESSAGE][PASSED] - Close browser
+
+2020-10-30 12:07:14 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Approval Non Customer/Reject_KTP_Number.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-30 12:03:29 - [TEST_SUITE][PASSED] - TS_SLIK_Gateway_Approval_Non_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Approval_Non_Customer/Reject KTP Number]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

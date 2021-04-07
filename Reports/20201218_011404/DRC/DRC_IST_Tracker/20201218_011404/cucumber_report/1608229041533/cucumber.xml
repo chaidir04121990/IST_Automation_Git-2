@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.649076">
+<testcase classname="Connection to Oasys by Select Menu Oasys Customer Cycle" name="Select Menu Oasys Customer Cycle from Oasys Report" time="23.649076">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Oasys Report"........................................passed
+And Select Menu "OASys Customer Cycle"......................................passed
+And Type on Textbox label "Contract Number" with value "4003378179".........passed
+And Click button "Search"...................................................passed
+And Verify Table Exist......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.498196">
+<testcase classname="Title of your feature" name="SLIK Gateway Non Customer View Detail Link" time="25.498196">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu SLIK Gateway NonCustomer....................................passed
+And Select Status is "APPROVED".............................................passed
+And Click button "Search"...................................................passed
+And Verify Search Result Based on Result Status.............................passed
+And Click View Detail Link..................................................passed
+And Take Screenshot "View_detail_NonCutomer.png"............................passed
+And Verify Slik Result Detail Link..........................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

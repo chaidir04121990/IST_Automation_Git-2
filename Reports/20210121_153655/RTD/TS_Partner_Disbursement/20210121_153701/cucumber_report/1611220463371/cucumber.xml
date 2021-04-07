@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.629148">
+<testcase classname="Hold Payment Recreation" name="Hold Payment for Status Eligible to Disburse" time="17.629148">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Partner Disbursement"......................................passed
+And Select STATUS "Eligible to disburse"....................................passed
+And Click button "Search"...................................................passed
+And Verify Search Result Presents...........................................passed
+And Click Checkbox..........................................................passed
+And Get Checkbox data of Menu "Partner Disbursement" before Hold Payment....passed
+And Click button "HOLD PAYMENT".............................................passed
+And Input reason of Hold Payment............................................passed
+And Click button "Yes"......................................................passed
+And Connect to Database RTD.................................................passed
+And Select Hold Contract Number and make sure status is Hold Payment Recreation.passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,70 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Update STATUS from Table SLIK_DATA_CUSTOMER",
+        "description": "",
+        "id": "title-of-your-feature;update-status-from-table-slik-data-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 175816370,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to Database",
+            "match": {
+              "location": "try_it_out_Conn_DB.Conn_DB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 224012853,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Update Status \"SUCCESS\" in Table SLIK_DATA_CUSTOMER",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 15
+                }
+              ],
+              "location": "try_it_out_Conn_DB.Update_Status(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/Update_STATUS_SUCCESS.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

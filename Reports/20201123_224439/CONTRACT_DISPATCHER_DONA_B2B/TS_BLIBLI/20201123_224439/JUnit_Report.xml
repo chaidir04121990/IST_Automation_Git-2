@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_BLIBLI" time="64.996" tests="2" failures="0" errors="0">
+   <testsuite name="TS_BLIBLI" tests="2" failures="0" errors="0" time="64.996" timestamp="2020-11-23 22:44:45" hostname="chaidir.pratama01 - localhost" id="Test Suites/CONTRACT_DISPATCHER_DONA_B2B/TS_BLIBLI">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201123_224439/CONTRACT_DISPATCHER_DONA_B2B/TS_BLIBLI/20201123_224439"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201123_224439/CONTRACT_DISPATCHER_DONA_B2B/TS_BLIBLI/20201123_224439/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Management Assignment.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Contract Dispatcher.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.67"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="296ee4f82a994a2073d00a4f26fd23da"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Update Tbl CDS CDC TRKRegMistake" time="3.607" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Update Tbl CDS CDC TRKRegMistake" status="PASSED">
+         <system-out><![CDATA[2020-11-23 22:44:45 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Update Tbl CDS CDC TRKRegMistake: Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Update Tbl CDS CDC TRKRegMistake
+
+2020-11-23 22:44:46 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Update_Tbl_CDS_CDC_TRKRegMistake.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed
+
+2020-11-23 22:44:46 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Update_Tbl_CDS_CDC_TRKRegMistake.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201123_224439/CONTRACT_DISPATCHER_DONA_B2B/TS_BLIBLI/20201123_224439/cucumber_report/1606146286225'...
+
+2020-11-23 22:44:46 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM: SCENARIO Update Table CONTRACT_DISPATCHER_SOURCE and CONTRACT_DISPTACHER_CLAIM
+
+2020-11-23 22:44:46 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-11-23 22:44:48 - [MESSAGE][PASSED] - Connect to Database
+
+2020-11-23 22:44:48 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER SOURCE To Change PROCESSED From Y to N For BLIBLI: Update Tbl CONTRACT DISPATCHER SOURCE To Change PROCESSED From Y to N For BLIBLI
+
+2020-11-23 22:44:49 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER SOURCE To Change PROCESSED From Y to N For BLIBLI
+
+2020-11-23 22:44:49 - [TEST_STEP][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS: Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-11-23 22:44:49 - [MESSAGE][PASSED] - Update Tbl CONTRACT DISPATCHER CLAIM To Delete PROCESS From Column STATUS
+
+2020-11-23 22:44:49 - [TEST_STEP][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE: Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-11-23 22:44:49 - [MESSAGE][PASSED] - Delete Contract From TRK_REGISTRATION_MISTAKE
+
+2020-11-23 22:44:49 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Update_Tbl_CDS_CDC_TRKRegMistake.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Contract Dispatcher BLIBLI" time="58.08" classname="Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Contract Dispatcher BLIBLI" status="PASSED">
+         <system-out><![CDATA[2020-11-23 22:44:49 - [TEST_CASE][PASSED] - Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Contract Dispatcher BLIBLI: Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Contract Dispatcher BLIBLI
+
+2020-11-23 22:44:49 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Contract_Dispatcher_BLIBLI.feature"): Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Contract_Dispatcher_BLIBLI.feature' was passed
+
+2020-11-23 22:44:49 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Contract_Dispatcher_BLIBLI.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201123_224439/CONTRACT_DISPATCHER_DONA_B2B/TS_BLIBLI/20201123_224439/cucumber_report/1606146289652'...
+
+2020-11-23 22:44:49 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Assign User to Contract Dona B2B: SCENARIO Assign User to Contract Dona B2B
+
+2020-11-23 22:44:49 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-11-23 22:44:49 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-11-23 22:44:49 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2020-11-23 22:44:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-23 22:44:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-23 22:44:52 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-11-23 22:44:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png]]
+
+2020-11-23 22:44:52 - [MESSAGE][PASSED] - Go to IST
+
+2020-11-23 22:44:52 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-11-23 22:44:52 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-11-23 22:44:53 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-11-23 22:44:53 - [MESSAGE][INFO] - Login Success
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-11-23 22:44:53 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:44:53 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-11-23 22:44:53 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-11-23 22:44:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Management Assignment.png]]
+
+2020-11-23 22:44:54 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:44:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:44:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:44:54 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-11-23 22:44:54 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-11-23 22:44:55 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-11-23 22:44:55 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-11-23 22:44:55 - [TEST_STEP][PASSED] - Check for username if already assigned to "Dona B2B": Check for username if already assigned to "Dona B2B"
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-11-23 22:44:58 - [MESSAGE][INFO] - Element is already Checked
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Check for username if already assigned to "Dona B2B"
+
+2020-11-23 22:44:58 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:44:58 - [MESSAGE][PASSED] - Wait page for load
+
+2020-11-23 22:44:58 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-11-23 22:44:58 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-11-23 22:45:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png]]
+
+2020-11-23 22:45:02 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-11-23 22:45:02 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-11-23 22:45:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-11-23 22:45:02 - [MESSAGE][PASSED] - Close browser
+
+2020-11-23 22:45:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract DONA_BLIBLI: SCENARIO Select Menu Contract Dispatcher and Select Contract based on type contract DONA_BLIBLI
+
+2020-11-23 22:45:02 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-11-23 22:45:02 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-11-23 22:45:02 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2020-11-23 22:45:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-11-23 22:45:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-11-23 22:45:04 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-11-23 22:45:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png]]
+
+2020-11-23 22:45:04 - [MESSAGE][PASSED] - Go to IST
+
+2020-11-23 22:45:04 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-11-23 22:45:04 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-11-23 22:45:05 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-11-23 22:45:05 - [MESSAGE][INFO] - Login Success
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Current window maximized
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-11-23 22:45:05 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-11-23 22:45:05 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Contract Dispatcher.png]]
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-11-23 22:45:06 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "DONA_BLIBLI": Select Contract Number based on Type Contract "DONA_BLIBLI"
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:06 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "DONA_BLIBLI"
+
+2020-11-23 22:45:06 - [TEST_STEP][PASSED] - Click button "Claim": Click button "Claim"
+
+2020-11-23 22:45:06 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Claim')]
+
+2020-11-23 22:45:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png]]
+
+2020-11-23 22:45:09 - [MESSAGE][PASSED] - Click button "Claim"
+
+2020-11-23 22:45:09 - [TEST_STEP][PASSED] - Verify Tab Mistake Matrix Base on Type Contract: Verify Tab Mistake Matrix Base on Type Contract
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Verify Tab Mistake Matrix Base on Type Contract
+
+2020-11-23 22:45:12 - [TEST_STEP][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract: Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:12 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:15 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:16 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:17 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:20 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Varify the mistake detail already match with the matrix Base on Type Contract
+
+2020-11-23 22:45:32 - [TEST_STEP][PASSED] - Click on Tab "KTP": Click on Tab "KTP"
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:32 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Click on Tab "KTP"
+
+2020-11-23 22:45:35 - [TEST_STEP][PASSED] - Checkbox General Mistake "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP": Checkbox General Mistake "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP"
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Checkbox General Mistake "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP"
+
+2020-11-23 22:45:35 - [TEST_STEP][PASSED] - Choose Dropdown mistake type "Beda RT" from mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP": Choose Dropdown mistake type "Beda RT" from mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP"
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - All options with index in [1] are selected on object ''
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Choose Dropdown mistake type "Beda RT" from mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP"
+
+2020-11-23 22:45:35 - [TEST_STEP][PASSED] - Type on textarea note before based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING": Type on textarea note before based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING"
+
+2020-11-23 22:45:35 - [MESSAGE][PASSED] - Text 'TESTING' is set on object ''
+
+2020-11-23 22:45:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:36 - [MESSAGE][PASSED] - Type on textarea note before based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING"
+
+2020-11-23 22:45:36 - [TEST_STEP][PASSED] - Type on textarea note after based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING after": Type on textarea note after based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING after"
+
+2020-11-23 22:45:36 - [MESSAGE][PASSED] - Text 'TESTING after' is set on object ''
+
+2020-11-23 22:45:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:36 - [MESSAGE][PASSED] - Type on textarea note after based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING after"
+
+2020-11-23 22:45:36 - [TEST_STEP][PASSED] - Click button "Save": Click button "Save"
+
+2020-11-23 22:45:36 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Save')]
+
+2020-11-23 22:45:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png]]
+
+2020-11-23 22:45:39 - [MESSAGE][PASSED] - Click button "Save"
+
+2020-11-23 22:45:39 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved": Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"
+
+2020-11-23 22:45:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2020-11-23 22:45:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-11-23 22:45:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-11-23 22:45:40 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Mistake has been saved"
+
+2020-11-23 22:45:40 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-11-23 22:45:40 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-11-23 22:45:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png]]
+
+2020-11-23 22:45:43 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-11-23 22:45:43 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-11-23 22:45:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/upload.png]]
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-11-23 22:45:47 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Browser is closed
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Close browser
+
+2020-11-23 22:45:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Contract_Dispatcher_BLIBLI.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-11-23 22:44:45 - [TEST_SUITE][PASSED] - TS_BLIBLI: Test Cases/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/TC BLIBLI - Contract Dispatcher BLIBLI]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

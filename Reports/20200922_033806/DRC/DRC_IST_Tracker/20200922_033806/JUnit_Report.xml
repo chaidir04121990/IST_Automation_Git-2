@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DRC_IST_Tracker" time="125.541" tests="4" failures="0" errors="0">
+   <testsuite name="DRC_IST_Tracker" tests="4" failures="0" errors="0" time="125.541" timestamp="2020-09-22 03:38:13" hostname="chaidir.pratama01 - localhost" id="Test Suites/DRC/DRC_IST_Tracker">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/popupslik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/popupslik.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="a61712db324594253b9d88223a5354c5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Database" time="61.812" classname="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Database" status="PASSED">
+         <system-out><![CDATA[2020-09-22 03:38:13 - [TEST_CASE][PASSED] - Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Database: Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Database
+
+2020-09-22 03:38:13 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/IST_Tracker/Connection_to_Database.feature"): Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_Database.feature' was passed
+
+2020-09-22 03:38:13 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/IST_Tracker/Connection_to_Database.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806/cucumber_report/1600720693612'...
+
+2020-09-22 03:38:14 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Management Assignment to give assign contract PAPERLESS POS: SCENARIO Select Menu Management Assignment to give assign contract PAPERLESS POS
+
+2020-09-22 03:38:14 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:38:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:38:14 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:38:14 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:38:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:38:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:38:23 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:38:23 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:38:23 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:38:24 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:38:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:38:25 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:38:25 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:38:25 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:38:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:38:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:38:25 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:38:25 - [TEST_STEP][PASSED] - Select Arrow Menu "Contract Dispatcher Admin": Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-09-22 03:38:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:38:26 - [MESSAGE][PASSED] - Select Arrow Menu "Contract Dispatcher Admin"
+
+2020-09-22 03:38:26 - [TEST_STEP][PASSED] - Select Menu "Management Assignment": Select Menu "Management Assignment"
+
+2020-09-22 03:38:26 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:38:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:38:27 - [MESSAGE][PASSED] - Select Menu "Management Assignment"
+
+2020-09-22 03:38:27 - [TEST_STEP][PASSED] - Click button "Reset All User": Click button "Reset All User"
+
+2020-09-22 03:38:27 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Reset All User')]
+
+2020-09-22 03:38:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:38:30 - [MESSAGE][PASSED] - Click button "Reset All User"
+
+2020-09-22 03:38:30 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Reset All" with text "Are you sure ?": Get text from pop up "Confirmation Reset All" with text "Are you sure ?"
+
+2020-09-22 03:38:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/popupslik.png]]
+
+2020-09-22 03:38:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:38:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:38:32 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Reset All" with text "Are you sure ?"
+
+2020-09-22 03:38:32 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-09-22 03:38:32 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-09-22 03:38:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:38:35 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-09-22 03:38:35 - [TEST_STEP][PASSED] - Wait page for load: Wait page for load
+
+2020-09-22 03:38:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:38:35 - [MESSAGE][PASSED] - Wait page for load
+
+2020-09-22 03:38:35 - [TEST_STEP][PASSED] - Notification "Reset All Success": Notification "Reset All Success"
+
+2020-09-22 03:38:36 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:36 - [MESSAGE][PASSED] - Notification "Reset All Success"
+
+2020-09-22 03:38:36 - [TEST_STEP][PASSED] - Select Username "mobile.test" of Management Assignment: Select Username "mobile.test" of Management Assignment
+
+2020-09-22 03:38:38 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object 'Object Repository/Page_/dropdown_list_username_assignment'  using regular expression
+
+2020-09-22 03:38:38 - [MESSAGE][PASSED] - Select Username "mobile.test" of Management Assignment
+
+2020-09-22 03:38:38 - [TEST_STEP][PASSED] - Check unchecked contract type POS: Check unchecked contract type POS
+
+2020-09-22 03:38:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:39 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:39 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:40 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:40 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:41 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:41 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:42 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:43 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:44 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:45 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:45 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:45 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:46 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:46 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:47 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:48 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:49 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:49 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:49 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:50 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:51 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:51 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:51 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:52 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:52 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:53 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:53 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:53 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:54 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:54 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:54 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:55 - [MESSAGE][PASSED] - Object '' is not checked
+
+2020-09-22 03:38:55 - [MESSAGE][PASSED] - Check unchecked contract type POS
+
+2020-09-22 03:38:55 - [TEST_STEP][PASSED] - Check for username if already assigned to "Regular": Check for username if already assigned to "Regular"
+
+2020-09-22 03:38:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-22 03:38:58 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:38:59 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-09-22 03:38:59 - [MESSAGE][INFO] - Element is already Checked
+
+2020-09-22 03:38:59 - [MESSAGE][PASSED] - Check for username if already assigned to "Regular"
+
+2020-09-22 03:38:59 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-22 03:38:59 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-22 03:39:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:02 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-22 03:39:02 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-22 03:39:02 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-22 03:39:02 - [MESSAGE][PASSED] - Close browser
+
+2020-09-22 03:39:02 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Connection to Database IST Tracker with Search data from menu(Contract Dispatcher): SCENARIO Connection to Database IST Tracker with Search data from menu(Contract Dispatcher)
+
+2020-09-22 03:39:02 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:39:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:39:02 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:39:02 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:39:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:39:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:39:04 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:39:04 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:39:04 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:39:05 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:39:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:39:07 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:39:07 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:39:07 - [TEST_STEP][PASSED] - Select Menu "Contract Dispatcher": Select Menu "Contract Dispatcher"
+
+2020-09-22 03:39:07 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:39:08 - [MESSAGE][PASSED] - Select Menu "Contract Dispatcher"
+
+2020-09-22 03:39:08 - [TEST_STEP][PASSED] - Select Contract Number based on Type Contract "REGULAR POS": Select Contract Number based on Type Contract "REGULAR POS"
+
+2020-09-22 03:39:08 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:09 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:10 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-09-22 03:39:10 - [MESSAGE][PASSED] - Text of object '' is: 'REGULAR POS'
+
+2020-09-22 03:39:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:11 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-09-22 03:39:11 - [MESSAGE][PASSED] - Select Contract Number based on Type Contract "REGULAR POS"
+
+2020-09-22 03:39:11 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-22 03:39:11 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-22 03:39:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:15 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-22 03:39:15 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-22 03:39:15 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-22 03:39:15 - [MESSAGE][PASSED] - Close browser
+
+2020-09-22 03:39:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_Database.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Oasys" time="15.876" classname="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Oasys" status="PASSED">
+         <system-out><![CDATA[2020-09-22 03:39:15 - [TEST_CASE][PASSED] - Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Oasys: Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_Oasys
+
+2020-09-22 03:39:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/IST_Tracker/Connection_to_Oasys.feature"): Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_Oasys.feature' was passed
+
+2020-09-22 03:39:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/IST_Tracker/Connection_to_Oasys.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806/cucumber_report/1600720755267'...
+
+2020-09-22 03:39:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Oasys Customer Cycle from Oasys Report: SCENARIO Select Menu Oasys Customer Cycle from Oasys Report
+
+2020-09-22 03:39:15 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:39:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:39:15 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:39:15 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:39:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:39:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:39:17 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:39:17 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:39:17 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:39:18 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:39:19 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:39:19 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:39:19 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:39:19 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:39:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:39:20 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:39:20 - [TEST_STEP][PASSED] - Select Arrow Menu "Oasys Report": Select Arrow Menu "Oasys Report"
+
+2020-09-22 03:39:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:20 - [MESSAGE][PASSED] - Select Arrow Menu "Oasys Report"
+
+2020-09-22 03:39:20 - [TEST_STEP][PASSED] - Select Menu "OASys Customer Cycle": Select Menu "OASys Customer Cycle"
+
+2020-09-22 03:39:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:39:21 - [MESSAGE][PASSED] - Select Menu "OASys Customer Cycle"
+
+2020-09-22 03:39:21 - [TEST_STEP][PASSED] - Type on Textbox label "Contract Number" with value "3900000252": Type on Textbox label "Contract Number" with value "3900000252"
+
+2020-09-22 03:39:22 - [MESSAGE][PASSED] - Text '3900000252' is set on object ''
+
+2020-09-22 03:39:22 - [MESSAGE][PASSED] - Type on Textbox label "Contract Number" with value "3900000252"
+
+2020-09-22 03:39:22 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-22 03:39:22 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-22 03:39:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:25 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-22 03:39:25 - [TEST_STEP][PASSED] - Verify Table Exist: Verify Table Exist
+
+2020-09-22 03:39:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:27 - [MESSAGE][PASSED] - Verify Table Exist
+
+2020-09-22 03:39:27 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-22 03:39:27 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-22 03:39:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:30 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-22 03:39:30 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-22 03:39:31 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-22 03:39:31 - [MESSAGE][PASSED] - Close browser
+
+2020-09-22 03:39:31 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_Oasys.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_LDAP" time="7.836" classname="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_LDAP" status="PASSED">
+         <system-out><![CDATA[2020-09-22 03:39:31 - [TEST_CASE][PASSED] - Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_LDAP: Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_LDAP
+
+2020-09-22 03:39:31 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/IST_Tracker/Connection_to_LDAP.feature"): Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_LDAP.feature' was passed
+
+2020-09-22 03:39:31 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/IST_Tracker/Connection_to_LDAP.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806/cucumber_report/1600720771143'...
+
+2020-09-22 03:39:31 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Login LDAP: SCENARIO Login LDAP
+
+2020-09-22 03:39:31 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:39:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:39:31 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:39:31 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:39:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:39:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:39:33 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:39:33 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:39:33 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:39:33 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:39:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:39:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:39:34 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:39:34 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:39:34 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:39:34 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:39:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:39:35 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:39:35 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-22 03:39:35 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-22 03:39:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:38 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-22 03:39:38 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-22 03:39:38 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-22 03:39:38 - [MESSAGE][PASSED] - Close browser
+
+2020-09-22 03:39:38 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_LDAP.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_CZ" time="35.579" classname="Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_CZ" status="PASSED">
+         <system-out><![CDATA[2020-09-22 03:39:38 - [TEST_CASE][PASSED] - Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_CZ: Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_CZ
+
+2020-09-22 03:39:38 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/DRC/IST_Tracker/Connection_to_CZ.feature"): Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_CZ.feature' was passed
+
+2020-09-22 03:39:38 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/DRC/IST_Tracker/Connection_to_CZ.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200922_033806/DRC/DRC_IST_Tracker/20200922_033806/cucumber_report/1600720778981'...
+
+2020-09-22 03:39:39 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select ROLE_PAPERLESS to enable Menu Approval Status (MANDATORY): SCENARIO Select ROLE_PAPERLESS to enable Menu Approval Status (MANDATORY)
+
+2020-09-22 03:39:39 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:39:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:39:39 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:39:39 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:39:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:39:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:39:40 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:39:40 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:39:40 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:39:41 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:39:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:39:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:39:42 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:39:42 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:39:42 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:39:42 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:39:43 - [TEST_STEP][PASSED] - Select Menu "Role Management": Select Menu "Role Management"
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:39:43 - [MESSAGE][PASSED] - Select Menu "Role Management"
+
+2020-09-22 03:39:43 - [TEST_STEP][PASSED] - Choose Dropdown Username "mobile.test": Choose Dropdown Username "mobile.test"
+
+2020-09-22 03:39:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:57 - [MESSAGE][PASSED] - All options with value 'mobile.test' are selected in object ''  using regular expression
+
+2020-09-22 03:39:57 - [MESSAGE][PASSED] - Choose Dropdown Username "mobile.test"
+
+2020-09-22 03:39:57 - [TEST_STEP][PASSED] - Select Role "ROLE_PAPERLESS": Select Role "ROLE_PAPERLESS"
+
+2020-09-22 03:39:57 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:39:57 - [MESSAGE][PASSED] - Object '' is checked
+
+2020-09-22 03:39:57 - [MESSAGE][INFO] - Element is already Checked
+
+2020-09-22 03:39:57 - [MESSAGE][PASSED] - Select Role "ROLE_PAPERLESS"
+
+2020-09-22 03:39:57 - [TEST_STEP][PASSED] - Click button "Change": Click button "Change"
+
+2020-09-22 03:39:57 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Change')]
+
+2020-09-22 03:40:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:40:01 - [MESSAGE][PASSED] - Click button "Change"
+
+2020-09-22 03:40:01 - [TEST_STEP][PASSED] - Get text from pop up "Confirm" with text "Are you sure?": Get text from pop up "Confirm" with text "Are you sure?"
+
+2020-09-22 03:40:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/popupslik.png]]
+
+2020-09-22 03:40:02 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:40:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:40:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:40:02 - [MESSAGE][PASSED] - Get text from pop up "Confirm" with text "Are you sure?"
+
+2020-09-22 03:40:02 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-09-22 03:40:02 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-09-22 03:40:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:40:05 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-09-22 03:40:05 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-22 03:40:05 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-22 03:40:09 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:40:09 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-22 03:40:09 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-22 03:40:09 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-22 03:40:09 - [MESSAGE][PASSED] - Close browser
+
+2020-09-22 03:40:09 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Select Menu Approval status then Click send Email: SCENARIO Select Menu Approval status then Click send Email
+
+2020-09-22 03:40:09 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-22 03:40:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-22 03:40:09 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-22 03:40:09 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-22 03:40:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-22 03:40:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-22 03:40:11 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-09-22 03:40:11 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-22 03:40:11 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-22 03:40:12 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-22 03:40:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-22 03:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-22 03:40:13 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-22 03:40:13 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-22 03:40:13 - [MESSAGE][INFO] - Login Success
+
+2020-09-22 03:40:13 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-22 03:40:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-22 03:40:13 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-22 03:40:13 - [TEST_STEP][PASSED] - Select Menu "Approval Status": Select Menu "Approval Status"
+
+2020-09-22 03:40:14 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-22 03:40:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-22 03:40:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-22 03:40:14 - [MESSAGE][PASSED] - Select Menu "Approval Status"
+
+2020-09-22 03:40:14 - [MESSAGE][PASSED] - Feature file: 'Include/features/DRC/IST_Tracker/Connection_to_CZ.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-22 03:38:13 - [TEST_SUITE][PASSED] - DRC_IST_Tracker: Test Cases/DRC/IST_Tracker/DRC_IST_Tracker-Connection_to_CZ]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

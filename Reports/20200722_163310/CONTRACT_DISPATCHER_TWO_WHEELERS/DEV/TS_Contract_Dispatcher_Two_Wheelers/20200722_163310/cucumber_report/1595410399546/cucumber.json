@@ -1,0 +1,346 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Select Menu Contract Dispatcher and Select Contract based on type contract Two Wheelers",
+        "description": "",
+        "id": "contract-dispatcher-two-wheelers;select-menu-contract-dispatcher-and-select-contract-based-on-type-contract-two-wheelers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3399970683,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2193476070,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 552021229,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 592647678,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Menu \"Contract Dispatcher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2474214966,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Contract Number based on Type Contract \"TWO_WHEELERS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TWO_WHEELERS",
+                  "offset": 47
+                }
+              ],
+              "location": "Contract_Dispatcher.Contract_Number_based_Type_Contract(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3375965393,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click button \"Claim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68144950629,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Varify the mistake detail already match with the matrix Base on Type Contract",
+            "match": {
+              "location": "Contract_Dispatcher.Tab_Matrix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604170955,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click on Tab \"KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KTP",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.clickonTab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282346456,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Checkbox General Mistake \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 26
+                }
+              ],
+              "location": "Contract_Dispatcher.checkboxGeneralMistake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1094620086,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Choose Dropdown mistake type \"Beda RT\" from mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beda RT",
+                  "offset": 30
+                },
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 58
+                }
+              ],
+              "location": "Contract_Dispatcher.Dropdown_mistaketypefrommistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 957972384,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Type on textarea note before based on mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\" with value \"TESTING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 52
+                },
+                {
+                  "val": "TESTING",
+                  "offset": 143
+                }
+              ],
+              "location": "Contract_Dispatcher.notebeforeonmistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640108319,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Type on textarea note after based on mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\" with value \"TESTING after\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 51
+                },
+                {
+                  "val": "TESTING after",
+                  "offset": 142
+                }
+              ],
+              "location": "Contract_Dispatcher.noteafteronmistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3270128874,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click button \"Save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 823015074,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Mistake has been saved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Mistake has been saved",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3471684636,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3604128255,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97810126,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Contract Dispatcher Two Wheelers",
+    "description": "  I want to use this template for my feature file",
+    "id": "contract-dispatcher-two-wheelers",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_TWO_WHEELERS/DEV/Contract_Dispatcher_TW.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

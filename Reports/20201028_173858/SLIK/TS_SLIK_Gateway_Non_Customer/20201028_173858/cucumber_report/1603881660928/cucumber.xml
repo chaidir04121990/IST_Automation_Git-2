@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.711968">
+<testcase classname="SLIK Checking Result" name="SLIK Gateway Non Customer Search Result" time="15.711968">
+<failure message="java.lang.NullPointerException&#10;&#9;at java_lang_String$replace$1.call(Unknown Source)&#10;&#9;at java_lang_String$replace$1.call(Unknown Source)&#10;&#9;at Slik_Script.replace(Slik_Script.groovy:118)&#10;&#9;at Slik_Script$replace.callCurrent(Unknown Source)&#10;&#9;at Slik_Script.Slik_Verify_Result(Slik_Script.groovy:422)&#10;&#9;at ✽.Verify Search Result data(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateaway_Non_Customer_Search_By_KTP.feature:36)&#10;"><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu SLIK Gateway NonCustomer....................................passed
+And Input Data KTP Number for Search Result.................................passed
+And Click button "Search"...................................................passed
+And Verify Search Result with KTP Number....................................passed
+And Verify Search Result data...............................................failed
+And Click button "Logout"...................................................skipped
+And Close browser...........................................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at java_lang_String$replace$1.call(Unknown Source)
+	at java_lang_String$replace$1.call(Unknown Source)
+	at Slik_Script.replace(Slik_Script.groovy:118)
+	at Slik_Script$replace.callCurrent(Unknown Source)
+	at Slik_Script.Slik_Verify_Result(Slik_Script.groovy:422)
+	at ✽.Verify Search Result data(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateaway_Non_Customer_Search_By_KTP.feature:36)
+]]></failure>
+</testcase>
+</testsuite>

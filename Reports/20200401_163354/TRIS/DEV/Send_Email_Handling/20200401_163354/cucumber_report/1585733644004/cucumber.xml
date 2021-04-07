@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.331719">
+<testcase classname="Send Email Handling" name="Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling" time="20.331719">
+<failure message="groovy.lang.MissingPropertyException: No such property: IST_Pop_Up_Message_Error for class: ist_real.Contract_Dispatcher&#13;&#10;&#9;at ist_real.Contract_Dispatcher.verify_email_handling(Contract_Dispatcher.groovy:2187)&#13;&#10;&#9;at ✽.Verify Email Handling(C:/Users/ramsey.loloyanto/Documents/ist-Katalon/Include/features/IST_Real/TRIS/DEV/Send_Email_Handling.feature:36)&#13;&#10;"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Invoice System"......................................passed
+And Select Menu "Email Handling"............................................passed
+And Select Email handling "Email tidak terdaftar"...........................passed
+And Type EmailClient on "Alamat Email yang digunakan client" with value "ramsey.loloyanto@homecredit.co.id".passed
+And Click button "Generate Email"...........................................passed
+And Verify Email Handling...................................................failed
+And Close browser...........................................................skipped
+
+StackTrace:
+groovy.lang.MissingPropertyException: No such property: IST_Pop_Up_Message_Error for class: ist_real.Contract_Dispatcher
+	at ist_real.Contract_Dispatcher.verify_email_handling(Contract_Dispatcher.groovy:2187)
+	at ✽.Verify Email Handling(C:/Users/ramsey.loloyanto/Documents/ist-Katalon/Include/features/IST_Real/TRIS/DEV/Send_Email_Handling.feature:36)
+]]></failure>
+</testcase>
+</testsuite>

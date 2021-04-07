@@ -1,0 +1,274 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Reset All Users",
+        "description": "",
+        "id": "reset-all-users;reset-all-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2967178973,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1206366129,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149979159,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61054984,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Contract Dispatcher Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 562957807,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Management Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Management Assignment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084479092,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click button \"Reset All User\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reset All User",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601192426,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Get text from pop up \"Confirmation Reset All\" with text \"Are you sure ?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirmation Reset All",
+                  "offset": 22
+                },
+                {
+                  "val": "Are you sure ?",
+                  "offset": 57
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080976603,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7998874,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6661254788,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Notification \"Reset All Success\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reset All Success",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.Notif(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 833764917,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Select Username \"mobile.test\" of Management Assignment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile.test",
+                  "offset": 17
+                }
+              ],
+              "location": "Contract_Dispatcher.UsernameofManagementAssignment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001173192,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Check unchecked contract type POS",
+            "match": {
+              "location": "Contract_Dispatcher.CheckUncheckedContractTypePOS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3627513731,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72667129,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Reset All Users",
+    "description": "  I want to use this template for my feature file",
+    "id": "reset-all-users",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_ADMIN/MANAGEMENT_ASSIGNMENT/Reset_All_Users.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

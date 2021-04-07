@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.560995">
+<testcase classname="Title of your feature" name="Search Result by Date Start ONLY" time="20.560995">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu SLIK Gateway NonCustomer....................................passed
+And Set Start Date with value "01-10-2020" and End Date with value "".......passed
+And Click button "Search"...................................................passed
+And Get text from pop up "Error Message" with text "Error : End Date is mandatory !".passed
+And Click button "OK".......................................................passed
+And Get Error Notification "Error : End Date is mandatory !"................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

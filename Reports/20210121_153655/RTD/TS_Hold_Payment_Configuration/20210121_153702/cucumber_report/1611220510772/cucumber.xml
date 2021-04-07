@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="22.420285">
+<testcase classname="Hold Payment Configuration" name="Set Schedule for Hold Payment" time="22.420285">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Hold Payment Configuration"................................passed
+And Input "Start Date Hold Payment" with value "25-01-2021".................passed
+And Input "Release Date" with value "30-01-2021"............................passed
+And Click button "Add"......................................................passed
+And Get text from pop up "Confirm" with text "Add new hold payment config?".passed
+And Click button "Yes"......................................................passed
+And Verify Result...........................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

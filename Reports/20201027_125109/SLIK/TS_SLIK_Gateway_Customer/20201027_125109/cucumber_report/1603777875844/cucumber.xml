@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.114419">
+<testcase classname="Open Menu SLIK Gateway Customer" name="Menu SLIK Gateway Customer in IST and Verify Element Needed Exist" time="41.114419">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "SLIK Gateway Customer".....................................passed
+And Verify Title "SLIK Gateway Customer" Exists.............................passed
+And Verify Title "Check SLIK" Exists........................................passed
+And Verify Contents of Check SLIK Label in SLIK Gateway Customer Menu Exist.passed
+And Verify Title "Search Result" Exists.....................................passed
+And Verify Contents of Search Result........................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

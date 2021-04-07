@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="15.409776">
+<testcase classname="Reset All Users" name="Reset All Users" time="15.409776">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Click button "Reset All User"...........................................passed
+And Get text from pop up "Confirmation Reset All" with text "Are you sure ?".passed
+And Click button "OK".......................................................passed
+And Wait page for load......................................................passed
+And Notification "Reset All Success"........................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check unchecked contract type POS.......................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

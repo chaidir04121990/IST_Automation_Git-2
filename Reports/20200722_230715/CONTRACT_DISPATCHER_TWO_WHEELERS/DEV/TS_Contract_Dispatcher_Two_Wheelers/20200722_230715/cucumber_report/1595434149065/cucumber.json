@@ -1,0 +1,64 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Delete Contract from TRK_REGISTRATION_MISTAKE",
+        "description": "",
+        "id": "title-of-your-feature;delete-contract-from-trk-registration-mistake",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 117060199,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to APP_ACCOUNT C1",
+            "match": {
+              "location": "try_it_out_Conn_DB.Conn_DB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138595460,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Delete Contract From TRK_REGISTRATION_MISTAKE",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_Contract_from_TRK_REGISTRATION_MISTAKE()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_TWO_WHEELERS/DEV/Delete_ContractNumber_from_TRK_REGISTRATION_MISTAKE.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

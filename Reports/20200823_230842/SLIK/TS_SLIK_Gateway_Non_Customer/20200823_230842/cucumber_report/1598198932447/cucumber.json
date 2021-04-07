@@ -1,0 +1,401 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "SLIK Gateway Non Customer Checking",
+        "description": "",
+        "id": "slik-checking-non-customer;slik-gateway-non-customer-checking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4060950551,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2267468520,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 445600734,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 580757854,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Menu SLIK Gateway NonCustomer",
+            "match": {
+              "location": "Slik_Script.Menu_SLIK_Gateway_NonCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1003903271,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input Data KTP Number",
+            "match": {
+              "location": "Slik_Script.Input_KTP_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 557450352,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Input Data \"Name *\" with value \"OPEX TestingAuto\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name *",
+                  "offset": 12
+                },
+                {
+                  "val": "OPEX TestingAuto",
+                  "offset": 32
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638066267,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Input Date of Birth \"20-02-1990\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20-02-1990",
+                  "offset": 21
+                }
+              ],
+              "location": "Slik_Script.Slik_DOB(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397375557,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Select Gender \"Laki-laki\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Laki-laki",
+                  "offset": 15
+                }
+              ],
+              "location": "Slik_Script.Slik_Gender(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1252295564,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Select Purpose is \"Penilaian Calon Kemitraan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Penilaian Calon Kemitraan",
+                  "offset": 19
+                }
+              ],
+              "location": "Slik_Script.Slik_Purpose(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664833861,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Input Data \"Place of Birth\" with value \"Jakarta\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Place of Birth",
+                  "offset": 12
+                },
+                {
+                  "val": "Jakarta",
+                  "offset": 40
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635407154,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Input Data \"Mother Maternity Name\" with value \"Tester Auto\" for Check SLIK",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mother Maternity Name",
+                  "offset": 12
+                },
+                {
+                  "val": "Tester Auto",
+                  "offset": 47
+                }
+              ],
+              "location": "Slik_Script.Slik_Input(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 767418074,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Input KTP Address \"TESTING AUTO JAKARTA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TESTING AUTO JAKARTA",
+                  "offset": 19
+                }
+              ],
+              "location": "Slik_Script.Slik_Ktp(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3305360926,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click button \"Upload\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Upload",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12903601211,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Upload file \"new_captcha1500.png\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new_captcha1500.png",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.UploadFile(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3279420348,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Click button \"Check SLIK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Check SLIK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568821923,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Get text from pop up \"Confirmation Submit Request\" with text \"Are you sure to submit this data ?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Confirmation Submit Request",
+                  "offset": 22
+                },
+                {
+                  "val": "Are you sure to submit this data ?",
+                  "offset": 62
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3269769521,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click button \"Yes\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Yes",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "com.kms.katalon.core.exception.StepFailedException: Unable to verify object \u0027\u0027 is present\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)\n\tat ist_real.Slik_Script.Verify_KTP_Number(Slik_Script.groovy:200)\n\tat ✽.Verify KTP Number Request Success(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature:46)\nCaused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: \u0027\u0027 located by \u0027//div[contains(text(),\"IT Supporting Tools\")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),\"KTP Number 8888888888888888 is requested successfully.\")]\u0027 not found\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)\n\tat com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)\n\tat ist_real.Slik_Script.Verify_KTP_Number(Slik_Script.groovy:200)\n\tat cucumber.runtime.Utils$1.call(Utils.java:26)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:20)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)\n\tat cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:55)\n\tat cucumber.runner.TestStep.run(TestStep.java:42)\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)\n\tat cucumber.runner.TestCase.run(TestCase.java:47)\n\tat cucumber.runner.Runner.runPickle(Runner.java:44)\n\tat cucumber.runtime.Runtime.runFeature(Runtime.java:120)\n\tat cucumber.runtime.Runtime.run(Runtime.java:106)\n\tat cucumber.api.cli.Main.run(Main.java:35)\n\tat cucumber.api.cli.Main$run.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1598198922814.run(TempTestSuite1598198922814.groovy:39)\n",
+              "duration": 41215717764,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "Verify KTP Number Request Success",
+            "match": {
+              "location": "Slik_Script.Verify_KTP_Number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "SLIK Checking Non Customer",
+    "description": "  I want to use this template for my feature file",
+    "id": "slik-checking-non-customer",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

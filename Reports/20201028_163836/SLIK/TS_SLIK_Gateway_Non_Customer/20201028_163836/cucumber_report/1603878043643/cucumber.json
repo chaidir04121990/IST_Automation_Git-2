@@ -1,0 +1,186 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "SLIK Gateway Non Customer Search Result",
+        "description": "",
+        "id": "slik-checking-result;slik-gateway-non-customer-search-result",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2222598172,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to ISTools",
+            "match": {
+              "location": "Login_IST.go_to_ISTools_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2093825061,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 405024558,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 608171399,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Menu SLIK Gateway NonCustomer",
+            "match": {
+              "location": "Slik_Script.Menu_SLIK_Gateway_NonCustomer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187117815,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Input Data KTP Number for Search Result",
+            "match": {
+              "location": "Slik_Script.Input_KTP_Search_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3268234028,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Click button \"Search\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Search",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 538105952,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Verify Search Result with KTP Number",
+            "match": {
+              "location": "Slik_Script.Verify_KTP_Number_Search_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 470936696,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify Search Result data",
+            "match": {
+              "location": "Slik_Script.Slik_Verify_Result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3496291982,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90559591,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "SLIK Checking Result",
+    "description": "  I want to use this template for my feature file",
+    "id": "slik-checking-result",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateaway_Non_Customer_Search_By_KTP.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Send_Email_Handling" time="14.117" tests="1" failures="0" errors="0">
+   <testsuite name="Send_Email_Handling" tests="1" failures="0" errors="0" time="14.117" timestamp="2020-12-21 18:32:21" hostname="chaidir.pratama01 - localhost" id="Test Suites/TRIS/Send_Email_Handling">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201221_181020/TRIS/Send_Email_Handling/20201221_181026"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201221_181020/TRIS/Send_Email_Handling/20201221_181026/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Email Handling.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="e517cdc0a7050d69de224b15c201b722"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/TRIS/Send_Email_Handling" time="11.121" classname="Test Cases/IST_Real/TRIS/Send_Email_Handling" status="PASSED">
+         <system-out><![CDATA[2020-12-21 18:32:21 - [TEST_CASE][PASSED] - Test Cases/IST_Real/TRIS/Send_Email_Handling: Test Cases/IST_Real/TRIS/Send_Email_Handling
+
+2020-12-21 18:32:21 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/TRIS/Send_Email_Handling.feature"): Feature file: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' was passed
+
+2020-12-21 18:32:21 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20201221_181020/TRIS/Send_Email_Handling/20201221_181026/cucumber_report/1608550341911'...
+
+2020-12-21 18:32:22 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling: SCENARIO Send Email by Select Menu Email Handling from Invoice System then Generate Email Handling
+
+2020-12-21 18:32:22 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-12-21 18:32:22 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2020-12-21 18:32:22 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2020-12-21 18:32:22 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2020-12-21 18:32:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-12-21 18:32:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-12-21 18:32:26 - [MESSAGE][PASSED] - Navigate to 'https://dev-ist.homecredit.id/ist_tracker/' successfully
+
+2020-12-21 18:32:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/IST_Page.png]]
+
+2020-12-21 18:32:26 - [MESSAGE][PASSED] - Go to IST
+
+2020-12-21 18:32:26 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-12-21 18:32:27 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-12-21 18:32:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-12-21 18:32:28 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-12-21 18:32:28 - [MESSAGE][INFO] - Login Success
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-12-21 18:32:28 - [TEST_STEP][PASSED] - Select Arrow Menu "Invoice System": Select Arrow Menu "Invoice System"
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Select Arrow Menu "Invoice System"
+
+2020-12-21 18:32:28 - [TEST_STEP][PASSED] - Select Menu "Email Handling": Select Menu "Email Handling"
+
+2020-12-21 18:32:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Email Handling.png]]
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Select Menu "Email Handling"
+
+2020-12-21 18:32:29 - [TEST_STEP][PASSED] - Select Email handling "Email tidak terdaftar": Select Email handling "Email tidak terdaftar"
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Select Email handling "Email tidak terdaftar"
+
+2020-12-21 18:32:29 - [TEST_STEP][PASSED] - Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id": Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id"
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Text 'chaidir.pratama01@homecredit.co.id' is set on object ''
+
+2020-12-21 18:32:29 - [MESSAGE][PASSED] - Type EmailClient on "Alamat Email yang digunakan client" with value "chaidir.pratama01@homecredit.co.id"
+
+2020-12-21 18:32:29 - [TEST_STEP][PASSED] - Click button "Generate Email": Click button "Generate Email"
+
+2020-12-21 18:32:29 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Generate Email')]
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Click button "Generate Email"
+
+2020-12-21 18:32:32 - [TEST_STEP][PASSED] - Verify Email Handling: Verify Email Handling
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //div[@class='z-messagebox-icon z-messagebox-error z-div']' is not present after '10' second(s)
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Verify Email Handling
+
+2020-12-21 18:32:32 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Browser is closed
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Close browser
+
+2020-12-21 18:32:32 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/TRIS/Send_Email_Handling.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-12-21 18:32:21 - [TEST_SUITE][PASSED] - Send_Email_Handling: Test Cases/IST_Real/TRIS/Send_Email_Handling]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

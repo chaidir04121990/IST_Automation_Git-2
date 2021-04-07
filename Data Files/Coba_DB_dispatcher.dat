@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Coba_DB_dispatcher</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>45c0dd1e-dc7b-442e-a14c-c6e4d1e97924</dataFileGUID>
+   <dataSourceUrl>jdbc:oracle:thin:@INFID04.ID.INFRA:1521/ID00C1HD.ID.INFRA</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>QVBQX0FDQ09VTlQ=</password>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
+   <query>SELECT * FROM CONTRACT_DISPATCHER_SOURCE WHERE TYPE_CONTRACT='REGULAR_PAPERLESS' AND PROCESSED='N'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>APP_ACCOUNT</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

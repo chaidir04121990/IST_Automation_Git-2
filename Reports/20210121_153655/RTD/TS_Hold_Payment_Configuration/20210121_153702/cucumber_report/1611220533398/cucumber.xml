@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="37.777697">
+<testcase classname="Hold Payment Configuration Date is Null" name="Start Date is Null" time="19.176597">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Hold Payment Configuration"................................passed
+And Input "Start Date Hold Payment" with value ""...........................passed
+And Input "Release Date" with value "30-01-2021"............................passed
+And Click button "Add"......................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hold Payment Configuration Date is Null" name="End Date is Null" time="18.6011">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Hold Payment Configuration"................................passed
+And Input "Start Date Hold Payment" with value "25-01-2021".................passed
+And Input "Release Date" with value ""......................................passed
+And Click button "Add"......................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,64 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Delete_KTPNumber_From_DB",
+        "description": "",
+        "id": "title-of-your-feature;delete-ktpnumber-from-db",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1660990173,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Connect to Database",
+            "match": {
+              "location": "try_it_out_Conn_DB.Conn_DB()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 728965483,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Delete Contract From SLIK_DATA_NonCUSTOMER",
+            "match": {
+              "location": "try_it_out_Conn_DB.Delete_KTPnum_from_SLIK_DATA_NONCUSTOMER()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

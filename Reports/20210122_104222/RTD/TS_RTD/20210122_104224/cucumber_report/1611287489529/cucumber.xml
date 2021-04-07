@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.290396">
+<testcase classname="Title of your feature" name="Check Contract from RTD_CONTRACT where STATUS is DONE" time="0.290396">
+<system-out><![CDATA[Given Connect to Database RTD...............................................passed
+And Select Contract from Table in DB with Query "SELECT RTD_CONTRACT_TEMP.KTP,RTD_CONTRACT_TEMP.CONTRACT_ID,RTD_CONTRACT_TEMP.RECIPIENT_BANK_ACCOUNT_NUMBER,RTD_CONTRACT_TEMP.STATUS FROM RTD_CONTRACT_TEMP LEFT JOIN RTD_CONTRACT ON RTD_CONTRACT_TEMP.CONTRACT_ID=RTD_CONTRACT.CONTRACT_ID WHERE RTD_CONTRACT_TEMP.TYPE_CONTRACT='MPF' AND RTD_CONTRACT.STATUS=11 AND RTD_CONTRACT_TEMP.IS_RTD='Y' AND RTD_CONTRACT.PGW_RESPONSE_CODE='00'".passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="73.889189">
+<testcase classname="SLIK Checking Non Customer" name="SLIK Gateway Non Customer Checking" time="73.889189">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu SLIK Gateway NonCustomer....................................passed
+And Input Data KTP Number...................................................passed
+And Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK........passed
+And Input Date of Birth "20-02-1990"........................................passed
+And Select Gender "Laki-laki"...............................................passed
+And Select Purpose is "Penilaian Calon Kemitraan"...........................passed
+And Input Data "Place of Birth" with value "Jakarta" for Check SLIK.........passed
+And Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK.passed
+And Input KTP Address "TESTING AUTO JAKARTA"................................passed
+And Click button "Upload"...................................................passed
+And Upload file "new_captcha1500.png".......................................passed
+And Click button "Check SLIK"...............................................passed
+And Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?".passed
+And Click button "Yes"......................................................passed
+And Verify KTP Number Request Success.......................................passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

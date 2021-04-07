@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="55.756058">
+<testcase classname="Pick Mistake Without Write Textarea Note_after" name="Assign User to Contract Two Wheelers" time="19.184666">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "Two Wheelers"................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pick Mistake Without Write Textarea Note_after" name="Select Menu Contract Dispatcher and Select Contract based on type contract Two Wheelers EFP" time="36.571392">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "TWO_WHEELERS"............passed
+And Click button "Claim"....................................................passed
+And Click on Tab "KTP"......................................................passed
+And Checkbox General Mistake "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP".passed
+And Choose Dropdown mistake type "Beda RT" from mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP".passed
+And Type on textarea note before based on mistake name "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP" with value "TESTING".passed
+And Click button "Save".....................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Note-after cannot be empty".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Comment "Register Mistake failed because Note-after empty"..............passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

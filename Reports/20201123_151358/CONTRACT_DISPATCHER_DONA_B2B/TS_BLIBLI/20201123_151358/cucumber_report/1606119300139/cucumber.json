@@ -1,0 +1,537 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Assign User to Contract Dona B2B",
+        "description": "",
+        "id": "contract-dispatcher-for-dona-blibli;assign-user-to-contract-dona-b2b",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2386037435,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 668122263,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 158262183,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61919179,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Select Arrow Menu \"Contract Dispatcher Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher Admin",
+                  "offset": 19
+                }
+              ],
+              "location": "Contract_Dispatcher.ArrowMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587423020,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Select Menu \"Management Assignment\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Management Assignment",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1062081539,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Select Username \"mobile.test\" of Management Assignment",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mobile.test",
+                  "offset": 17
+                }
+              ],
+              "location": "Contract_Dispatcher.UsernameofManagementAssignment(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3073797735,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Check for username if already assigned to \"Dona B2B\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dona B2B",
+                  "offset": 43
+                }
+              ],
+              "location": "Contract_Dispatcher.CheckUsername(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8703288,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Wait page for load",
+            "match": {
+              "location": "Contract_Dispatcher.waitpageload()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5373203395,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73900605,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Select Menu Contract Dispatcher and Select Contract based on type contract DONA_BLIBLI",
+        "description": "",
+        "id": "contract-dispatcher-for-dona-blibli;select-menu-contract-dispatcher-and-select-contract-based-on-type-contract-dona-blibli",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5375478283,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Go to IST",
+            "match": {
+              "location": "Login_IST.go_to_IST_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1258579237,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Login IST with valid credentials",
+            "match": {
+              "location": "Login_IST.I_want_to_login_to_IST(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "mobile.test",
+                  "heMxIzEAyQpycx257HePHg\u003d\u003d"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 153251224,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Login Success for contract dispatcher",
+            "match": {
+              "location": "Login_IST.Login_Success_for_dispatcher()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 629622088,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Select Menu \"Contract Dispatcher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Dispatcher",
+                  "offset": 13
+                }
+              ],
+              "location": "Contract_Dispatcher.SelectMenu(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307752385,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Select Contract Number based on Type Contract \"DONA_BLIBLI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DONA_BLIBLI",
+                  "offset": 47
+                }
+              ],
+              "location": "Contract_Dispatcher.Contract_Number_based_Type_Contract(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3587688947,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click button \"Claim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Claim",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 490948482,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Verify Tab Mistake Matrix Base on Type Contract",
+            "match": {
+              "location": "Contract_Dispatcher.VerifyTabMatrix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19765364298,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Varify the mistake detail already match with the matrix Base on Type Contract",
+            "match": {
+              "location": "Contract_Dispatcher.Tab_Matrix()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3207380320,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click on Tab \"KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "KTP",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.clickonTab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63618238,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Checkbox General Mistake \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 26
+                }
+              ],
+              "location": "Contract_Dispatcher.checkboxGeneralMistake(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 376531530,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Choose Dropdown mistake type \"Beda RT\" from mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Beda RT",
+                  "offset": 30
+                },
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 58
+                }
+              ],
+              "location": "Contract_Dispatcher.Dropdown_mistaketypefrommistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189289910,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Type on textarea note before based on mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\" with value \"TESTING\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 52
+                },
+                {
+                  "val": "TESTING",
+                  "offset": 143
+                }
+              ],
+              "location": "Contract_Dispatcher.notebeforeonmistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113710208,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "Type on textarea note after based on mistake name \"20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP\" with value \"TESTING after\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "20. KTP atau Resi - Alamat tetap pemohon pada sistem (HoS) berbeda dengan KTP",
+                  "offset": 51
+                },
+                {
+                  "val": "TESTING after",
+                  "offset": 142
+                }
+              ],
+              "location": "Contract_Dispatcher.noteafteronmistakename(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3597590529,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "Click button \"Save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Save",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 521503257,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Get text from pop up \"IT Supporting Tools\" with text \"Mistake has been saved\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IT Supporting Tools",
+                  "offset": 22
+                },
+                {
+                  "val": "Mistake has been saved",
+                  "offset": 54
+                }
+              ],
+              "location": "Contract_Dispatcher.gettextconfirmationadd(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3550206375,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Click button \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "OK",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3808081320,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Click button \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 14
+                }
+              ],
+              "location": "Contract_Dispatcher.ClickButton(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74363296,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Close browser",
+            "match": {
+              "location": "Contract_Dispatcher.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Contract Dispatcher for DONA BLIBLI",
+    "description": "  I want to use this template for my feature file",
+    "id": "contract-dispatcher-for-dona-blibli",
+    "keyword": "Feature",
+    "uri": "/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/CONTRACT_DISPATCHER_DONA_B2B/BLIBLI/Contract_Dispatcher_BLIBLI.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

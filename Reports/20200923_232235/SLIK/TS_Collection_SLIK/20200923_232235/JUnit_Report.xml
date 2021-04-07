@@ -1,0 +1,2515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Collection_SLIK" time="509.057" tests="14" failures="2" errors="0">
+   <testsuite name="TS_SLIK_Gateway_Customer" tests="7" failures="0" errors="0" time="214.724" timestamp="2020-09-23 23:22:44" hostname="chaidir.pratama01 - localhost" id="Test Suites/SLIK/TS_SLIK_Gateway_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="76f3578cabc623add66160bdf15080de"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Open Menu SLIK Gateway Customer" time="44.447" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Open Menu SLIK Gateway Customer" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:22:44 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Open Menu SLIK Gateway Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Open Menu SLIK Gateway Customer
+
+2020-09-23 23:22:45 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/Open_Menu_SLIK_Gateway_Customer.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Open_Menu_SLIK_Gateway_Customer.feature' was passed
+
+2020-09-23 23:22:45 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Open_Menu_SLIK_Gateway_Customer.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878165207'...
+
+2020-09-23 23:22:45 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Menu SLIK Gateway Customer in IST and Verify Element Needed Exist: SCENARIO Menu SLIK Gateway Customer in IST and Verify Element Needed Exist
+
+2020-09-23 23:22:45 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:22:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:22:45 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:22:45 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:22:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:22:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:22:50 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:22:50 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:22:50 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:22:51 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:22:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:22:55 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:22:55 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:22:55 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:22:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:22:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:22:55 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:22:55 - [TEST_STEP][PASSED] - Select Menu "SLIK Gateway Customer": Select Menu "SLIK Gateway Customer"
+
+2020-09-23 23:22:56 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:22:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:22:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:22:56 - [MESSAGE][PASSED] - Select Menu "SLIK Gateway Customer"
+
+2020-09-23 23:22:56 - [TEST_STEP][PASSED] - Verify Title "SLIK Gateway Customer" Exists: Verify Title "SLIK Gateway Customer" Exists
+
+2020-09-23 23:22:57 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:22:58 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:22:58 - [MESSAGE][PASSED] - Verify Title "SLIK Gateway Customer" Exists
+
+2020-09-23 23:22:58 - [TEST_STEP][PASSED] - Verify Title "Check SLIK" Exists: Verify Title "Check SLIK" Exists
+
+2020-09-23 23:22:58 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:22:59 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:22:59 - [MESSAGE][PASSED] - Verify Title "Check SLIK" Exists
+
+2020-09-23 23:22:59 - [TEST_STEP][PASSED] - Verify Contents of Check SLIK Label in SLIK Gateway Customer Menu Exist: Verify Contents of Check SLIK Label in SLIK Gateway Customer Menu Exist
+
+2020-09-23 23:22:59 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:22:59 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:00 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:00 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:01 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:01 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:01 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:02 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:02 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:02 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:03 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:03 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:04 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:04 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:04 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:05 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:05 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:05 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:06 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:07 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:07 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:07 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:08 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:08 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:08 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:09 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:09 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:09 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:09 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:10 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:23:14 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:23:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:18 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:18 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:18 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:18 - [MESSAGE][PASSED] - Verify Contents of Check SLIK Label in SLIK Gateway Customer Menu Exist
+
+2020-09-23 23:23:18 - [TEST_STEP][PASSED] - Verify Title "Search Result" Exists: Verify Title "Search Result" Exists
+
+2020-09-23 23:23:19 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:19 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:19 - [MESSAGE][PASSED] - Verify Title "Search Result" Exists
+
+2020-09-23 23:23:19 - [TEST_STEP][PASSED] - Verify Contents of Search Result: Verify Contents of Search Result
+
+2020-09-23 23:23:19 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:22 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:23 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:23 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:25 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:25 - [MESSAGE][PASSED] - Verify Contents of Search Result
+
+2020-09-23 23:23:25 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:23:25 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:23:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:23:29 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:23:29 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:23:29 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:23:29 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:23:29 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Open_Menu_SLIK_Gateway_Customer.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking" time="66.948" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:23:29 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking
+
+2020-09-23 23:23:29 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature' was passed
+
+2020-09-23 23:23:29 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878209523'...
+
+2020-09-23 23:23:29 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Customer Checking: SCENARIO SLIK Gateway Customer Checking
+
+2020-09-23 23:23:29 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:23:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:23:29 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:23:29 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:23:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:23:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:23:40 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:23:40 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:23:40 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:23:41 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:23:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:23:44 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:23:44 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:23:44 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:23:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:23:45 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway Customer: Select Menu SLIK Gateway Customer
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:23:45 - [MESSAGE][PASSED] - Select Menu SLIK Gateway Customer
+
+2020-09-23 23:23:45 - [TEST_STEP][PASSED] - Input Data KTP Number: Input Data KTP Number
+
+2020-09-23 23:23:49 - [MESSAGE][PASSED] - Text '9999999999999999' is set on object ''
+
+2020-09-23 23:23:49 - [MESSAGE][PASSED] - Input Data KTP Number
+
+2020-09-23 23:23:49 - [TEST_STEP][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK: Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 23:23:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:23:50 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:23:50 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:51 - [MESSAGE][PASSED] - Text 'OPEX TestingAuto' is set on object ''
+
+2020-09-23 23:23:51 - [MESSAGE][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 23:23:51 - [TEST_STEP][PASSED] - Input Date of Birth "20-Feb-1990": Input Date of Birth "20-Feb-1990"
+
+2020-09-23 23:23:51 - [MESSAGE][PASSED] - Text '20-Feb-1990' is set on object ''
+
+2020-09-23 23:23:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:23:54 - [MESSAGE][PASSED] - Input Date of Birth "20-Feb-1990"
+
+2020-09-23 23:23:54 - [TEST_STEP][PASSED] - Select Gender "Laki-laki": Select Gender "Laki-laki"
+
+2020-09-23 23:23:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:23:55 - [MESSAGE][PASSED] - Select Gender "Laki-laki"
+
+2020-09-23 23:23:55 - [TEST_STEP][PASSED] - Select Purpose is "Penilaian Calon Kemitraan": Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 23:23:56 - [MESSAGE][PASSED] - All options with value 'Penilaian Calon Kemitraan' are selected in object ''  using regular expression
+
+2020-09-23 23:23:56 - [MESSAGE][PASSED] - Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 23:23:56 - [TEST_STEP][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK: Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 23:23:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:23:57 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:23:58 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:23:58 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object ''
+
+2020-09-23 23:23:58 - [MESSAGE][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 23:23:58 - [TEST_STEP][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK: Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 23:23:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:23:59 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:24:00 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:24:01 - [MESSAGE][PASSED] - Text 'Tester Auto' is set on object ''
+
+2020-09-23 23:24:01 - [MESSAGE][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 23:24:01 - [TEST_STEP][PASSED] - Input KTP Address "TESTING AUTO JAKARTA": Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 23:24:01 - [MESSAGE][PASSED] - Text 'TESTING AUTO JAKARTA' is set on object ''
+
+2020-09-23 23:24:01 - [MESSAGE][PASSED] - Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 23:24:01 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-09-23 23:24:01 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-09-23 23:24:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:24:04 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-09-23 23:24:04 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 23:24:05 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:24:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:24:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:24:05 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 23:24:05 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-09-23 23:24:05 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-09-23 23:24:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:24:08 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-09-23 23:24:08 - [TEST_STEP][PASSED] - Verify KTP Number Request Success: Verify KTP Number Request Success
+
+2020-09-23 23:24:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:24:28 - [MESSAGE][PASSED] - Verify KTP Number Request Success
+
+2020-09-23 23:24:28 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2020-09-23 23:24:28 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2020-09-23 23:24:32 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:24:32 - [MESSAGE][PASSED] - Click button "OK"
+
+2020-09-23 23:24:32 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:24:32 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:24:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:24:36 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:24:36 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:24:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:24:36 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:24:36 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT KTP NUMBER CUSTOMER from DB" time="1.504" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT KTP NUMBER CUSTOMER from DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:24:36 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT KTP NUMBER CUSTOMER from DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT KTP NUMBER CUSTOMER from DB
+
+2020-09-23 23:24:36 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature' was passed
+
+2020-09-23 23:24:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878276442'...
+
+2020-09-23 23:24:36 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SELECT KTP Number Customer From Table SLIK_DATA_CUSTOMER: SCENARIO SELECT KTP Number Customer From Table SLIK_DATA_CUSTOMER
+
+2020-09-23 23:24:36 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 23:24:37 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 23:24:37 - [TEST_STEP][PASSED] - Check KTP Number Customer in DB: Check KTP Number Customer in DB
+
+2020-09-23 23:24:37 - [MESSAGE][PASSED] - Check KTP Number Customer in DB
+
+2020-09-23 23:24:37 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search By KTP" time="30.431" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search By KTP" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:24:37 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search By KTP: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search By KTP
+
+2020-09-23 23:24:37 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search_By_KTP.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search_By_KTP.feature' was passed
+
+2020-09-23 23:24:37 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search_By_KTP.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878277944'...
+
+2020-09-23 23:24:38 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Customer Search Result: SCENARIO SLIK Gateway Customer Search Result
+
+2020-09-23 23:24:38 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:24:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:24:38 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:24:38 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:24:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:24:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:24:50 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:24:50 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:24:50 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:24:51 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:24:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:24:55 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:24:55 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:24:55 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:24:55 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:24:56 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway Customer: Select Menu SLIK Gateway Customer
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:24:56 - [MESSAGE][PASSED] - Select Menu SLIK Gateway Customer
+
+2020-09-23 23:24:56 - [TEST_STEP][PASSED] - Input Data KTP Number for Search Result: Input Data KTP Number for Search Result
+
+2020-09-23 23:24:58 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:24:59 - [MESSAGE][PASSED] - Text '9999999999999999' is set on object ''
+
+2020-09-23 23:24:59 - [MESSAGE][PASSED] - Input Data KTP Number for Search Result
+
+2020-09-23 23:24:59 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:24:59 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:25:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:02 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:25:02 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:25:03 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:03 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:25:03 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:25:03 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:25:04 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:04 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:25:04 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:25:04 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:25:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:08 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:25:08 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:25:08 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:25:08 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:25:08 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search_By_KTP.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Search By Status SUCCESS" time="45.956" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Search By Status SUCCESS" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:25:08 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Search By Status SUCCESS: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Search By Status SUCCESS
+
+2020-09-23 23:25:08 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_Search_By_Status_SUCCESS.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_Search_By_Status_SUCCESS.feature' was passed
+
+2020-09-23 23:25:08 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_Search_By_Status_SUCCESS.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878308381'...
+
+2020-09-23 23:25:08 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Result by Status: SCENARIO Search Result by Status
+
+2020-09-23 23:25:08 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:25:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:25:08 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:25:08 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:25:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:25:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:25:30 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:25:30 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:25:30 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:25:31 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:25:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:25:43 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:25:43 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:25:43 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:25:43 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:25:43 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:25:43 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway Customer: Select Menu SLIK Gateway Customer
+
+2020-09-23 23:25:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:25:44 - [MESSAGE][PASSED] - Select Menu SLIK Gateway Customer
+
+2020-09-23 23:25:44 - [TEST_STEP][PASSED] - Select Status is "SUCCESS": Select Status is "SUCCESS"
+
+2020-09-23 23:25:46 - [MESSAGE][PASSED] - All options with value 'SUCCESS' are selected in object ''  using regular expression
+
+2020-09-23 23:25:46 - [MESSAGE][PASSED] - Select Status is "SUCCESS"
+
+2020-09-23 23:25:46 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:25:46 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:25:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:49 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:25:49 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:25:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:50 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:25:50 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:25:50 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:25:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:50 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:25:50 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:25:50 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:25:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:54 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:25:54 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:25:54 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:25:54 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:25:54 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_Search_By_Status_SUCCESS.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer View Detail" time="21.108" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer View Detail" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:25:54 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer View Detail: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer View Detail
+
+2020-09-23 23:25:54 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_View_Detail.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_View_Detail.feature' was passed
+
+2020-09-23 23:25:54 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_View_Detail.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878354338'...
+
+2020-09-23 23:25:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Customer View Detail Link: SCENARIO SLIK Gateway Customer View Detail Link
+
+2020-09-23 23:25:54 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:25:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:25:54 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:25:54 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:25:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:25:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:25:56 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:25:56 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:25:56 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:25:57 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:25:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:25:58 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:25:58 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:25:58 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:25:58 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:25:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:25:58 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:25:58 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway Customer: Select Menu SLIK Gateway Customer
+
+2020-09-23 23:25:59 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:25:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:25:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:25:59 - [MESSAGE][PASSED] - Select Menu SLIK Gateway Customer
+
+2020-09-23 23:25:59 - [TEST_STEP][PASSED] - Input Data KTP Number for Search Result: Input Data KTP Number for Search Result
+
+2020-09-23 23:25:59 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:00 - [MESSAGE][PASSED] - Text '9999999999999999' is set on object ''
+
+2020-09-23 23:26:00 - [MESSAGE][PASSED] - Input Data KTP Number for Search Result
+
+2020-09-23 23:26:00 - [TEST_STEP][PASSED] - Select Status is "SUCCESS": Select Status is "SUCCESS"
+
+2020-09-23 23:26:01 - [MESSAGE][PASSED] - All options with value 'SUCCESS' are selected in object ''  using regular expression
+
+2020-09-23 23:26:01 - [MESSAGE][PASSED] - Select Status is "SUCCESS"
+
+2020-09-23 23:26:01 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:26:01 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:26:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:26:05 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:26:05 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:26:05 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:05 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:26:05 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:26:05 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:06 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:26:06 - [TEST_STEP][PASSED] - Click View Detail Link: Click View Detail Link
+
+2020-09-23 23:26:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:26:07 - [MESSAGE][PASSED] - Click View Detail Link
+
+2020-09-23 23:26:07 - [TEST_STEP][PASSED] - Verify Slik Result Detail Link: Verify Slik Result Detail Link
+
+2020-09-23 23:26:09 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:09 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:09 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:10 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:10 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:10 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:11 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:26:11 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:26:11 - [MESSAGE][PASSED] - Verify Slik Result Detail Link
+
+2020-09-23 23:26:11 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:26:11 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:26:15 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK_Gateway_Customer_View_Detail.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete KTPNumber From DB" time="0.669" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete KTPNumber From DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:26:15 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete KTPNumber From DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete KTPNumber From DB
+
+2020-09-23 23:26:15 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature' was passed
+
+2020-09-23 23:26:15 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Customer/20200923_232235/cucumber_report/1600878375457'...
+
+2020-09-23 23:26:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete_KTPNumber_From_DB: SCENARIO Delete_KTPNumber_From_DB
+
+2020-09-23 23:26:15 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 23:26:15 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 23:26:15 - [TEST_STEP][PASSED] - Delete Contract From SLIK_DATA_CUSTOMER: Delete Contract From SLIK_DATA_CUSTOMER
+
+2020-09-23 23:26:16 - [MESSAGE][PASSED] - Delete Contract From SLIK_DATA_CUSTOMER
+
+2020-09-23 23:26:16 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 23:22:44 - [TEST_SUITE][PASSED] - TS_SLIK_Gateway_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete KTPNumber From DB]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_SLIK_Gateway_Non_Customer" tests="7" failures="2" errors="0" time="168.617" timestamp="2020-09-23 23:27:09" hostname="chaidir.pratama01 - localhost" id="Test Suites/SLIK/TS_SLIK_Gateway_Non_Customer">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878544939.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878545509.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878592951.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878593546.png"/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="null.null"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="3ff631b491c4ca56fbd943363d147bd8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer" time="45.558" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:27:09 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Open Menu SLIK Gateway Non Customer
+
+2020-09-23 23:27:09 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Open_Menu_SLIK_Gateway_Non_Customer.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Open_Menu_SLIK_Gateway_Non_Customer.feature' was passed
+
+2020-09-23 23:27:09 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Open_Menu_SLIK_Gateway_Non_Customer.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878429599'...
+
+2020-09-23 23:27:10 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Menu SLIK Gateway Non Customer in IST and Verify Element Needed Exist: SCENARIO Menu SLIK Gateway Non Customer in IST and Verify Element Needed Exist
+
+2020-09-23 23:27:10 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:27:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:27:10 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:27:10 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:27:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:27:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:27:13 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:27:13 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:27:13 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:27:14 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:27:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:27:16 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:27:16 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:27:16 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:27:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:27:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:27:17 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:27:17 - [TEST_STEP][PASSED] - Select Menu "SLIK Gateway Non Customer": Select Menu "SLIK Gateway Non Customer"
+
+2020-09-23 23:27:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:27:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:27:18 - [MESSAGE][PASSED] - Select Menu "SLIK Gateway Non Customer"
+
+2020-09-23 23:27:18 - [TEST_STEP][PASSED] - Verify Title "SLIK Gateway Non Customer" Exists: Verify Title "SLIK Gateway Non Customer" Exists
+
+2020-09-23 23:27:18 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:19 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:19 - [MESSAGE][PASSED] - Verify Title "SLIK Gateway Non Customer" Exists
+
+2020-09-23 23:27:19 - [TEST_STEP][PASSED] - Verify Title "Check SLIK" Exists: Verify Title "Check SLIK" Exists
+
+2020-09-23 23:27:19 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:19 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:19 - [MESSAGE][PASSED] - Verify Title "Check SLIK" Exists
+
+2020-09-23 23:27:19 - [TEST_STEP][PASSED] - Verify Contents of Check SLIK Label in SLIK Gateway Non Customer Menu Exist: Verify Contents of Check SLIK Label in SLIK Gateway Non Customer Menu Exist
+
+2020-09-23 23:27:20 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:20 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:21 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:21 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:22 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:22 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:23 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:23 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:23 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:24 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:24 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:25 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:26 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:26 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:27 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:27 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:28 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:28 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:29 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:29 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:29 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:30 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:30 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:31 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:31 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:33 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:33 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:34 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:34 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:34 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:35 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:27:38 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:27:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:42 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:42 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:43 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:43 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:43 - [MESSAGE][PASSED] - Verify Contents of Check SLIK Label in SLIK Gateway Non Customer Menu Exist
+
+2020-09-23 23:27:43 - [TEST_STEP][PASSED] - Verify Title "Search Result" Exists: Verify Title "Search Result" Exists
+
+2020-09-23 23:27:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:44 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:44 - [MESSAGE][PASSED] - Verify Title "Search Result" Exists
+
+2020-09-23 23:27:44 - [TEST_STEP][PASSED] - Verify Contents of Search Result: Verify Contents of Search Result
+
+2020-09-23 23:27:44 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:45 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:45 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:46 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:46 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:46 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:47 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:47 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:48 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:48 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:49 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:49 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:49 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:50 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:50 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:27:50 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:27:50 - [MESSAGE][PASSED] - Verify Contents of Search Result
+
+2020-09-23 23:27:50 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:27:50 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:27:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:27:54 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:27:54 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:27:54 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:27:54 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:27:54 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Open_Menu_SLIK_Gateway_Non_Customer.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" time="71.183" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-23 23:27:54 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:27:55 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)
+
+2020-09-23 23:27:55 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878475009'...
+
+2020-09-23 23:27:55 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Checking: SCENARIO SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at ✽.Verify KTP Number Request Success(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature:46)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:27:55 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:27:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:27:55 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:27:55 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:27:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:27:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:27:58 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:27:58 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:27:58 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:27:59 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:27:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:28:01 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:28:01 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:28:01 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:28:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:28:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:28:01 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:28:01 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:28:02 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:28:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:28:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:28:02 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:28:02 - [TEST_STEP][PASSED] - Input Data KTP Number: Input Data KTP Number
+
+2020-09-23 23:28:04 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-09-23 23:28:04 - [MESSAGE][PASSED] - Input Data KTP Number
+
+2020-09-23 23:28:04 - [TEST_STEP][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK: Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 23:28:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:28:05 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:28:05 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:28:06 - [MESSAGE][PASSED] - Text 'OPEX TestingAuto' is set on object ''
+
+2020-09-23 23:28:06 - [MESSAGE][PASSED] - Input Data "Name *" with value "OPEX TestingAuto" for Check SLIK
+
+2020-09-23 23:28:06 - [TEST_STEP][PASSED] - Input Date of Birth "20-02-1990": Input Date of Birth "20-02-1990"
+
+2020-09-23 23:28:07 - [MESSAGE][PASSED] - Text '20-02-1990' is set on object ''
+
+2020-09-23 23:28:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-09-23 23:28:10 - [MESSAGE][PASSED] - Input Date of Birth "20-02-1990"
+
+2020-09-23 23:28:10 - [TEST_STEP][PASSED] - Select Gender "Laki-laki": Select Gender "Laki-laki"
+
+2020-09-23 23:28:10 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:28:10 - [MESSAGE][PASSED] - Select Gender "Laki-laki"
+
+2020-09-23 23:28:10 - [TEST_STEP][PASSED] - Select Purpose is "Penilaian Calon Kemitraan": Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 23:28:12 - [MESSAGE][PASSED] - All options with value 'Penilaian Calon Kemitraan' are selected in object ''  using regular expression
+
+2020-09-23 23:28:12 - [MESSAGE][PASSED] - Select Purpose is "Penilaian Calon Kemitraan"
+
+2020-09-23 23:28:12 - [TEST_STEP][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK: Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 23:28:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:28:13 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:28:13 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:28:14 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object ''
+
+2020-09-23 23:28:14 - [MESSAGE][PASSED] - Input Data "Place of Birth" with value "Jakarta" for Check SLIK
+
+2020-09-23 23:28:14 - [TEST_STEP][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK: Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 23:28:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/slik.png]]
+
+2020-09-23 23:28:15 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 23:28:15 - [MESSAGE][PASSED] - Object: '' is focused
+
+2020-09-23 23:28:16 - [MESSAGE][PASSED] - Text 'Tester Auto' is set on object ''
+
+2020-09-23 23:28:16 - [MESSAGE][PASSED] - Input Data "Mother Maternity Name" with value "Tester Auto" for Check SLIK
+
+2020-09-23 23:28:16 - [TEST_STEP][PASSED] - Input KTP Address "TESTING AUTO JAKARTA": Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 23:28:17 - [MESSAGE][PASSED] - Text 'TESTING AUTO JAKARTA' is set on object ''
+
+2020-09-23 23:28:17 - [MESSAGE][PASSED] - Input KTP Address "TESTING AUTO JAKARTA"
+
+2020-09-23 23:28:17 - [TEST_STEP][PASSED] - Click button "Upload": Click button "Upload"
+
+2020-09-23 23:28:17 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Upload')]
+
+2020-09-23 23:28:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:28:21 - [MESSAGE][PASSED] - Click button "Upload"
+
+2020-09-23 23:28:21 - [TEST_STEP][PASSED] - Upload file "new_captcha1500.png": Upload file "new_captcha1500.png"
+
+2020-09-23 23:28:22 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-09-23 23:28:33 - [MESSAGE][PASSED] - Upload file "new_captcha1500.png"
+
+2020-09-23 23:28:33 - [TEST_STEP][PASSED] - Click button "Check SLIK": Click button "Check SLIK"
+
+2020-09-23 23:28:33 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Check SLIK')]
+
+2020-09-23 23:28:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:28:36 - [MESSAGE][PASSED] - Click button "Check SLIK"
+
+2020-09-23 23:28:36 - [TEST_STEP][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?": Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 23:28:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:28:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:28:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:28:37 - [MESSAGE][PASSED] - Get text from pop up "Confirmation Submit Request" with text "Are you sure to submit this data ?"
+
+2020-09-23 23:28:37 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2020-09-23 23:28:37 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2020-09-23 23:28:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:28:40 - [MESSAGE][PASSED] - Click button "Yes"
+
+2020-09-23 23:28:40 - [TEST_STEP][FAILED] - Verify KTP Number Request Success: Verify KTP Number Request Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at ✽.Verify KTP Number Request Success(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature:46)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-23 23:29:05 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878544939.png]]
+
+2020-09-23 23:29:06 - [MESSAGE][FAILED] - Unable to verify object '' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878545509.png]]
+
+2020-09-23 23:29:06 - [MESSAGE][FAILED] - Verify KTP Number Request Success FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at ✽.Verify KTP Number Request Success(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature:46)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[contains(text(),"IT Supporting Tools")]/following-sibling::div/table/tbody/tr/td/table/tbody/tr/td[5]/div/span[contains(text(),"KTP Number 8888888888888888 is requested successfully.")]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Verify_KTP_Number(Slik_Script.groovy:230)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:06 - [TEST_STEP][NOT_RUN] - Click button "OK": Click button "OK"
+
+2020-09-23 23:29:06 - [MESSAGE][NOT_RUN] - Click button "OK"
+
+2020-09-23 23:29:06 - [TEST_STEP][NOT_RUN] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:29:06 - [MESSAGE][NOT_RUN] - Click button "Logout"
+
+2020-09-23 23:29:06 - [TEST_STEP][NOT_RUN] - Close browser: Close browser
+
+2020-09-23 23:29:06 - [MESSAGE][NOT_RUN] - Close browser
+
+2020-09-23 23:29:06 - [MESSAGE][FAILED] - Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+
+2020-09-23 23:29:06 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 23:27:54 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB" time="0.956" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:29:06 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SELECT KTP NUMBER NON CUSTOMER from DB
+
+2020-09-23 23:29:06 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' was passed
+
+2020-09-23 23:29:06 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878546173'...
+
+2020-09-23 23:29:06 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER: SCENARIO SELECT KTP Number Non Customer From Table SLIK_DATA_CUSTOMER
+
+2020-09-23 23:29:06 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 23:29:06 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 23:29:06 - [TEST_STEP][PASSED] - Check KTP Number Non Customer in DB: Check KTP Number Non Customer in DB
+
+2020-09-23 23:29:07 - [MESSAGE][PASSED] - Check KTP Number Non Customer in DB
+
+2020-09-23 23:29:07 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SELECT_KTP_NUMBER_NON_CUSTOMER_from_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP" time="14.409" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:29:07 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By KTP
+
+2020-09-23 23:29:07 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' was passed
+
+2020-09-23 23:29:07 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878547135'...
+
+2020-09-23 23:29:07 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO SLIK Gateway Non Customer Search Result: SCENARIO SLIK Gateway Non Customer Search Result
+
+2020-09-23 23:29:07 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:29:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-09-23 23:29:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:29:07 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:29:07 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:29:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:29:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:29:09 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:29:09 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:29:09 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:29:09 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:29:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:29:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:29:10 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:29:10 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:29:10 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:29:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:29:11 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:29:11 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:11 - [TEST_STEP][PASSED] - Input Data KTP Number for Search Result: Input Data KTP Number for Search Result
+
+2020-09-23 23:29:12 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:29:13 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-09-23 23:29:13 - [MESSAGE][PASSED] - Input Data KTP Number for Search Result
+
+2020-09-23 23:29:13 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:29:13 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:29:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:16 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:29:16 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:29:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:17 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:29:17 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:29:17 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:29:17 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:17 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:29:17 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:29:17 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:29:21 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:21 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:29:21 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:29:21 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:29:21 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:29:21 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateaway Non Customer Search_By_KTP.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status REQUESTED" time="15.321" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status REQUESTED" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:29:21 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status REQUESTED: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Search By Status REQUESTED
+
+2020-09-23 23:29:21 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_REQUESTED.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_REQUESTED.feature' was passed
+
+2020-09-23 23:29:21 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_REQUESTED.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878561566'...
+
+2020-09-23 23:29:21 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Result by Status: SCENARIO Search Result by Status
+
+2020-09-23 23:29:21 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:29:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:29:21 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:29:21 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:29:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:29:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:29:23 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:29:23 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:29:23 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:29:24 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:29:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:29:25 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:29:25 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:29:25 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:29:25 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:29:26 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:29:26 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:26 - [TEST_STEP][PASSED] - Select Status is "REQUESTED": Select Status is "REQUESTED"
+
+2020-09-23 23:29:28 - [MESSAGE][PASSED] - All options with value 'REQUESTED' are selected in object ''  using regular expression
+
+2020-09-23 23:29:28 - [MESSAGE][PASSED] - Select Status is "REQUESTED"
+
+2020-09-23 23:29:28 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:29:28 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:29:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:31 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:29:31 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:29:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:32 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:29:32 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:29:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:29:32 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:33 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2020-09-23 23:29:33 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:29:33 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:29:33 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-23 23:29:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:36 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-23 23:29:36 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-23 23:29:36 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 23:29:36 - [MESSAGE][PASSED] - Close browser
+
+2020-09-23 23:29:36 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_Search_By_Status_REQUESTED.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail" time="17.305" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+"/>
+         <system-out><![CDATA[2020-09-23 23:29:36 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:36 - [TEST_STEP][FAILED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature"): Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)
+
+2020-09-23 23:29:36 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878576867'...
+
+2020-09-23 23:29:36 - [TEST_CASE][FAILED] - Start Test Case : SCENARIO SLIK Gateway Non Customer View Detail Link: SCENARIO SLIK Gateway Non Customer View Detail Link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at ✽.Click View Detail Link(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature:38)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:36 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2020-09-23 23:29:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 23:29:36 - [MESSAGE][INFO] - User set preference: ['AcceptInsecureCerts', 'true']
+
+2020-09-23 23:29:36 - [MESSAGE][INFO] - User set preference: ['args', '[ignore-certificate-errors]']
+
+2020-09-23 23:29:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 23:29:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 23:29:38 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2020-09-23 23:29:38 - [MESSAGE][PASSED] - Go to ISTools
+
+2020-09-23 23:29:38 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-23 23:29:39 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-23 23:29:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-23 23:29:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-23 23:29:40 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-23 23:29:40 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-23 23:29:40 - [MESSAGE][INFO] - Login Success
+
+2020-09-23 23:29:40 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 23:29:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-23 23:29:40 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-23 23:29:40 - [TEST_STEP][PASSED] - Select Menu SLIK Gateway NonCustomer: Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:41 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-23 23:29:41 - [MESSAGE][PASSED] - Select Menu SLIK Gateway NonCustomer
+
+2020-09-23 23:29:41 - [TEST_STEP][PASSED] - Input Data KTP Number for Search Result: Input Data KTP Number for Search Result
+
+2020-09-23 23:29:42 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:29:42 - [MESSAGE][PASSED] - Text '8888888888888888' is set on object ''
+
+2020-09-23 23:29:42 - [MESSAGE][PASSED] - Input Data KTP Number for Search Result
+
+2020-09-23 23:29:42 - [TEST_STEP][PASSED] - Select Status is "REQUESTED": Select Status is "REQUESTED"
+
+2020-09-23 23:29:43 - [MESSAGE][PASSED] - All options with value 'REQUESTED' are selected in object ''  using regular expression
+
+2020-09-23 23:29:43 - [MESSAGE][PASSED] - Select Status is "REQUESTED"
+
+2020-09-23 23:29:43 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-23 23:29:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-23 23:29:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 23:29:47 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-23 23:29:47 - [TEST_STEP][PASSED] - Verify Search Result with KTP Number: Verify Search Result with KTP Number
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Verify Search Result with KTP Number
+
+2020-09-23 23:29:48 - [TEST_STEP][PASSED] - Verify Search Result data: Verify Search Result data
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Actual text and expected text of test object '' are matched.
+
+2020-09-23 23:29:48 - [MESSAGE][PASSED] - Verify Search Result data
+
+2020-09-23 23:29:48 - [TEST_STEP][FAILED] - Click View Detail Link: Click View Detail Link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at ✽.Click View Detail Link(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature:38)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-23 23:29:53 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878592951.png]]
+
+2020-09-23 23:29:54 - [MESSAGE][FAILED] - Unable to verify object '' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 42 more
+)
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/1600878593546.png]]
+
+2020-09-23 23:29:54 - [MESSAGE][FAILED] - Click View Detail Link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object '' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at ✽.Click View Detail Link(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature:38)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//span[text()='Search Result']/../../../following-sibling::div[@class='z-groupbox-content']/div[@class='z-grid']/div[@class='z-grid-body']/table/tbody/tr/td[7]/div/div/span' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$5.call(Unknown Source)
+	at Slik_Script.Slik_Verify_Detail(Slik_Script.groovy:341)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:48)
+	at cucumber.runtime.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:55)
+	at cucumber.runner.TestStep.run(TestStep.java:42)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:53)
+	at cucumber.runner.TestCase.run(TestCase.java:47)
+	at cucumber.runner.Runner.runPickle(Runner.java:44)
+	at cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+	at cucumber.runtime.Runtime.run(Runtime.java:106)
+	at cucumber.api.cli.Main.run(Main.java:35)
+	at cucumber.api.cli.Main$run.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:76)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+
+
+2020-09-23 23:29:54 - [TEST_STEP][NOT_RUN] - Take Screenshot "View_detail_NonCutomer.png": Take Screenshot "View_detail_NonCutomer.png"
+
+2020-09-23 23:29:54 - [MESSAGE][NOT_RUN] - Take Screenshot "View_detail_NonCutomer.png"
+
+2020-09-23 23:29:54 - [TEST_STEP][NOT_RUN] - Verify Slik Result Detail Link: Verify Slik Result Detail Link
+
+2020-09-23 23:29:54 - [MESSAGE][NOT_RUN] - Verify Slik Result Detail Link
+
+2020-09-23 23:29:54 - [TEST_STEP][NOT_RUN] - Click button "Logout": Click button "Logout"
+
+2020-09-23 23:29:54 - [MESSAGE][NOT_RUN] - Click button "Logout"
+
+2020-09-23 23:29:54 - [TEST_STEP][NOT_RUN] - Close browser: Close browser
+
+2020-09-23 23:29:54 - [MESSAGE][NOT_RUN] - Close browser
+
+2020-09-23 23:29:54 - [MESSAGE][FAILED] - Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+
+2020-09-23 23:29:54 - [MESSAGE][FAILED] - Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 23:29:36 - [TEST_CASE][FAILED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer View Detail FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK_Gateway_Non_Customer_View_Detail.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer View Detail.run(SLIK Gateway Non Customer View Detail:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB" time="0.482" classname="Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB" status="PASSED">
+         <system-out><![CDATA[2020-09-23 23:29:54 - [TEST_CASE][PASSED] - Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/Delete KTPNumber From DB
+
+2020-09-23 23:29:54 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature"): Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' was passed
+
+2020-09-23 23:29:54 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200923_232235/SLIK/TS_SLIK_Gateway_Non_Customer/20200923_232236/cucumber_report/1600878594178'...
+
+2020-09-23 23:29:54 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Delete_KTPNumber_From_DB: SCENARIO Delete_KTPNumber_From_DB
+
+2020-09-23 23:29:54 - [TEST_STEP][PASSED] - Connect to Database: Connect to Database
+
+2020-09-23 23:29:54 - [MESSAGE][PASSED] - Connect to Database
+
+2020-09-23 23:29:54 - [TEST_STEP][PASSED] - Delete Contract From SLIK_DATA_NonCUSTOMER: Delete Contract From SLIK_DATA_NonCUSTOMER
+
+2020-09-23 23:29:54 - [MESSAGE][PASSED] - Delete Contract From SLIK_DATA_NonCUSTOMER
+
+2020-09-23 23:29:54 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/Delete_KTPNumber_From_DB.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 23:27:09 - [TEST_SUITE][FAILED] - TS_SLIK_Gateway_Non_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)]]></system-out>
+      <system-err><![CDATA[2020-09-23 23:27:09 - [TEST_SUITE][FAILED] - TS_SLIK_Gateway_Non_Customer: Test Cases/IST_Real/SLIK/SLIK_Gateway_Non_Customer/SLIK Gateway Non Customer Checking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Non Customer/SLIK Gateway Non Customer Checking.feature' was failed
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)
+	at com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)
+	at SLIK Gateway Non Customer Checking.run(SLIK Gateway Non Customer Checking:18)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600878156518.run(TempTestSuite1600878156518.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.424994">
+<testcase classname="Hold Payment Configuration for Release schedule" name="Release Schedule" time="14.424994">
+<system-out><![CDATA[Given Go to ISTools.........................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success..........................................................passed
+And Select Arrow Menu "Real Time Disbursement"..............................passed
+And Select Menu "Hold Payment Configuration"................................passed
+And Click button "Release" and Verify data..................................passed
+And Get text from pop up "Confirm" with text "Are you sure want to release this param?".passed
+And Click button "Yes"......................................................passed
+And Verify Data dont Exist..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="28.725328">
+<testcase classname="Claim Contract BPKB then Save it Without Register Any Mistakes" name="Assign User to Contract BPKB" time="17.211085">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "BPKB"........................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Claim Contract BPKB then Save it Without Register Any Mistakes" name="Select Menu Contract Dispatcher and Select Contract based on type contract BPKB" time="11.514243">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "BPKB"....................passed
+And Click button "Claim"....................................................passed
+And Verify Tab Matrix Contract Dispatcher...................................undefined
+And Click button "Save".....................................................skipped
+And Get text from pop up "IT Supporting Tools" with text "Mistake has been saved".skipped
+And Click button "OK".......................................................skipped
+And Click button "Logout"...................................................skipped
+And Close browser...........................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

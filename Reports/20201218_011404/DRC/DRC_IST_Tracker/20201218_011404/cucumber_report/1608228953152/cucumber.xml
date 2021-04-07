@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="88.172921">
+<testcase classname="Connection To CZ by Select Approval status menu" name="Select ROLE_PAPERLESS to enable Menu Approval Status (MANDATORY)" time="52.206401">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Role Management"...........................................passed
+And Choose Dropdown Username "mobile.test"..................................passed
+And Select Role "ROLE_PAPERLESS"............................................passed
+And Click button "Change"...................................................passed
+And Get text from pop up "Confirm" with text "Are you sure?"................passed
+And Click button "Yes"......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Connection To CZ by Select Approval status menu" name="Select Menu Approval status then Click send Email" time="35.96652">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Approval Status"...........................................passed
+And Type on Textbox label "Contract Number" with value "3905068360".........passed
+And Click button "Search"...................................................passed
+And Verify Table Approval Status Exist......................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

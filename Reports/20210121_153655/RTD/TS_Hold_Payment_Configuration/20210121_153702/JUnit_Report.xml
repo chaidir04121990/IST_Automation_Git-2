@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Hold_Payment_Configuration" time="98.688" tests="4" failures="0" errors="0">
+   <testsuite name="TS_Hold_Payment_Configuration" tests="4" failures="0" errors="0" time="98.688" timestamp="2021-01-21 16:14:55" hostname="chaidir.pratama01 - 192.168.1.2" id="Test Suites/RTD/TS_Hold_Payment_Configuration">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702/execution0.log"/>
+         <property name="attachments" value="/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Screenshot/result date.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png, /Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png"/>
+         <property name="hostName" value="chaidir.pratama01 - 192.168.1.2"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 87.0.4280.141"/>
+         <property name="hostAddress" value="192.168.1.2"/>
+         <property name="sessionId" value="c520d8d6ed99d0c43ba52865c4a8b2c2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/RTD/Hold Payment Configuration/TC_Release_Schedule" time="15.195" classname="Test Cases/RTD/Hold Payment Configuration/TC_Release_Schedule" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:14:55 - [TEST_CASE][PASSED] - Test Cases/RTD/Hold Payment Configuration/TC_Release_Schedule: Test Cases/RTD/Hold Payment Configuration/TC_Release_Schedule
+
+2021-01-21 16:14:55 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Hold Payment Configuration/Release_Schedule.feature"): Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Release_Schedule.feature' was passed
+
+2021-01-21 16:14:55 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Release_Schedule.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702/cucumber_report/1611220495742'...
+
+2021-01-21 16:14:56 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Release Schedule: SCENARIO Release Schedule
+
+2021-01-21 16:14:56 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-21 16:14:56 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 16:14:56 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 16:14:56 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 16:14:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:14:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-21 16:14:59 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-21 16:14:59 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-21 16:14:59 - [MESSAGE][INFO] - Login Success
+
+2021-01-21 16:14:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Login Success
+
+2021-01-21 16:15:00 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:00 - [TEST_STEP][PASSED] - Select Menu "Hold Payment Configuration": Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png]]
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:00 - [MESSAGE][PASSED] - Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:00 - [TEST_STEP][PASSED] - Click button "Release" and Verify data: Click button "Release" and Verify data
+
+2021-01-21 16:15:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:03 - [MESSAGE][PASSED] - Click button "Release" and Verify data
+
+2021-01-21 16:15:03 - [TEST_STEP][PASSED] - Get text from pop up "Confirm" with text "Are you sure want to release this param?": Get text from pop up "Confirm" with text "Are you sure want to release this param?"
+
+2021-01-21 16:15:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2021-01-21 16:15:04 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:04 - [MESSAGE][PASSED] - Get text from pop up "Confirm" with text "Are you sure want to release this param?"
+
+2021-01-21 16:15:04 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2021-01-21 16:15:04 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2021-01-21 16:15:07 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:07 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:07 - [MESSAGE][PASSED] - Click button "Yes"
+
+2021-01-21 16:15:07 - [TEST_STEP][PASSED] - Verify Data dont Exist: Verify Data dont Exist
+
+2021-01-21 16:15:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:10 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //tbody/tr/td/div/button[text()='Release']/../../preceding-sibling::td[4]/div/span[text()='25-01-2021']' is not present after '3' second(s)
+
+2021-01-21 16:15:10 - [MESSAGE][PASSED] - Web element with id: '' located by 'By.xpath: //tbody/tr/td/div/button[text()='Release']/../../preceding-sibling::td[3]/div/span[text()='30-01-2021']' is not present after '3' second(s)
+
+2021-01-21 16:15:10 - [MESSAGE][PASSED] - Verify Data dont Exist
+
+2021-01-21 16:15:10 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Release_Schedule.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Hold Payment Configuration/TC_Add_New_Schedule" time="22.631" classname="Test Cases/RTD/Hold Payment Configuration/TC_Add_New_Schedule" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:15:10 - [TEST_CASE][PASSED] - Test Cases/RTD/Hold Payment Configuration/TC_Add_New_Schedule: Test Cases/RTD/Hold Payment Configuration/TC_Add_New_Schedule
+
+2021-01-21 16:15:10 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Hold Payment Configuration/Add_New_Schedule.feature"): Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Add_New_Schedule.feature' was passed
+
+2021-01-21 16:15:10 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Add_New_Schedule.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702/cucumber_report/1611220510772'...
+
+2021-01-21 16:15:10 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Set Schedule for Hold Payment: SCENARIO Set Schedule for Hold Payment
+
+2021-01-21 16:15:10 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-21 16:15:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-01-21 16:15:10 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 16:15:10 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 16:15:10 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 16:15:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:15:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-21 16:15:12 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-21 16:15:12 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-21 16:15:12 - [MESSAGE][INFO] - Login Success
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-21 16:15:12 - [MESSAGE][PASSED] - Login Success
+
+2021-01-21 16:15:12 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:13 - [TEST_STEP][PASSED] - Select Menu "Hold Payment Configuration": Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png]]
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:13 - [MESSAGE][PASSED] - Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:13 - [TEST_STEP][PASSED] - Input "Start Date Hold Payment" with value "25-01-2021": Input "Start Date Hold Payment" with value "25-01-2021"
+
+2021-01-21 16:15:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:16 - [MESSAGE][PASSED] - Input "Start Date Hold Payment" with value "25-01-2021"
+
+2021-01-21 16:15:16 - [TEST_STEP][PASSED] - Input "Release Date" with value "30-01-2021": Input "Release Date" with value "30-01-2021"
+
+2021-01-21 16:15:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:19 - [MESSAGE][PASSED] - Input "Release Date" with value "30-01-2021"
+
+2021-01-21 16:15:19 - [TEST_STEP][PASSED] - Click button "Add": Click button "Add"
+
+2021-01-21 16:15:19 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Add')]
+
+2021-01-21 16:15:22 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:22 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:22 - [MESSAGE][PASSED] - Click button "Add"
+
+2021-01-21 16:15:22 - [TEST_STEP][PASSED] - Get text from pop up "Confirm" with text "Add new hold payment config?": Get text from pop up "Confirm" with text "Add new hold payment config?"
+
+2021-01-21 16:15:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2021-01-21 16:15:23 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:23 - [MESSAGE][PASSED] - Get text from pop up "Confirm" with text "Add new hold payment config?"
+
+2021-01-21 16:15:23 - [TEST_STEP][PASSED] - Click button "Yes": Click button "Yes"
+
+2021-01-21 16:15:23 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Yes')]
+
+2021-01-21 16:15:26 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:26 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:26 - [MESSAGE][PASSED] - Click button "Yes"
+
+2021-01-21 16:15:26 - [TEST_STEP][PASSED] - Verify Result: Verify Result
+
+2021-01-21 16:15:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Screenshot/result date.png]]
+
+2021-01-21 16:15:30 - [MESSAGE][PASSED] - Verify Result
+
+2021-01-21 16:15:30 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-21 16:15:30 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-21 16:15:33 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Close browser
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Add_New_Schedule.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Hold Payment Configuration/TC_Date_is_NULL" time="37.981" classname="Test Cases/RTD/Hold Payment Configuration/TC_Date_is_NULL" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:15:33 - [TEST_CASE][PASSED] - Test Cases/RTD/Hold Payment Configuration/TC_Date_is_NULL: Test Cases/RTD/Hold Payment Configuration/TC_Date_is_NULL
+
+2021-01-21 16:15:33 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Hold Payment Configuration/Date_is_NULL.feature"): Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Date_is_NULL.feature' was passed
+
+2021-01-21 16:15:33 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Date_is_NULL.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702/cucumber_report/1611220533398'...
+
+2021-01-21 16:15:33 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Start Date is Null: SCENARIO Start Date is Null
+
+2021-01-21 16:15:33 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-21 16:15:33 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 16:15:33 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 16:15:33 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 16:15:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:15:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-21 16:15:35 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-21 16:15:35 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-21 16:15:35 - [MESSAGE][INFO] - Login Success
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Login Success
+
+2021-01-21 16:15:35 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:35 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:35 - [TEST_STEP][PASSED] - Select Menu "Hold Payment Configuration": Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png]]
+
+2021-01-21 16:15:36 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:36 - [MESSAGE][PASSED] - Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:36 - [TEST_STEP][PASSED] - Input "Start Date Hold Payment" with value "": Input "Start Date Hold Payment" with value ""
+
+2021-01-21 16:15:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:39 - [MESSAGE][PASSED] - Input "Start Date Hold Payment" with value ""
+
+2021-01-21 16:15:39 - [TEST_STEP][PASSED] - Input "Release Date" with value "30-01-2021": Input "Release Date" with value "30-01-2021"
+
+2021-01-21 16:15:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:42 - [MESSAGE][PASSED] - Input "Release Date" with value "30-01-2021"
+
+2021-01-21 16:15:42 - [TEST_STEP][PASSED] - Click button "Add": Click button "Add"
+
+2021-01-21 16:15:42 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Add')]
+
+2021-01-21 16:15:45 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:45 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:45 - [MESSAGE][PASSED] - Click button "Add"
+
+2021-01-21 16:15:45 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty": Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty"
+
+2021-01-21 16:15:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2021-01-21 16:15:46 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:46 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty"
+
+2021-01-21 16:15:46 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2021-01-21 16:15:46 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2021-01-21 16:15:49 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:49 - [MESSAGE][PASSED] - Click button "OK"
+
+2021-01-21 16:15:49 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-21 16:15:49 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-21 16:15:52 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:15:52 - [MESSAGE][PASSED] - Close browser
+
+2021-01-21 16:15:52 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO End Date is Null: SCENARIO End Date is Null
+
+2021-01-21 16:15:52 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-21 16:15:52 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 16:15:52 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 16:15:52 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 16:15:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:15:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:15:53 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-21 16:15:53 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-21 16:15:53 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-21 16:15:53 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-21 16:15:54 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-21 16:15:54 - [MESSAGE][INFO] - Login Success
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Login Success
+
+2021-01-21 16:15:54 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:54 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:15:54 - [TEST_STEP][PASSED] - Select Menu "Hold Payment Configuration": Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png]]
+
+2021-01-21 16:15:55 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:15:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:15:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:15:55 - [MESSAGE][PASSED] - Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:15:55 - [TEST_STEP][PASSED] - Input "Start Date Hold Payment" with value "25-01-2021": Input "Start Date Hold Payment" with value "25-01-2021"
+
+2021-01-21 16:15:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:15:58 - [MESSAGE][PASSED] - Input "Start Date Hold Payment" with value "25-01-2021"
+
+2021-01-21 16:15:58 - [TEST_STEP][PASSED] - Input "Release Date" with value "": Input "Release Date" with value ""
+
+2021-01-21 16:16:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:16:01 - [MESSAGE][PASSED] - Input "Release Date" with value ""
+
+2021-01-21 16:16:01 - [TEST_STEP][PASSED] - Click button "Add": Click button "Add"
+
+2021-01-21 16:16:01 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Add')]
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Click button "Add"
+
+2021-01-21 16:16:04 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty": Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty"
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:16:04 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Start date & end date cannot be empty"
+
+2021-01-21 16:16:04 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2021-01-21 16:16:04 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2021-01-21 16:16:07 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:08 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:08 - [MESSAGE][PASSED] - Click button "OK"
+
+2021-01-21 16:16:08 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-21 16:16:08 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-21 16:16:11 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Close browser
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Date_is_NULL.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RTD/Hold Payment Configuration/TC_Start_Date_Greater_than_Release_Date" time="18.765" classname="Test Cases/RTD/Hold Payment Configuration/TC_Start_Date_Greater_than_Release_Date" status="PASSED">
+         <system-out><![CDATA[2021-01-21 16:16:11 - [TEST_CASE][PASSED] - Test Cases/RTD/Hold Payment Configuration/TC_Start_Date_Greater_than_Release_Date: Test Cases/RTD/Hold Payment Configuration/TC_Start_Date_Greater_than_Release_Date
+
+2021-01-21 16:16:11 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/RTD/Hold Payment Configuration/Start_Date_Greater_than_Release_Date.feature"): Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Start_Date_Greater_than_Release_Date.feature' was passed
+
+2021-01-21 16:16:11 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Start_Date_Greater_than_Release_Date.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20210121_153655/RTD/TS_Hold_Payment_Configuration/20210121_153702/cucumber_report/1611220571379'...
+
+2021-01-21 16:16:11 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Start date is greater than end date: SCENARIO Start date is greater than end date
+
+2021-01-21 16:16:11 - [TEST_STEP][PASSED] - Go to ISTools: Go to ISTools
+
+2021-01-21 16:16:11 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+2021-01-21 16:16:11 - [MESSAGE][INFO] - User set preference: ['args', '[--start-maximized, --disable-gpu, --no-proxy-server, –-no-sandbox, --allow-running-insecure-content, --ignore-certificate-errors, window-size=1680,814, force-device-scale-factor=2, --lang=en-GB]']
+
+2021-01-21 16:16:11 - [MESSAGE][INFO] - User set preference: ['prefs', '{download.default_directory=/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Download}']
+
+2021-01-21 16:16:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-21 16:16:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-21 16:16:12 - [MESSAGE][PASSED] - Navigate to 'https://dev-istools.homecredit.id/foundation/' successfully
+
+2021-01-21 16:16:12 - [MESSAGE][PASSED] - Go to ISTools
+
+2021-01-21 16:16:12 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2021-01-21 16:16:12 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2021-01-21 16:16:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2021-01-21 16:16:13 - [TEST_STEP][PASSED] - Login Success: Login Success
+
+2021-01-21 16:16:13 - [MESSAGE][INFO] - Login Success
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Login Success
+
+2021-01-21 16:16:13 - [TEST_STEP][PASSED] - Select Arrow Menu "Real Time Disbursement": Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Select Arrow Menu "Real Time Disbursement"
+
+2021-01-21 16:16:13 - [TEST_STEP][PASSED] - Select Menu "Hold Payment Configuration": Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/test-Hold Payment Configuration.png]]
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:16:13 - [MESSAGE][PASSED] - Select Menu "Hold Payment Configuration"
+
+2021-01-21 16:16:13 - [TEST_STEP][PASSED] - Input "Start Date Hold Payment" with value "30-01-2021": Input "Start Date Hold Payment" with value "30-01-2021"
+
+2021-01-21 16:16:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:16:17 - [MESSAGE][PASSED] - Input "Start Date Hold Payment" with value "30-01-2021"
+
+2021-01-21 16:16:17 - [TEST_STEP][PASSED] - Input "Release Date" with value "25-01-2021": Input "Release Date" with value "25-01-2021"
+
+2021-01-21 16:16:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-21 16:16:20 - [MESSAGE][PASSED] - Input "Release Date" with value "25-01-2021"
+
+2021-01-21 16:16:20 - [TEST_STEP][PASSED] - Click button "Add": Click button "Add"
+
+2021-01-21 16:16:20 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Add')]
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Click button "Add"
+
+2021-01-21 16:16:23 - [TEST_STEP][PASSED] - Get text from pop up "IT Supporting Tools" with text "Release date must be after start date": Get text from pop up "IT Supporting Tools" with text "Release date must be after start date"
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/chaidir.pratama01/Documents/Docs/Katalon Studio/Screenshot/errorpopup.png]]
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-01-21 16:16:23 - [MESSAGE][PASSED] - Get text from pop up "IT Supporting Tools" with text "Release date must be after start date"
+
+2021-01-21 16:16:23 - [TEST_STEP][PASSED] - Click button "OK": Click button "OK"
+
+2021-01-21 16:16:23 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'OK')]
+
+2021-01-21 16:16:26 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:26 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:26 - [MESSAGE][PASSED] - Click button "OK"
+
+2021-01-21 16:16:26 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2021-01-21 16:16:26 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2021-01-21 16:16:29 - [MESSAGE][PASSED] - Object '' is present
+
+2021-01-21 16:16:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2021-01-21 16:16:29 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2021-01-21 16:16:29 - [MESSAGE][PASSED] - Click button "Logout"
+
+2021-01-21 16:16:29 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2021-01-21 16:16:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-01-21 16:16:30 - [MESSAGE][PASSED] - Close browser
+
+2021-01-21 16:16:30 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/RTD/Hold Payment Configuration/Start_Date_Greater_than_Release_Date.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-21 16:14:55 - [TEST_SUITE][PASSED] - TS_Hold_Payment_Configuration: Test Cases/RTD/Hold Payment Configuration/TC_Start_Date_Greater_than_Release_Date]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

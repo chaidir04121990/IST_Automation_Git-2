@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396520</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_SLIK_Gateway_Customer</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396533</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = chaidir.pratama01 - localhost</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">chaidir.pratama01 - localhost</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396533</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396536</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 127.0.0.1</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">127.0.0.1</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396537</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.0.${buildNumber}</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">7.6.0.${buildNumber}</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396699</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete_KTPNumber_From_DB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete_KTPNumber_From_DB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete_KTPNumber_From_DB</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Customer\\Delete_KTPNumber_From_DB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396925</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:16</date>
+  <millis>1597768396957</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200818_233309/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer/20200818_233309/cucumber_report/1597768396950&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:17</date>
+  <millis>1597768397453</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO Delete_KTPNumber_From_DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:17</date>
+  <millis>1597768397455</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398778</millis>
+  <sequence>12</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connect to Database FAILED.\nReason:\njava.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature:25)\n</message>
+  <exception>
+    <message>java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-20100: You are not allowed to connect to the database in this time.
+ORA-06512: at line 91
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>450</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>385</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>processError</method>
+      <line>1018</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>processError</method>
+      <line>501</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>receive</method>
+      <line>522</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>doRPC</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>954</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CConnection</class>
+      <method>logon</method>
+      <line>639</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.PhysicalConnection</class>
+      <method>connect</method>
+      <line>666</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CDriverExtension</class>
+      <method>getConnection</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleDriver</class>
+      <method>connect</method>
+      <line>566</line>
+    </frame>
+    <frame>
+      <class>java_sql_DriverManager$getConnection</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Conn_DB</class>
+      <method>connectDB</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>Conn_DB$connectDB</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CustomKeywords</class>
+      <method>Conn_DB.connectDB</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>try_it_out_Conn_DB</class>
+      <method>Conn_DB</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>Connect to Database</method>
+      <line>25</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature:25)\n</property>
+  <property name="failed.exception.class">java.sql.SQLException</property>
+  <property name="failed.exception.message">ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398781</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398782</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Delete Contract From SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398783</millis>
+  <sequence>16</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delete Contract From SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398783</millis>
+  <sequence>17</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Delete Contract From SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398786</millis>
+  <sequence>19</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO Delete_KTPNumber_From_DB FAILED.\nReason:\njava.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature:25)\n</message>
+  <exception>
+    <message>java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-20100: You are not allowed to connect to the database in this time.
+ORA-06512: at line 91
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>450</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>385</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>processError</method>
+      <line>1018</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>processError</method>
+      <line>501</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>receive</method>
+      <line>522</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>doRPC</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>954</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CConnection</class>
+      <method>logon</method>
+      <line>639</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.PhysicalConnection</class>
+      <method>connect</method>
+      <line>666</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CDriverExtension</class>
+      <method>getConnection</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleDriver</class>
+      <method>connect</method>
+      <line>566</line>
+    </frame>
+    <frame>
+      <class>java_sql_DriverManager$getConnection</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Conn_DB</class>
+      <method>connectDB</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>Conn_DB$connectDB</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CustomKeywords</class>
+      <method>Conn_DB.connectDB</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>try_it_out_Conn_DB</class>
+      <method>Conn_DB</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>Connect to Database</method>
+      <line>25</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature:25)\n</property>
+  <property name="failed.exception.class">java.sql.SQLException</property>
+  <property name="failed.exception.message">ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398788</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO Delete_KTPNumber_From_DB</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398833</millis>
+  <sequence>22</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&amp;apos; was failed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398834</millis>
+  <sequence>25</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat Delete_KTPNumber_From_DB.run(Delete_KTPNumber_From_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat Delete_KTPNumber_From_DB.run(Delete_KTPNumber_From_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398836</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398837</millis>
+  <sequence>28</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete_KTPNumber_From_DB FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat Delete_KTPNumber_From_DB.run(Delete_KTPNumber_From_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature' was failed</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>23</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Delete_KTPNumber_From_DB</class>
+      <method>run</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1597768389932</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat Delete_KTPNumber_From_DB.run(Delete_KTPNumber_From_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/Delete_KTPNumber_From_DB.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398839</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/Delete_KTPNumber_From_DB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398843</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Customer\\SLIK Gateway Customer Checking.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398946</millis>
+  <sequence>33</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:18</date>
+  <millis>1597768398946</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200818_233309/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer/20200818_233309/cucumber_report/1597768398946&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:19</date>
+  <millis>1597768399062</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SLIK Gateway Customer Checking</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:19</date>
+  <millis>1597768399063</millis>
+  <sequence>36</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:19</date>
+  <millis>1597768399228</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:19</date>
+  <millis>1597768399247</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401081</millis>
+  <sequence>42</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = b77231f765c68b0673bb73c96150ed72</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">b77231f765c68b0673bb73c96150ed72</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401105</millis>
+  <sequence>43</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 84.0.4147.125</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 84.0.4147.125</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401107</millis>
+  <sequence>44</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401108</millis>
+  <sequence>45</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401109</millis>
+  <sequence>46</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401116</millis>
+  <sequence>47</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401801</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://dev-istools.homecredit.id/foundation/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401802</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401802</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:21</date>
+  <millis>1597768401803</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:22</date>
+  <millis>1597768402610</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;mobile.test&amp;apos; is set on object &amp;apos;Object Repository/Page_/input_Username_j_username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403086</millis>
+  <sequence>80</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_/input_Password_j_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403763</millis>
+  <sequence>89</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_/button_Login&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403764</millis>
+  <sequence>90</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403764</millis>
+  <sequence>91</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403765</millis>
+  <sequence>92</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403775</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:23</date>
+  <millis>1597768403938</millis>
+  <sequence>95</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404309</millis>
+  <sequence>103</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_/h1_Welcome to IT Supporting Tools&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404309</millis>
+  <sequence>104</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404309</millis>
+  <sequence>105</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404310</millis>
+  <sequence>106</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404660</millis>
+  <sequence>113</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404929</millis>
+  <sequence>121</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404986</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404986</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404986</millis>
+  <sequence>125</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:24</date>
+  <millis>1597768404987</millis>
+  <sequence>126</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:25</date>
+  <millis>1597768405875</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;9999999999999999&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:25</date>
+  <millis>1597768405876</millis>
+  <sequence>142</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:25</date>
+  <millis>1597768405876</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:25</date>
+  <millis>1597768405877</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:26</date>
+  <millis>1597768406633</millis>
+  <sequence>159</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;OPEX TestingAuto&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:26</date>
+  <millis>1597768406634</millis>
+  <sequence>160</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:26</date>
+  <millis>1597768406634</millis>
+  <sequence>161</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Name *\&amp;quot; with value \&amp;quot;OPEX TestingAuto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:26</date>
+  <millis>1597768406635</millis>
+  <sequence>162</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407275</millis>
+  <sequence>177</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;20-02-1990&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407276</millis>
+  <sequence>178</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407276</millis>
+  <sequence>179</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Date of Birth \&amp;quot;20-02-1990\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407276</millis>
+  <sequence>180</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407673</millis>
+  <sequence>188</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407674</millis>
+  <sequence>189</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407674</millis>
+  <sequence>190</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Gender \&amp;quot;Laki-laki\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:27</date>
+  <millis>1597768407674</millis>
+  <sequence>191</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:28</date>
+  <millis>1597768408916</millis>
+  <sequence>203</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>All options with value &amp;apos;Penilaian Calon Kemitraan&amp;apos; are selected in object &amp;apos;&amp;apos;  using regular expression</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:28</date>
+  <millis>1597768408916</millis>
+  <sequence>204</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:28</date>
+  <millis>1597768408916</millis>
+  <sequence>205</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Purpose is \&amp;quot;Penilaian Calon Kemitraan\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:28</date>
+  <millis>1597768408917</millis>
+  <sequence>206</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:29</date>
+  <millis>1597768409573</millis>
+  <sequence>221</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Jakarta&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:29</date>
+  <millis>1597768409574</millis>
+  <sequence>222</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:29</date>
+  <millis>1597768409574</millis>
+  <sequence>223</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Place of Birth\&amp;quot; with value \&amp;quot;Jakarta\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:29</date>
+  <millis>1597768409574</millis>
+  <sequence>224</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410314</millis>
+  <sequence>239</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;Tester Auto&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410315</millis>
+  <sequence>240</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410315</millis>
+  <sequence>241</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data \&amp;quot;Mother Maternity Name\&amp;quot; with value \&amp;quot;Tester Auto\&amp;quot; for Check SLIK</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410315</millis>
+  <sequence>242</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410876</millis>
+  <sequence>257</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;TESTING AUTO JAKARTA&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410876</millis>
+  <sequence>258</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410876</millis>
+  <sequence>259</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input KTP Address \&amp;quot;TESTING AUTO JAKARTA\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410877</millis>
+  <sequence>260</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:30</date>
+  <millis>1597768410893</millis>
+  <sequence>261</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Check SLIK&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414286</millis>
+  <sequence>269</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414287</millis>
+  <sequence>270</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414287</millis>
+  <sequence>271</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Check SLIK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414287</millis>
+  <sequence>272</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414828</millis>
+  <sequence>279</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414838</millis>
+  <sequence>281</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414848</millis>
+  <sequence>283</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414848</millis>
+  <sequence>284</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414848</millis>
+  <sequence>285</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Get text from pop up \&amp;quot;Confirmation Submit Request\&amp;quot; with text \&amp;quot;Are you sure to submit this data ?\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414849</millis>
+  <sequence>286</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:34</date>
+  <millis>1597768414850</millis>
+  <sequence>287</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Yes&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:38</date>
+  <millis>1597768418121</millis>
+  <sequence>295</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:38</date>
+  <millis>1597768418122</millis>
+  <sequence>296</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:38</date>
+  <millis>1597768418122</millis>
+  <sequence>297</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Yes\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:38</date>
+  <millis>1597768418122</millis>
+  <sequence>298</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:48</date>
+  <millis>1597768428565</millis>
+  <sequence>305</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:48</date>
+  <millis>1597768428566</millis>
+  <sequence>306</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:48</date>
+  <millis>1597768428566</millis>
+  <sequence>307</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify KTP Number Request Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:48</date>
+  <millis>1597768428566</millis>
+  <sequence>308</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:48</date>
+  <millis>1597768428567</millis>
+  <sequence>309</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;OK&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:51</date>
+  <millis>1597768431936</millis>
+  <sequence>317</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:51</date>
+  <millis>1597768431937</millis>
+  <sequence>318</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:51</date>
+  <millis>1597768431937</millis>
+  <sequence>319</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;OK\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:51</date>
+  <millis>1597768431937</millis>
+  <sequence>320</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:51</date>
+  <millis>1597768431938</millis>
+  <sequence>321</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Logout&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435453</millis>
+  <sequence>329</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435454</millis>
+  <sequence>330</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435454</millis>
+  <sequence>331</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Logout\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435455</millis>
+  <sequence>332</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435549</millis>
+  <sequence>334</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is closed</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435549</millis>
+  <sequence>335</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435549</millis>
+  <sequence>336</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Close browser</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435550</millis>
+  <sequence>337</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SLIK Gateway Customer Checking</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435550</millis>
+  <sequence>338</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SLIK Gateway Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435557</millis>
+  <sequence>339</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435557</millis>
+  <sequence>340</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateway Customer Checking.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435557</millis>
+  <sequence>341</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435558</millis>
+  <sequence>342</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateway Customer Checking</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435561</millis>
+  <sequence>343</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Customer\\SELECT_KTP_NUMBER_CUSTOMER_from_DB.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435672</millis>
+  <sequence>345</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435672</millis>
+  <sequence>346</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200818_233309/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer/20200818_233309/cucumber_report/1597768435672&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435762</millis>
+  <sequence>347</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SELECT KTP Number Customer From Table SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:55</date>
+  <millis>1597768435762</millis>
+  <sequence>348</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436094</millis>
+  <sequence>350</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Connect to Database FAILED.\nReason:\njava.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature:25)\n</message>
+  <exception>
+    <message>java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-20100: You are not allowed to connect to the database in this time.
+ORA-06512: at line 91
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>450</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>385</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>processError</method>
+      <line>1018</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>processError</method>
+      <line>501</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>receive</method>
+      <line>522</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>doRPC</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>954</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CConnection</class>
+      <method>logon</method>
+      <line>639</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.PhysicalConnection</class>
+      <method>connect</method>
+      <line>666</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CDriverExtension</class>
+      <method>getConnection</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleDriver</class>
+      <method>connect</method>
+      <line>566</line>
+    </frame>
+    <frame>
+      <class>java_sql_DriverManager$getConnection</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Conn_DB</class>
+      <method>connectDB</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>Conn_DB$connectDB</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CustomKeywords</class>
+      <method>Conn_DB.connectDB</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>try_it_out_Conn_DB</class>
+      <method>Conn_DB</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>Connect to Database</method>
+      <line>25</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature:25)\n</property>
+  <property name="failed.exception.class">java.sql.SQLException</property>
+  <property name="failed.exception.message">ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436095</millis>
+  <sequence>352</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Connect to Database</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436095</millis>
+  <sequence>353</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Check KTP Number Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436096</millis>
+  <sequence>354</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Check KTP Number Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436096</millis>
+  <sequence>355</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Check KTP Number Customer in DB</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436096</millis>
+  <sequence>357</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SELECT KTP Number Customer From Table SLIK_DATA_CUSTOMER FAILED.\nReason:\njava.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature:25)\n</message>
+  <exception>
+    <message>java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1
+ORA-20100: You are not allowed to connect to the database in this time.
+ORA-06512: at line 91
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>450</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer</class>
+      <method>processError</method>
+      <line>385</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>processError</method>
+      <line>1018</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>processError</method>
+      <line>501</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>receive</method>
+      <line>522</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <method>doRPC</method>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoauthenticate</class>
+      <method>doOAUTH</method>
+      <line>954</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CConnection</class>
+      <method>logon</method>
+      <line>639</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.PhysicalConnection</class>
+      <method>connect</method>
+      <line>666</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CDriverExtension</class>
+      <method>getConnection</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleDriver</class>
+      <method>connect</method>
+      <line>566</line>
+    </frame>
+    <frame>
+      <class>java_sql_DriverManager$getConnection</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Conn_DB</class>
+      <method>connectDB</method>
+      <line>63</line>
+    </frame>
+    <frame>
+      <class>Conn_DB$connectDB</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>CustomKeywords</class>
+      <method>Conn_DB.connectDB</method>
+      <line>180</line>
+    </frame>
+    <frame>
+      <class>try_it_out_Conn_DB</class>
+      <method>Conn_DB</method>
+      <line>61</line>
+    </frame>
+    <frame>
+      <class>✽</class>
+      <method>Connect to Database</method>
+      <line>25</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">java.sql.SQLException: ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:450)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:392)\n\tat oracle.jdbc.driver.T4CTTIoer.processError(T4CTTIoer.java:385)\n\tat oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1018)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:501)\n\tat oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:522)\n\tat oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:257)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:437)\n\tat oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:954)\n\tat oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:639)\n\tat oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:666)\n\tat oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:32)\n\tat oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:566)\n\tat java_sql_DriverManager$getConnection.call(Unknown Source)\n\tat Conn_DB.connectDB(Conn_DB.groovy:63)\n\tat Conn_DB$connectDB.call(Unknown Source)\n\tat CustomKeywords.Conn_DB.connectDB(CustomKeywords.groovy:180)\n\tat try_it_out_Conn_DB.Conn_DB(try_it_out_Conn_DB.groovy:61)\n\tat \u273D.Connect to Database(/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature:25)\n</property>
+  <property name="failed.exception.class">java.sql.SQLException</property>
+  <property name="failed.exception.message">ORA-00604: error occurred at recursive SQL level 1\nORA-20100: You are not allowed to connect to the database in this time.\nORA-06512: at line 91\n</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436097</millis>
+  <sequence>359</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SELECT KTP Number Customer From Table SLIK_DATA_CUSTOMER</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436103</millis>
+  <sequence>360</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&amp;apos; was failed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436104</millis>
+  <sequence>363</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keyword runFeatureFile was failed (Root cause: com.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat SELECT_KTP_NUMBER_CUSTOMER_from_DB.run(SELECT_KTP_NUMBER_CUSTOMER_from_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat SELECT_KTP_NUMBER_CUSTOMER_from_DB.run(SELECT_KTP_NUMBER_CUSTOMER_from_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436105</millis>
+  <sequence>364</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436106</millis>
+  <sequence>366</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB FAILED.\nReason:\ncom.kms.katalon.core.exception.StepFailedException: Feature file &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&amp;apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat SELECT_KTP_NUMBER_CUSTOMER_from_DB.run(SELECT_KTP_NUMBER_CUSTOMER_from_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Feature file 'Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature' was failed</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>23</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+      <line>82</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1</class>
+      <method>doCall</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>68</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0</class>
+      <method>callStatic</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords</class>
+      <method>runFeatureFile</method>
+      <line>169</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>SELECT_KTP_NUMBER_CUSTOMER_from_DB</class>
+      <method>run</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>339</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>330</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>309</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>301</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>191</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>90</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>157</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1597768389932</class>
+      <method>run</method>
+      <line>39</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <property name="failed.exception.stacktrace">com.kms.katalon.core.exception.StepFailedException: Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&apos; was failed\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:23)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$stepFailed$0.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy:82)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$_runFeatureFile_closure1.doCall(CucumberBuiltinKeywords.groovy)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)\n\tat com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:46)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile$0.callStatic(Unknown Source)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords.runFeatureFile(CucumberBuiltinKeywords.groovy:169)\n\tat com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords$runFeatureFile.call(Unknown Source)\n\tat SELECT_KTP_NUMBER_CUSTOMER_from_DB.run(SELECT_KTP_NUMBER_CUSTOMER_from_DB:18)\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\n\tat TempTestSuite1597768389932.run(TempTestSuite1597768389932.groovy:39)\n</property>
+  <property name="failed.exception.class">com.kms.katalon.core.exception.StepFailedException</property>
+  <property name="failed.exception.message">Feature file &apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB.feature&apos; was failed</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436107</millis>
+  <sequence>368</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SELECT_KTP_NUMBER_CUSTOMER_from_DB</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436111</millis>
+  <sequence>369</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search</property>
+  <property name="source">\\Users\\chaidir.pratama01\\Katalon Studio\\IST_Automation_Git\\Test Cases\\IST_Real\\SLIK\\SLIK_Gateway_Customer\\SLIK Gateaway Customer Search.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436227</millis>
+  <sequence>371</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436227</millis>
+  <sequence>372</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting run keyword runFeatureFile: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search.feature&amp;apos; and extract report to folder: &amp;apos;/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200818_233309/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer/20200818_233309/cucumber_report/1597768436227&amp;apos;...</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436325</millis>
+  <sequence>373</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : SCENARIO SLIK Gateway Customer Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436325</millis>
+  <sequence>374</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436329</millis>
+  <sequence>376</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:56</date>
+  <millis>1597768436330</millis>
+  <sequence>378</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437397</millis>
+  <sequence>380</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = a425d577fb5a3822c43f383173e1509a</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="sessionId">a425d577fb5a3822c43f383173e1509a</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437405</millis>
+  <sequence>381</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 84.0.4147.125</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="browser">Chrome 84.0.4147.125</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437406</millis>
+  <sequence>382</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Mac OS X</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="platform">Mac OS X</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437406</millis>
+  <sequence>383</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437406</millis>
+  <sequence>384</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&amp;quot;\&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-08-18T23:33:57</date>
+  <millis>1597768437413</millis>
+  <sequence>385</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:58</date>
+  <millis>1597768438204</millis>
+  <sequence>388</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://dev-istools.homecredit.id/foundation/&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:58</date>
+  <millis>1597768438205</millis>
+  <sequence>389</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:58</date>
+  <millis>1597768438205</millis>
+  <sequence>390</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Go to ISTools</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:58</date>
+  <millis>1597768438206</millis>
+  <sequence>391</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:58</date>
+  <millis>1597768438967</millis>
+  <sequence>407</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;mobile.test&amp;apos; is set on object &amp;apos;Object Repository/Page_/input_Username_j_username&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439313</millis>
+  <sequence>418</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text ****** has been set on object &amp;apos;Object Repository/Page_/input_Password_j_password&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439988</millis>
+  <sequence>427</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Page_/button_Login&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439989</millis>
+  <sequence>428</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439989</millis>
+  <sequence>429</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login IST with valid credentials</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439989</millis>
+  <sequence>430</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:33:59</date>
+  <millis>1597768439991</millis>
+  <sequence>431</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440135</millis>
+  <sequence>433</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Current window maximized</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440398</millis>
+  <sequence>441</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;Object Repository/Page_/h1_Welcome to IT Supporting Tools&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440398</millis>
+  <sequence>442</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440398</millis>
+  <sequence>443</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Login Success for contract dispatcher</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440398</millis>
+  <sequence>444</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440631</millis>
+  <sequence>451</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440898</millis>
+  <sequence>459</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440909</millis>
+  <sequence>461</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Wait for page load successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440909</millis>
+  <sequence>462</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440909</millis>
+  <sequence>463</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Select Menu SLIK Gateway Customer</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:00</date>
+  <millis>1597768440910</millis>
+  <sequence>464</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:01</date>
+  <millis>1597768441603</millis>
+  <sequence>473</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:02</date>
+  <millis>1597768442284</millis>
+  <sequence>488</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text &amp;apos;9999999999999999&amp;apos; is set on object &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:02</date>
+  <millis>1597768442284</millis>
+  <sequence>489</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:02</date>
+  <millis>1597768442284</millis>
+  <sequence>490</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Input Data KTP Number for Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:02</date>
+  <millis>1597768442285</millis>
+  <sequence>491</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:02</date>
+  <millis>1597768442286</millis>
+  <sequence>492</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>&amp;gt;&amp;gt;&amp;gt;&amp;gt;&amp;gt;//Button[contains(text(),&amp;apos;Search&amp;apos;)]</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:05</date>
+  <millis>1597768445574</millis>
+  <sequence>500</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:05</date>
+  <millis>1597768445574</millis>
+  <sequence>501</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:05</date>
+  <millis>1597768445574</millis>
+  <sequence>502</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Click button \&amp;quot;Search\&amp;quot;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:05</date>
+  <millis>1597768445575</millis>
+  <sequence>503</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446219</millis>
+  <sequence>510</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446219</millis>
+  <sequence>511</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446219</millis>
+  <sequence>512</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify Search Result with KTP Number</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446220</millis>
+  <sequence>513</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446563</millis>
+  <sequence>522</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scroll to object &amp;apos;&amp;apos; successfully</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446898</millis>
+  <sequence>529</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object &amp;apos;&amp;apos; is present</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446899</millis>
+  <sequence>530</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446899</millis>
+  <sequence>531</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : Verify Search Result data</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446899</millis>
+  <sequence>532</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SCENARIO SLIK Gateway Customer Search Result</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446899</millis>
+  <sequence>533</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : SCENARIO SLIK Gateway Customer Search Result</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446904</millis>
+  <sequence>534</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Feature file: &amp;apos;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search.feature&amp;apos; was passed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446904</millis>
+  <sequence>535</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : runFeatureFile(\&amp;quot;Include/features/IST_Real/SLIK/SLIK Gateway Customer/SLIK Gateaway Customer Search.feature\&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446904</millis>
+  <sequence>536</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:06</date>
+  <millis>1597768446904</millis>
+  <sequence>537</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/IST_Real/SLIK/SLIK_Gateway_Customer/SLIK Gateaway Customer Search</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-08-18T23:34:07</date>
+  <millis>1597768447015</millis>
+  <sequence>538</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/SLIK_GATEWAY_CUSTOMER/TS_SLIK_Gateway_Customer</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

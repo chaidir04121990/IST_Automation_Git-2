@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="31.615328">
+<testcase classname="Pick Mistake Without Write Textarea Note-Before BPKB" name="Assign User to Contract BPKB" time="11.628686">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Arrow Menu "Contract Dispatcher Admin"...........................passed
+And Select Menu "Management Assignment".....................................passed
+And Select Username "mobile.test" of Management Assignment..................passed
+And Check for username if already assigned to "BPKB"........................passed
+And Wait page for load......................................................passed
+And Click button "Logout"...................................................passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Pick Mistake Without Write Textarea Note-Before BPKB" name="Select Menu Contract Dispatcher and Select Contract based on type contract BPKB" time="19.986642">
+<system-out><![CDATA[Given Go to IST.............................................................passed
+When Login IST with valid credentials.......................................passed
+Then Login Success for contract dispatcher..................................passed
+And Select Menu "Contract Dispatcher".......................................passed
+And Select Contract Number based on Type Contract "BPKB"....................passed
+And Click button "Claim"....................................................passed
+And Varify the mistake detail already match with the matrix Base on Type Contract.passed
+And Checkbox General Mistake "01. BPKB bagian depan tidak ada"..............passed
+And Choose Dropdown mistake type "Dokumen diunggah tidak ada" from mistake name "BPKB bagian depan tidak ada".passed
+And Click button "Save".....................................................passed
+And Get text from pop up "IT Supporting Tools" with text "Note-before cannot be empty".passed
+And Click button "OK".......................................................passed
+And Click button "Logout"...................................................passed
+And Comment "Register Mistake failed because Note-before empty".............passed
+And Close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

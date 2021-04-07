@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Search_Invoice" time="33.28" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Search_Invoice" tests="1" failures="0" errors="0" time="33.28" timestamp="2020-09-01 00:22:14" hostname="chaidir.pratama01 - localhost" id="Test Suites/TRIS/TS_Search_Invoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_002207/TRIS/TS_Search_Invoice/20200901_002207"/>
+         <property name="logFiles" value="/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_002207/TRIS/TS_Search_Invoice/20200901_002207/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chaidir.pratama01 - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.6.0.${buildNumber}"/>
+         <property name="browser" value="Chrome 84.0.4147.135"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="41355f06fa9a6725bbb91c17546ef843"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/IST_Real/TRIS/Search_Invoice" time="33.055" classname="Test Cases/IST_Real/TRIS/Search_Invoice" status="PASSED">
+         <system-out><![CDATA[2020-09-01 00:22:14 - [TEST_CASE][PASSED] - Test Cases/IST_Real/TRIS/Search_Invoice: Test Cases/IST_Real/TRIS/Search_Invoice
+
+2020-09-01 00:22:14 - [TEST_STEP][PASSED] - runFeatureFile("Include/features/IST_Real/TRIS/Search_Invoice.feature"): Feature file: 'Include/features/IST_Real/TRIS/Search_Invoice.feature' was passed
+
+2020-09-01 00:22:14 - [MESSAGE][INFO] - Starting run keyword runFeatureFile: 'Include/features/IST_Real/TRIS/Search_Invoice.feature' and extract report to folder: '/Users/chaidir.pratama01/Katalon Studio/IST_Automation_Git/Reports/20200901_002207/TRIS/TS_Search_Invoice/20200901_002207/cucumber_report/1598894534513'...
+
+2020-09-01 00:22:15 - [TEST_CASE][PASSED] - Start Test Case : SCENARIO Search Invoice: SCENARIO Search Invoice
+
+2020-09-01 00:22:15 - [TEST_STEP][PASSED] - Go to IST: Go to IST
+
+2020-09-01 00:22:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-01 00:22:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-01 00:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-01 00:22:32 - [MESSAGE][PASSED] - Navigate to 'https://ist.homecredit.id/ist_tracker/login.zul' successfully
+
+2020-09-01 00:22:32 - [MESSAGE][PASSED] - Go to IST
+
+2020-09-01 00:22:32 - [TEST_STEP][PASSED] - Login IST with valid credentials: Login IST with valid credentials
+
+2020-09-01 00:22:33 - [MESSAGE][PASSED] - Text 'mobile.test' is set on object 'Object Repository/Page_/input_Username_j_username'
+
+2020-09-01 00:22:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_/input_Password_j_password'
+
+2020-09-01 00:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/button_Login' is clicked on
+
+2020-09-01 00:22:35 - [MESSAGE][PASSED] - Login IST with valid credentials
+
+2020-09-01 00:22:35 - [TEST_STEP][PASSED] - Login Success for contract dispatcher: Login Success for contract dispatcher
+
+2020-09-01 00:22:35 - [MESSAGE][INFO] - Login Success
+
+2020-09-01 00:22:36 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-01 00:22:36 - [MESSAGE][PASSED] - Object 'Object Repository/Page_/h1_Welcome to IT Supporting Tools' is present
+
+2020-09-01 00:22:36 - [MESSAGE][PASSED] - Login Success for contract dispatcher
+
+2020-09-01 00:22:36 - [TEST_STEP][PASSED] - Select Arrow Menu "Invoice System": Select Arrow Menu "Invoice System"
+
+2020-09-01 00:22:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:22:36 - [MESSAGE][PASSED] - Select Arrow Menu "Invoice System"
+
+2020-09-01 00:22:36 - [TEST_STEP][PASSED] - Select Menu "Tracker Invoice System": Select Menu "Tracker Invoice System"
+
+2020-09-01 00:22:37 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-01 00:22:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:22:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-09-01 00:22:37 - [MESSAGE][PASSED] - Select Menu "Tracker Invoice System"
+
+2020-09-01 00:22:37 - [TEST_STEP][PASSED] - Type on Textbox label "contract number of email address" with invoice number: Type on Textbox label "contract number of email address" with invoice number
+
+2020-09-01 00:22:39 - [MESSAGE][PASSED] - Text '4001513695' is set on object ''
+
+2020-09-01 00:22:39 - [MESSAGE][PASSED] - Type on Textbox label "contract number of email address" with invoice number
+
+2020-09-01 00:22:39 - [TEST_STEP][PASSED] - Click button "Search": Click button "Search"
+
+2020-09-01 00:22:39 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Search')]
+
+2020-09-01 00:22:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:22:42 - [MESSAGE][PASSED] - Click button "Search"
+
+2020-09-01 00:22:42 - [TEST_STEP][PASSED] - Verify Table Filled: Verify Table Filled
+
+2020-09-01 00:22:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-01 00:22:43 - [MESSAGE][PASSED] - Verify Table Filled
+
+2020-09-01 00:22:43 - [TEST_STEP][PASSED] - Click button "Logout": Click button "Logout"
+
+2020-09-01 00:22:43 - [MESSAGE][INFO] - >>>>>//Button[contains(text(),'Logout')]
+
+2020-09-01 00:22:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-01 00:22:47 - [MESSAGE][PASSED] - Click button "Logout"
+
+2020-09-01 00:22:47 - [TEST_STEP][PASSED] - Close browser: Close browser
+
+2020-09-01 00:22:47 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-01 00:22:47 - [MESSAGE][PASSED] - Close browser
+
+2020-09-01 00:22:47 - [MESSAGE][PASSED] - Feature file: 'Include/features/IST_Real/TRIS/Search_Invoice.feature' was passed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-01 00:22:14 - [TEST_SUITE][PASSED] - TS_Search_Invoice: Test Cases/IST_Real/TRIS/Search_Invoice]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
